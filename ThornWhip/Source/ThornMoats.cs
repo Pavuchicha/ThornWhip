@@ -28,11 +28,12 @@ namespace ThornWhip
             if(!respawningAfterLoad && string.IsNullOrEmpty(terrainBefore))terrainBefore=parent.Position.GetTerrain(parent.Map)?.defName;
             parent.Map?.GetComponent<MapComponent_ThornMoats>()?.Register(this);
         }
-        public override void PostDeSpawn(Map map)
+        public override void PostDestroy(DestroyMode mode, Map previousMap)
         {
-            map?.GetComponent<MapComponent_ThornMoats>()?.Unregister(this);
-            if(map!=null && parent.Position.InBounds(map) && flooded)Restore(map);
-            base.PostDeSpawn(map);
+            previousMap?.GetComponent<MapComponent_ThornMoats>()?.Unregister(this);
+            if(previousMap!=null && parent.Position.InBounds(previousMap) && flooded)
+                Restore(previousMap);
+            base.PostDestroy(mode, previousMap);
         }
         public override void PostExposeData()
         {
@@ -77,7 +78,13 @@ namespace ThornWhip
         public void Register(CompThornTrench comp)
         {if(comp?.parent!=null){network[comp.parent.Position]=comp;dirty=true;}}
         public void Unregister(CompThornTrench comp)
-        {if(comp?.parent!=null){network.Remove(comp.parent.Position);dirty=true;}}
+        {
+            if(comp==null)return;
+            foreach(var cell in network.Where(entry=>ReferenceEquals(entry.Value,comp))
+                .Select(entry=>entry.Key).ToList())
+                network.Remove(cell);
+            dirty=true;
+        }
         public override void MapComponentTick()
         {
             if(network.Count==0)return;
@@ -105,6 +112,12 @@ namespace ThornWhip
         }
         private void Recalculate()
         {
+            // Keep registry correct even after despawn without destruction.
+            // Prune the registered trench set, never scan all map cells.
+            foreach(var cell in network.Where(entry=>entry.Value?.parent?.Spawned!=true
+                || entry.Value.parent.Map!=map || entry.Value.parent.Position!=entry.Key)
+                .Select(entry=>entry.Key).ToList())
+                network.Remove(cell);
             if(network.Count==0)return;
             var visited=new HashSet<IntVec3>();
             var queue=new Queue<IntVec3>();

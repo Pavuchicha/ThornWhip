@@ -53,13 +53,9 @@ namespace ThornWhip
             parent.Map?.GetComponent<MapComponent_ThornDefenseJobs>()?.Register(this);
             if (Family == "Holder") SyncHolderGun();
         }
-        public override void PostDeSpawn(Map map)
-        {
-            map?.GetComponent<MapComponent_ThornDefenseJobs>()?.Unregister(this);
-            base.PostDeSpawn(map);
-        }
         public override void PostDestroy(DestroyMode mode, Map previousMap)
         {
+            previousMap?.GetComponent<MapComponent_ThornDefenseJobs>()?.Unregister(this);
             // Never silently delete expensive delivered upgrade resources or the mounted gun.
             if (previousMap != null && parent.Position.IsValid)
             {
@@ -303,6 +299,12 @@ namespace ThornWhip
         public MapComponent_ThornDefenseJobs(Map map):base(map){}
         public void Register(CompThornTurret comp){if(comp!=null)registered.Add(comp);}
         public void Unregister(CompThornTurret comp){registered.Remove(comp);}
+        // Periodically prune only registered turrets. Avoid per-tick object scans.
+        public override void MapComponentTick()
+        {
+            if(registered.Count == 0 || Find.TickManager.TicksGame % 2500 != 0)return;
+            registered.RemoveWhere(c=>c?.parent?.Spawned!=true || c.parent.Map!=map);
+        }
         public IEnumerable<Thing> Pending => registered.Where(c=>c.parent?.Spawned == true && c.IsPending).Select(c=>c.parent);
     }
 
