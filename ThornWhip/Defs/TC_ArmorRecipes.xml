@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
   <RecipeDef>
     <defName>TC_DevelopArmor</defName>
@@ -29,9 +29,9 @@
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
     <products>
-      <TC_Armor_Light_T1>1</TC_Armor_Light_T1>
+      <TC_Armor_Light_T1_Core>1</TC_Armor_Light_T1_Core>
     </products>
-    <ingredients />
+    <ingredients/>
   </RecipeDef>
   <RecipeDef>
     <defName>TC_Craft_Armor_Light_T2</defName>
@@ -43,9 +43,9 @@
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
     <products>
-      <TC_Armor_Light_T2>1</TC_Armor_Light_T2>
+      <TC_Armor_Light_T2_Core>1</TC_Armor_Light_T2_Core>
     </products>
-    <ingredients />
+    <ingredients/>
   </RecipeDef>
   <RecipeDef>
     <defName>TC_Craft_Armor_Light_T3</defName>
@@ -57,9 +57,9 @@
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
     <products>
-      <TC_Armor_Light_T3>1</TC_Armor_Light_T3>
+      <TC_Armor_Light_T3_Core>1</TC_Armor_Light_T3_Core>
     </products>
-    <ingredients />
+    <ingredients/>
   </RecipeDef>
   <RecipeDef>
     <defName>TC_Craft_Armor_Medium_T1</defName>
@@ -71,9 +71,9 @@
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
     <products>
-      <TC_Armor_Medium_T1>1</TC_Armor_Medium_T1>
+      <TC_Armor_Medium_T1_Core>1</TC_Armor_Medium_T1_Core>
     </products>
-    <ingredients />
+    <ingredients/>
   </RecipeDef>
   <RecipeDef>
     <defName>TC_Craft_Armor_Medium_T2</defName>
@@ -85,9 +85,9 @@
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
     <products>
-      <TC_Armor_Medium_T2>1</TC_Armor_Medium_T2>
+      <TC_Armor_Medium_T2_Core>1</TC_Armor_Medium_T2_Core>
     </products>
-    <ingredients />
+    <ingredients/>
   </RecipeDef>
   <RecipeDef>
     <defName>TC_Craft_Armor_Medium_T3</defName>
@@ -99,9 +99,9 @@
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
     <products>
-      <TC_Armor_Medium_T3>1</TC_Armor_Medium_T3>
+      <TC_Armor_Medium_T3_Core>1</TC_Armor_Medium_T3_Core>
     </products>
-    <ingredients />
+    <ingredients/>
   </RecipeDef>
   <RecipeDef>
     <defName>TC_Craft_Armor_Heavy_T1</defName>
@@ -113,9 +113,9 @@
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
     <products>
-      <TC_Armor_Heavy_T1>1</TC_Armor_Heavy_T1>
+      <TC_Armor_Heavy_T1_Core>1</TC_Armor_Heavy_T1_Core>
     </products>
-    <ingredients />
+    <ingredients/>
   </RecipeDef>
   <RecipeDef>
     <defName>TC_Craft_Armor_Heavy_T2</defName>
@@ -127,9 +127,9 @@
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
     <products>
-      <TC_Armor_Heavy_T2>1</TC_Armor_Heavy_T2>
+      <TC_Armor_Heavy_T2_Core>1</TC_Armor_Heavy_T2_Core>
     </products>
-    <ingredients />
+    <ingredients/>
   </RecipeDef>
   <RecipeDef>
     <defName>TC_Craft_Armor_Heavy_T3</defName>
@@ -141,8 +141,8 @@
     <workSkill>Crafting</workSkill>
     <effectWorking>Smith</effectWorking>
     <products>
-      <TC_Armor_Heavy_T3>1</TC_Armor_Heavy_T3>
+      <TC_Armor_Heavy_T3_Core>1</TC_Armor_Heavy_T3_Core>
     </products>
-    <ingredients />
+    <ingredients/>
   </RecipeDef>
 </Defs>

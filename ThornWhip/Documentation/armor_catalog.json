@@ -1293,7 +1293,7 @@
       "chassis": [
         {
           "tier": 1,
-          "defName": "TC_Armor_Light_T1",
+          "defName": "TC_Armor_Light_T1_Core",
           "label": "Лёгкий жилет Т1",
           "sharp": 7,
           "blunt": 12,
@@ -1306,7 +1306,7 @@
         },
         {
           "tier": 2,
-          "defName": "TC_Armor_Light_T2",
+          "defName": "TC_Armor_Light_T2_Core",
           "label": "Лёгкий жилет Т2",
           "sharp": 13,
           "blunt": 24,
@@ -1319,7 +1319,7 @@
         },
         {
           "tier": 3,
-          "defName": "TC_Armor_Light_T3",
+          "defName": "TC_Armor_Light_T3_Core",
           "label": "Лёгкий жилет Т3",
           "sharp": 22,
           "blunt": 38,
@@ -3013,7 +3013,7 @@
       "chassis": [
         {
           "tier": 1,
-          "defName": "TC_Armor_Medium_T1",
+          "defName": "TC_Armor_Medium_T1_Core",
           "label": "Штурмовой комплект Т1",
           "sharp": 10,
           "blunt": 19,
@@ -3026,7 +3026,7 @@
         },
         {
           "tier": 2,
-          "defName": "TC_Armor_Medium_T2",
+          "defName": "TC_Armor_Medium_T2_Core",
           "label": "Штурмовой комплект Т2",
           "sharp": 22,
           "blunt": 39,
@@ -3039,7 +3039,7 @@
         },
         {
           "tier": 3,
-          "defName": "TC_Armor_Medium_T3",
+          "defName": "TC_Armor_Medium_T3_Core",
           "label": "Штурмовой комплект Т3",
           "sharp": 36,
           "blunt": 60,
@@ -4862,7 +4862,7 @@
       "chassis": [
         {
           "tier": 1,
-          "defName": "TC_Armor_Heavy_T1",
+          "defName": "TC_Armor_Heavy_T1_Core",
           "label": "Экзоскафандр Т1",
           "sharp": 15,
           "blunt": 29,
@@ -4875,7 +4875,7 @@
         },
         {
           "tier": 2,
-          "defName": "TC_Armor_Heavy_T2",
+          "defName": "TC_Armor_Heavy_T2_Core",
           "label": "Экзоскафандр Т2",
           "sharp": 35,
           "blunt": 64,
@@ -4888,7 +4888,7 @@
         },
         {
           "tier": 3,
-          "defName": "TC_Armor_Heavy_T3",
+          "defName": "TC_Armor_Heavy_T3_Core",
           "label": "Экзоскафандр Т3",
           "sharp": 65,
           "blunt": 110,

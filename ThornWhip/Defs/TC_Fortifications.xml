@@ -29,7 +29,7 @@
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <rotatable>true</rotatable>
     <comps>
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <costStuffCount>45</costStuffCount>
     <stuffCategories>
@@ -68,7 +68,7 @@
     <coversFloor>true</coversFloor>
     <rotatable>true</rotatable>
     <comps>
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <costStuffCount>45</costStuffCount>
     <stuffCategories>
@@ -84,7 +84,7 @@
     <designationCategory>Security</designationCategory>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
-    <fillPercent>0.9</fillPercent>
+    <fillPercent>1.0</fillPercent>
     <size>(1,1)</size>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <holdsRoof>false</holdsRoof>
@@ -105,7 +105,7 @@
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <rotatable>true</rotatable>
     <comps>
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <costStuffCount>85</costStuffCount>
     <stuffCategories>
@@ -141,7 +141,7 @@
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <rotatable>true</rotatable>
     <comps>
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <costStuffCount>30</costStuffCount>
     <stuffCategories>
@@ -178,7 +178,7 @@
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <rotatable>true</rotatable>
     <comps>
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Styleable"/>
     </comps>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
@@ -190,7 +190,7 @@
     <designationCategory>Security</designationCategory>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
-    <fillPercent>0.92</fillPercent>
+    <fillPercent>1.0</fillPercent>
     <size>(1,1)</size>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <holdsRoof>true</holdsRoof>
@@ -211,7 +211,7 @@
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <rotatable>true</rotatable>
     <comps>
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <costStuffCount>90</costStuffCount>
     <stuffCategories>
@@ -219,7 +219,7 @@
     </stuffCategories>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
-    <defName>TC_Trench_1</defName>
+    <defName>TC_Trench_1_Core</defName>
     <label>ров Терна — глубина 1</label>
     <description>Разработанная траншея глубины 1. При подключении к водоёму связанные рвы заполняются. Глубина 3 после затопления становится непроходимой.</description>
     <category>Building</category>
@@ -243,13 +243,13 @@
       <Steel>24</Steel>
     </costList>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTrench" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_ThornTrench"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <rotatable>true</rotatable>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
-    <defName>TC_Trench_2</defName>
+    <defName>TC_Trench_2_Core</defName>
     <label>ров Терна — глубина 2</label>
     <description>Разработанная траншея глубины 2. При подключении к водоёму связанные рвы заполняются. Глубина 3 после затопления становится непроходимой.</description>
     <category>Building</category>
@@ -273,13 +273,13 @@
       <Steel>36</Steel>
     </costList>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTrench" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_ThornTrench"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <rotatable>true</rotatable>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
-    <defName>TC_Trench_3</defName>
+    <defName>TC_Trench_3_Core</defName>
     <label>ров Терна — глубина 3</label>
     <description>Разработанная траншея глубины 3. При подключении к водоёму связанные рвы заполняются. Глубина 3 после затопления становится непроходимой.</description>
     <category>Building</category>
@@ -303,8 +303,8 @@
       <Steel>48</Steel>
     </costList>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTrench" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_ThornTrench"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <rotatable>true</rotatable>
   </ThingDef>

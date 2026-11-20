@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
   <ThingDef ParentName="BenchBase">
     <defName>TT_DesignTable</defName>
@@ -29,10 +29,10 @@
       <li>TT_DevelopDesign</li>
       <li>TC_DevelopArmor</li>
     </recipes>
-    <inspectorTabs Inherit="False" />
+    <inspectorTabs Inherit="False"/>
     <comps>
-      <li Class="ThornWhip.CompProperties_DesignTable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_DesignTable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <rotatable>true</rotatable>
     <costStuffCount>95</costStuffCount>
@@ -66,78 +66,78 @@
       <Flammability>0.4</Flammability>
     </statBases>
     <recipes>
-      <li>TT_Craft_R0_B0_M0</li>
-      <li>TT_Craft_R0_B0_M1</li>
-      <li>TT_Craft_R0_B1_M0</li>
-      <li>TT_Craft_R0_B1_M1</li>
-      <li>TT_Craft_R1_B0_M0</li>
-      <li>TT_Craft_R1_B0_M1</li>
-      <li>TT_Craft_R1_B1_M0</li>
-      <li>TT_Craft_R1_B1_M1</li>
-      <li>TT_Craft_Auto_R0_B0_M0</li>
-      <li>TT_Craft_Auto_R0_B0_M1</li>
-      <li>TT_Craft_Auto_R0_B1_M0</li>
-      <li>TT_Craft_Auto_R0_B1_M1</li>
-      <li>TT_Craft_Auto_R1_B0_M0</li>
-      <li>TT_Craft_Auto_R1_B0_M1</li>
-      <li>TT_Craft_Auto_R1_B1_M0</li>
-      <li>TT_Craft_Auto_R1_B1_M1</li>
-      <li>TT_Craft_Pistol_R0_B0_M0</li>
-      <li>TT_Craft_Pistol_R0_B0_M1</li>
-      <li>TT_Craft_Pistol_R0_B1_M0</li>
-      <li>TT_Craft_Pistol_R0_B1_M1</li>
-      <li>TT_Craft_Pistol_R1_B0_M0</li>
-      <li>TT_Craft_Pistol_R1_B0_M1</li>
-      <li>TT_Craft_Pistol_R1_B1_M0</li>
-      <li>TT_Craft_Pistol_R1_B1_M1</li>
-      <li>TT_Craft_Launcher_R0_B0_M0</li>
-      <li>TT_Craft_Launcher_R0_B0_M1</li>
-      <li>TT_Craft_Launcher_R0_B1_M0</li>
-      <li>TT_Craft_Launcher_R0_B1_M1</li>
-      <li>TT_Craft_Launcher_R1_B0_M0</li>
-      <li>TT_Craft_Launcher_R1_B0_M1</li>
-      <li>TT_Craft_Launcher_R1_B1_M0</li>
-      <li>TT_Craft_Launcher_R1_B1_M1</li>
-      <li>TT_Craft_R0_B0_M0_C1</li>
-      <li>TT_Craft_R0_B0_M0_C2</li>
-      <li>TT_Craft_R0_B0_M1_C1</li>
-      <li>TT_Craft_R0_B0_M1_C2</li>
-      <li>TT_Craft_R0_B1_M0_C1</li>
-      <li>TT_Craft_R0_B1_M0_C2</li>
-      <li>TT_Craft_R0_B1_M1_C1</li>
-      <li>TT_Craft_R0_B1_M1_C2</li>
-      <li>TT_Craft_R1_B0_M0_C1</li>
-      <li>TT_Craft_R1_B0_M0_C2</li>
-      <li>TT_Craft_R1_B0_M1_C1</li>
-      <li>TT_Craft_R1_B0_M1_C2</li>
-      <li>TT_Craft_R1_B1_M0_C1</li>
-      <li>TT_Craft_R1_B1_M0_C2</li>
-      <li>TT_Craft_R1_B1_M1_C1</li>
-      <li>TT_Craft_R1_B1_M1_C2</li>
-      <li>TT_Craft_Auto_R0_B0_M0_C1</li>
-      <li>TT_Craft_Auto_R0_B0_M0_C2</li>
-      <li>TT_Craft_Auto_R0_B0_M1_C1</li>
-      <li>TT_Craft_Auto_R0_B0_M1_C2</li>
-      <li>TT_Craft_Auto_R0_B1_M0_C1</li>
-      <li>TT_Craft_Auto_R0_B1_M0_C2</li>
-      <li>TT_Craft_Auto_R0_B1_M1_C1</li>
-      <li>TT_Craft_Auto_R0_B1_M1_C2</li>
-      <li>TT_Craft_Auto_R1_B0_M0_C1</li>
-      <li>TT_Craft_Auto_R1_B0_M0_C2</li>
-      <li>TT_Craft_Auto_R1_B0_M1_C1</li>
-      <li>TT_Craft_Auto_R1_B0_M1_C2</li>
-      <li>TT_Craft_Auto_R1_B1_M0_C1</li>
-      <li>TT_Craft_Auto_R1_B1_M0_C2</li>
-      <li>TT_Craft_Auto_R1_B1_M1_C1</li>
-      <li>TT_Craft_Auto_R1_B1_M1_C2</li>
-      <li>TT_Craft_Pistol_R0_B0_M0_C1</li>
-      <li>TT_Craft_Pistol_R0_B0_M1_C1</li>
-      <li>TT_Craft_Pistol_R0_B1_M0_C1</li>
-      <li>TT_Craft_Pistol_R0_B1_M1_C1</li>
-      <li>TT_Craft_Pistol_R1_B0_M0_C1</li>
-      <li>TT_Craft_Pistol_R1_B0_M1_C1</li>
-      <li>TT_Craft_Pistol_R1_B1_M0_C1</li>
-      <li>TT_Craft_Pistol_R1_B1_M1_C1</li>
+      <li>TT_Craft_R0_B0_M0_Core</li>
+      <li>TT_Craft_R0_B0_M1_Core</li>
+      <li>TT_Craft_R0_B1_M0_Core</li>
+      <li>TT_Craft_R0_B1_M1_Core</li>
+      <li>TT_Craft_R1_B0_M0_Core</li>
+      <li>TT_Craft_R1_B0_M1_Core</li>
+      <li>TT_Craft_R1_B1_M0_Core</li>
+      <li>TT_Craft_R1_B1_M1_Core</li>
+      <li>TT_Craft_Auto_R0_B0_M0_Core</li>
+      <li>TT_Craft_Auto_R0_B0_M1_Core</li>
+      <li>TT_Craft_Auto_R0_B1_M0_Core</li>
+      <li>TT_Craft_Auto_R0_B1_M1_Core</li>
+      <li>TT_Craft_Auto_R1_B0_M0_Core</li>
+      <li>TT_Craft_Auto_R1_B0_M1_Core</li>
+      <li>TT_Craft_Auto_R1_B1_M0_Core</li>
+      <li>TT_Craft_Auto_R1_B1_M1_Core</li>
+      <li>TT_Craft_Pistol_R0_B0_M0_Core</li>
+      <li>TT_Craft_Pistol_R0_B0_M1_Core</li>
+      <li>TT_Craft_Pistol_R0_B1_M0_Core</li>
+      <li>TT_Craft_Pistol_R0_B1_M1_Core</li>
+      <li>TT_Craft_Pistol_R1_B0_M0_Core</li>
+      <li>TT_Craft_Pistol_R1_B0_M1_Core</li>
+      <li>TT_Craft_Pistol_R1_B1_M0_Core</li>
+      <li>TT_Craft_Pistol_R1_B1_M1_Core</li>
+      <li>TT_Craft_Launcher_R0_B0_M0_Core</li>
+      <li>TT_Craft_Launcher_R0_B0_M1_Core</li>
+      <li>TT_Craft_Launcher_R0_B1_M0_Core</li>
+      <li>TT_Craft_Launcher_R0_B1_M1_Core</li>
+      <li>TT_Craft_Launcher_R1_B0_M0_Core</li>
+      <li>TT_Craft_Launcher_R1_B0_M1_Core</li>
+      <li>TT_Craft_Launcher_R1_B1_M0_Core</li>
+      <li>TT_Craft_Launcher_R1_B1_M1_Core</li>
+      <li>TT_Craft_R0_B0_M0_C1_Core</li>
+      <li>TT_Craft_R0_B0_M0_C2_Core</li>
+      <li>TT_Craft_R0_B0_M1_C1_Core</li>
+      <li>TT_Craft_R0_B0_M1_C2_Core</li>
+      <li>TT_Craft_R0_B1_M0_C1_Core</li>
+      <li>TT_Craft_R0_B1_M0_C2_Core</li>
+      <li>TT_Craft_R0_B1_M1_C1_Core</li>
+      <li>TT_Craft_R0_B1_M1_C2_Core</li>
+      <li>TT_Craft_R1_B0_M0_C1_Core</li>
+      <li>TT_Craft_R1_B0_M0_C2_Core</li>
+      <li>TT_Craft_R1_B0_M1_C1_Core</li>
+      <li>TT_Craft_R1_B0_M1_C2_Core</li>
+      <li>TT_Craft_R1_B1_M0_C1_Core</li>
+      <li>TT_Craft_R1_B1_M0_C2_Core</li>
+      <li>TT_Craft_R1_B1_M1_C1_Core</li>
+      <li>TT_Craft_R1_B1_M1_C2_Core</li>
+      <li>TT_Craft_Auto_R0_B0_M0_C1_Core</li>
+      <li>TT_Craft_Auto_R0_B0_M0_C2_Core</li>
+      <li>TT_Craft_Auto_R0_B0_M1_C1_Core</li>
+      <li>TT_Craft_Auto_R0_B0_M1_C2_Core</li>
+      <li>TT_Craft_Auto_R0_B1_M0_C1_Core</li>
+      <li>TT_Craft_Auto_R0_B1_M0_C2_Core</li>
+      <li>TT_Craft_Auto_R0_B1_M1_C1_Core</li>
+      <li>TT_Craft_Auto_R0_B1_M1_C2_Core</li>
+      <li>TT_Craft_Auto_R1_B0_M0_C1_Core</li>
+      <li>TT_Craft_Auto_R1_B0_M0_C2_Core</li>
+      <li>TT_Craft_Auto_R1_B0_M1_C1_Core</li>
+      <li>TT_Craft_Auto_R1_B0_M1_C2_Core</li>
+      <li>TT_Craft_Auto_R1_B1_M0_C1_Core</li>
+      <li>TT_Craft_Auto_R1_B1_M0_C2_Core</li>
+      <li>TT_Craft_Auto_R1_B1_M1_C1_Core</li>
+      <li>TT_Craft_Auto_R1_B1_M1_C2_Core</li>
+      <li>TT_Craft_Pistol_R0_B0_M0_C1_Core</li>
+      <li>TT_Craft_Pistol_R0_B0_M1_C1_Core</li>
+      <li>TT_Craft_Pistol_R0_B1_M0_C1_Core</li>
+      <li>TT_Craft_Pistol_R0_B1_M1_C1_Core</li>
+      <li>TT_Craft_Pistol_R1_B0_M0_C1_Core</li>
+      <li>TT_Craft_Pistol_R1_B0_M1_C1_Core</li>
+      <li>TT_Craft_Pistol_R1_B1_M0_C1_Core</li>
+      <li>TT_Craft_Pistol_R1_B1_M1_C1_Core</li>
       <li>TC_Craft_Armor_Light_T1</li>
       <li>TC_Craft_Armor_Light_T2</li>
       <li>TC_Craft_Armor_Light_T3</li>
@@ -148,10 +148,10 @@
       <li>TC_Craft_Armor_Heavy_T2</li>
       <li>TC_Craft_Armor_Heavy_T3</li>
     </recipes>
-    <inspectorTabs Inherit="False" />
+    <inspectorTabs Inherit="False"/>
     <comps>
-      <li Class="ThornWhip.CompProperties_FactoryTable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_FactoryTable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <rotatable>true</rotatable>
     <costStuffCount>120</costStuffCount>

@@ -18,7 +18,7 @@ namespace ThornWhip
             get
             {
                 var name=parent?.def?.defName??"";
-                return name.EndsWith("_3")?3:name.EndsWith("_2")?2:1;
+                return name.EndsWith("_3_Core")?3:name.EndsWith("_2_Core")?2:1;
             }
         }
         public bool Flooded => flooded;

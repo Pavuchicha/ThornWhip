@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <ModMetaData>
   <name>Корпус Терна — модульный арсенал и фортификации [0.11 TEST BUILD]</name>
   <author>Thorn Corps Project</author>
@@ -7,7 +7,6 @@
     <li>1.7</li>
   </supportedVersions>
   <description>Экспериментальная сборка 0.11: исправления конструктора CE, отдельных графических слоёв, названий материалов и расчёта влияния модулей; новые верстаки, сухие рвы, альтернативные изображения в стилях Корпус/Орден, защита управления вражескими турелями и безопасная генерация дополнительного промышленного укрепления. Требует Combat Extended. НЕ ПРОВЕРЕНО: новый C# после компиляции, отрисовка оружия в руках, бой турелей, гидравлика рвов, Ideology tooltip и совместимость с остальными модами. Перед тестом сделайте копию сохранения.</description>
-  <downloadUrl>https://github.com/Pavuchicha/ThornWhip</downloadUrl>
   <modDependencies>
     <li>
       <packageId>CETeam.CombatExtended</packageId>

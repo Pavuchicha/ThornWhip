@@ -45,7 +45,7 @@ for o in styles:
  if name=='TC_Fort_Embrasure':
   assert o.findtext('disableImpassableShotOverConfigError')=='true'
 for depth in (1,2,3):
- t=[x for x in styles if x.findtext('defName')=='TC_Trench_'+str(depth)][0]
+ t=[x for x in styles if x.findtext('defName')=='TC_Trench_'+str(depth)+'_Core'][0]
  assert t.find('./comps/li[@Class="ThornWhip.CompProperties_ThornTrench"]') is not None
 jobs=ET.parse(DEF/'TC_DefenseJobs.xml').getroot()
 assert len(jobs.findall('JobDef'))==3

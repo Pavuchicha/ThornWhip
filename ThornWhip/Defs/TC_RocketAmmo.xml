@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
   <ThingCategoryDef>
     <defName>TC_Category_ATGM</defName>
@@ -19,7 +19,7 @@
     <description>Одноразовая управляемая ракета для оборонительных систем Корпуса Терна.</description>
     <graphicData>
       <texPath>ThornCorps/Defense/Ammo_ATGM</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <Mass>3.4</Mass>
@@ -33,7 +33,7 @@
       <li>CE_AutoEnableTrade</li>
     </tradeTags>
     <stackLimit>24</stackLimit>
-    <ammoClass>GrenadeHEAT</ammoClass>
+    <ammoClass>RocketHEAT</ammoClass>
   </ThingDef>
   <ThingDef ParentName="BaseExplosiveBullet">
     <defName>TC_Missile_HEAT</defName>
@@ -111,7 +111,7 @@
     <description>Одноразовая управляемая ракета для оборонительных систем Корпуса Терна.</description>
     <graphicData>
       <texPath>ThornCorps/Defense/Ammo_ATGM</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <Mass>3.4</Mass>
@@ -215,7 +215,7 @@
     <description>Одноразовая управляемая ракета для оборонительных систем Корпуса Терна.</description>
     <graphicData>
       <texPath>ThornCorps/Defense/Ammo_MLRS</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <Mass>2.1</Mass>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B0_M0</defName>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B0_M0_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -16,7 +16,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -58,7 +58,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -68,12 +68,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B0_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B0_M1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -88,7 +88,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -130,7 +130,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -140,12 +140,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B1_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B1_M0_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -160,7 +160,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -202,7 +202,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -212,12 +212,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B1_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B1_M1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -232,7 +232,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -274,7 +274,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -284,12 +284,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B0_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B0_M0_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -304,7 +304,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -346,7 +346,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -356,12 +356,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B0_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B0_M1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -376,7 +376,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -418,7 +418,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -428,12 +428,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B1_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B1_M0_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -448,7 +448,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -490,7 +490,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -500,12 +500,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B1_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B1_M1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -520,7 +520,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -562,7 +562,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -572,12 +572,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B0_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B0_M0_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -592,7 +592,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -634,7 +634,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -644,12 +644,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B0_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B0_M1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -664,7 +664,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -706,7 +706,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -716,12 +716,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B1_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B1_M0_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -736,7 +736,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -778,7 +778,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -788,12 +788,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B1_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B1_M1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -808,7 +808,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -850,7 +850,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -860,12 +860,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B0_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B0_M0_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -880,7 +880,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -922,7 +922,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -932,12 +932,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B0_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B0_M1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -952,7 +952,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -994,7 +994,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -1004,12 +1004,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B1_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B1_M0_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1024,7 +1024,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1066,7 +1066,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -1076,12 +1076,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B1_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B1_M1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Персональная марксанская конструкция (5,56×45 NATO). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1096,7 +1096,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1138,7 +1138,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
@@ -1148,12 +1148,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R0_B0_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R0_B0_M0_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Персональная марксанская конструкция (9×19 Parabellum). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1168,7 +1168,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1212,7 +1212,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>12</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
@@ -1222,12 +1222,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R0_B0_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R0_B0_M1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Персональная марксанская конструкция (9×19 Parabellum). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1242,7 +1242,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1286,7 +1286,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
@@ -1296,12 +1296,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R0_B1_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R0_B1_M0_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Персональная марксанская конструкция (9×19 Parabellum). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1316,7 +1316,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1360,7 +1360,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>12</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
@@ -1370,12 +1370,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R0_B1_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R0_B1_M1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Персональная марксанская конструкция (9×19 Parabellum). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1390,7 +1390,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1434,7 +1434,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
@@ -1444,12 +1444,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R1_B0_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R1_B0_M0_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Персональная марксанская конструкция (9×19 Parabellum). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1464,7 +1464,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1508,7 +1508,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>12</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
@@ -1518,12 +1518,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R1_B0_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R1_B0_M1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Персональная марксанская конструкция (9×19 Parabellum). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1538,7 +1538,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1582,7 +1582,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
@@ -1592,12 +1592,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R1_B1_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R1_B1_M0_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Персональная марксанская конструкция (9×19 Parabellum). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1612,7 +1612,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1656,7 +1656,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>12</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
@@ -1666,12 +1666,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R1_B1_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R1_B1_M1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Персональная марксанская конструкция (9×19 Parabellum). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1686,7 +1686,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1730,7 +1730,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
@@ -1740,12 +1740,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Launcher_R0_B0_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Launcher_R0_B0_M0_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
     <description>Персональная марксанская конструкция (40×46 mm LV). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1760,7 +1760,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1805,7 +1805,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>3</magazineSize>
         <reloadTime>5.1</reloadTime>
         <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
@@ -1815,12 +1815,12 @@
         <aiAimMode>SuppressFire</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Launcher_R0_B0_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Launcher_R0_B0_M1_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
     <description>Персональная марксанская конструкция (40×46 mm LV). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1835,7 +1835,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1880,7 +1880,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>6</magazineSize>
         <reloadTime>5.1</reloadTime>
         <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
@@ -1890,12 +1890,12 @@
         <aiAimMode>SuppressFire</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Launcher_R0_B1_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Launcher_R0_B1_M0_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
     <description>Персональная марксанская конструкция (40×46 mm LV). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1910,7 +1910,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -1955,7 +1955,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>3</magazineSize>
         <reloadTime>5.1</reloadTime>
         <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
@@ -1965,12 +1965,12 @@
         <aiAimMode>SuppressFire</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Launcher_R0_B1_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Launcher_R0_B1_M1_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
     <description>Персональная марксанская конструкция (40×46 mm LV). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -1985,7 +1985,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2030,7 +2030,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>6</magazineSize>
         <reloadTime>5.1</reloadTime>
         <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
@@ -2040,12 +2040,12 @@
         <aiAimMode>SuppressFire</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Launcher_R1_B0_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Launcher_R1_B0_M0_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
     <description>Персональная марксанская конструкция (40×46 mm LV). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2060,7 +2060,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2105,7 +2105,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>3</magazineSize>
         <reloadTime>5.1</reloadTime>
         <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
@@ -2115,12 +2115,12 @@
         <aiAimMode>SuppressFire</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Launcher_R1_B0_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Launcher_R1_B0_M1_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
     <description>Персональная марксанская конструкция (40×46 mm LV). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2135,7 +2135,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2180,7 +2180,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>6</magazineSize>
         <reloadTime>5.1</reloadTime>
         <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
@@ -2190,12 +2190,12 @@
         <aiAimMode>SuppressFire</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Launcher_R1_B1_M0</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Launcher_R1_B1_M0_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
     <description>Персональная марксанская конструкция (40×46 mm LV). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2210,7 +2210,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2255,7 +2255,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>3</magazineSize>
         <reloadTime>5.1</reloadTime>
         <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
@@ -2265,12 +2265,12 @@
         <aiAimMode>SuppressFire</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Launcher_R1_B1_M1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Launcher_R1_B1_M1_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
     <description>Персональная марксанская конструкция (40×46 mm LV). 14 обязательных деталей × пять вариантов и три универсальных слота × 15 улучшений. Боеприпасы и баллистика — Combat Extended.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2285,7 +2285,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2330,7 +2330,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>6</magazineSize>
         <reloadTime>5.1</reloadTime>
         <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
@@ -2340,12 +2340,12 @@
         <aiAimMode>SuppressFire</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B0_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B0_M0_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2360,7 +2360,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2402,7 +2402,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>18</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -2412,12 +2412,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B0_M0_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B0_M0_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×51 NATO с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2432,7 +2432,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2474,7 +2474,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
@@ -2484,12 +2484,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B0_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B0_M1_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2504,7 +2504,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2546,7 +2546,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>27</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -2556,12 +2556,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B0_M1_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B0_M1_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×51 NATO с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2576,7 +2576,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2618,7 +2618,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>22</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
@@ -2628,12 +2628,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B1_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B1_M0_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2648,7 +2648,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2690,7 +2690,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>18</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -2700,12 +2700,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B1_M0_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B1_M0_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×51 NATO с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2720,7 +2720,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2762,7 +2762,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
@@ -2772,12 +2772,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B1_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B1_M1_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2792,7 +2792,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2834,7 +2834,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>27</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -2844,12 +2844,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R0_B1_M1_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R0_B1_M1_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×51 NATO с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2864,7 +2864,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2906,7 +2906,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>22</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
@@ -2916,12 +2916,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B0_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B0_M0_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -2936,7 +2936,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -2978,7 +2978,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>18</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -2988,12 +2988,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B0_M0_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B0_M0_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×51 NATO с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3008,7 +3008,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3050,7 +3050,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
@@ -3060,12 +3060,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B0_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B0_M1_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3080,7 +3080,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3122,7 +3122,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>27</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -3132,12 +3132,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B0_M1_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B0_M1_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×51 NATO с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3152,7 +3152,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3194,7 +3194,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>22</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
@@ -3204,12 +3204,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B1_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B1_M0_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3224,7 +3224,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3266,7 +3266,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>18</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -3276,12 +3276,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B1_M0_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B1_M0_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×51 NATO с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3296,7 +3296,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3338,7 +3338,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
@@ -3348,12 +3348,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B1_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B1_M1_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3368,7 +3368,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3410,7 +3410,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>27</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -3420,12 +3420,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Rifle_R1_B1_M1_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Rifle_R1_B1_M1_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×51 NATO с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3440,7 +3440,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3482,7 +3482,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>22</magazineSize>
         <reloadTime>3.8</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
@@ -3492,12 +3492,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B0_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B0_M0_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 5,45×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3512,7 +3512,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3554,7 +3554,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
@@ -3564,12 +3564,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B0_M0_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B0_M0_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3584,7 +3584,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3626,7 +3626,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -3636,12 +3636,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B0_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B0_M1_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 5,45×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3656,7 +3656,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3698,7 +3698,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
@@ -3708,12 +3708,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B0_M1_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B0_M1_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3728,7 +3728,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3770,7 +3770,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>33</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -3780,12 +3780,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B1_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B1_M0_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 5,45×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3800,7 +3800,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3842,7 +3842,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
@@ -3852,12 +3852,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B1_M0_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B1_M0_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3872,7 +3872,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3914,7 +3914,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -3924,12 +3924,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B1_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B1_M1_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 5,45×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -3944,7 +3944,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -3986,7 +3986,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
@@ -3996,12 +3996,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R0_B1_M1_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R0_B1_M1_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4016,7 +4016,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4058,7 +4058,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>33</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -4068,12 +4068,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B0_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B0_M0_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 5,45×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4088,7 +4088,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4130,7 +4130,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
@@ -4140,12 +4140,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B0_M0_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B0_M0_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4160,7 +4160,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4202,7 +4202,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -4212,12 +4212,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B0_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B0_M1_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 5,45×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4232,7 +4232,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4274,7 +4274,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
@@ -4284,12 +4284,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B0_M1_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B0_M1_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4304,7 +4304,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4346,7 +4346,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>33</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -4356,12 +4356,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B1_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B1_M0_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 5,45×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4376,7 +4376,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4418,7 +4418,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
@@ -4428,12 +4428,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B1_M0_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B1_M0_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4448,7 +4448,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4490,7 +4490,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -4500,12 +4500,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B1_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B1_M1_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 5,45×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4520,7 +4520,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4562,7 +4562,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
@@ -4572,12 +4572,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Auto_R1_B1_M1_C2</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Auto_R1_B1_M1_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
     <description>Корпус Терна: сменный калибр 7,62×39 Soviet с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4592,7 +4592,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4634,7 +4634,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>33</magazineSize>
         <reloadTime>3.3</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
@@ -4644,12 +4644,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R0_B0_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R0_B0_M0_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Корпус Терна: сменный калибр .45 ACP с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4664,7 +4664,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4708,7 +4708,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>9</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
@@ -4718,12 +4718,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R0_B0_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R0_B0_M1_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Корпус Терна: сменный калибр .45 ACP с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4738,7 +4738,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4782,7 +4782,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
@@ -4792,12 +4792,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R0_B1_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R0_B1_M0_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Корпус Терна: сменный калибр .45 ACP с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4812,7 +4812,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4856,7 +4856,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>9</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
@@ -4866,12 +4866,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R0_B1_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R0_B1_M1_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Корпус Терна: сменный калибр .45 ACP с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4886,7 +4886,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -4930,7 +4930,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
@@ -4940,12 +4940,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>1</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R1_B0_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R1_B0_M0_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Корпус Терна: сменный калибр .45 ACP с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -4960,7 +4960,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -5004,7 +5004,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>9</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
@@ -5014,12 +5014,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R1_B0_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R1_B0_M1_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Корпус Терна: сменный калибр .45 ACP с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -5034,7 +5034,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -5078,7 +5078,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
@@ -5088,12 +5088,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R1_B1_M0_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R1_B1_M0_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Корпус Терна: сменный калибр .45 ACP с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -5108,7 +5108,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -5152,7 +5152,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>9</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
@@ -5162,12 +5162,12 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>TT_Pistol_R1_B1_M1_C1</defName>
+  <smeltable>false</smeltable></ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>TT_Pistol_R1_B1_M1_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
     <description>Корпус Терна: сменный калибр .45 ACP с заводской конверсией патронника, затвора и магазина. CE контролирует баллистику.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -5182,7 +5182,7 @@
     <tradeTags>
       <li>WeaponRanged</li>
     </tradeTags>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>WeaponsRanged</li>
     </thingCategories>
     <weaponTags>
@@ -5226,7 +5226,7 @@
       </li>
     </verbs>
     <comps>
-      <li Class="CombatExtended.CompProperties_AmmoUser">
+      <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
         <reloadTime>2.5</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
@@ -5236,8 +5236,8 @@
         <aiAimMode>AimedShot</aiAimMode>
         <aimedBurstShotCount>3</aimedBurstShotCount>
       </li>
-      <li Class="ThornWhip.CompProperties_WeaponDesign" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="ThornWhip.CompProperties_WeaponDesign"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
 </Defs>

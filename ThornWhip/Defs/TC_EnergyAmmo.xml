@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
   <ThingCategoryDef>
     <defName>TC_AmmoLaser</defName>
@@ -12,7 +12,7 @@
       <TC_Ammo_Laser_Standard>TC_Beam_Standard</TC_Ammo_Laser_Standard>
     </ammoTypes>
   </CombatExtended.AmmoSetDef>
-  <ThingDef Name="TC_AmmoLaserBase" ParentName="SmallAmmoBase" Abstract="True">
+  <ThingDef Name="TC_AmmoLaserBase" ParentName="SmallAmmoBase" Abstract="True" Class="CombatExtended.AmmoDef">
     <description>лазерные конденсаторные кассеты</description>
     <statBases>
       <Mass>.08</Mass>
@@ -27,12 +27,12 @@
     </thingCategories>
     <stackLimit>300</stackLimit>
   </ThingDef>
-  <ThingDef ParentName="TC_AmmoLaserBase">
+  <ThingDef ParentName="TC_AmmoLaserBase" Class="CombatExtended.AmmoDef">
     <defName>TC_Ammo_Laser_Standard</defName>
     <label>лазерные конденсаторные кассеты standard</label>
     <graphicData>
       <texPath>ThornCorps/Defense/Ammo_Laser</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <ammoClass>FullMetalJacket</ammoClass>
     <cookOffProjectile>TC_Beam_Standard</cookOffProjectile>
@@ -107,7 +107,7 @@
       <TC_Ammo_Blaster_Piercing>TC_Bolt_Piercing</TC_Ammo_Blaster_Piercing>
     </ammoTypes>
   </CombatExtended.AmmoSetDef>
-  <ThingDef Name="TC_AmmoBlasterBase" ParentName="SmallAmmoBase" Abstract="True">
+  <ThingDef Name="TC_AmmoBlasterBase" ParentName="SmallAmmoBase" Abstract="True" Class="CombatExtended.AmmoDef">
     <description>бластерные плазмокассеты</description>
     <statBases>
       <Mass>.08</Mass>
@@ -122,12 +122,12 @@
     </thingCategories>
     <stackLimit>300</stackLimit>
   </ThingDef>
-  <ThingDef ParentName="TC_AmmoBlasterBase">
+  <ThingDef ParentName="TC_AmmoBlasterBase" Class="CombatExtended.AmmoDef">
     <defName>TC_Ammo_Blaster_Standard</defName>
     <label>бластерные плазмокассеты standard</label>
     <graphicData>
       <texPath>ThornCorps/Defense/Ammo_Blaster</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <ammoClass>ArmorPiercing</ammoClass>
     <cookOffProjectile>TC_Bolt_Standard</cookOffProjectile>
@@ -189,12 +189,12 @@
     </products>
     <workAmount>4000</workAmount>
   </RecipeDef>
-  <ThingDef ParentName="TC_AmmoBlasterBase">
+  <ThingDef ParentName="TC_AmmoBlasterBase" Class="CombatExtended.AmmoDef">
     <defName>TC_Ammo_Blaster_Piercing</defName>
     <label>бластерные плазмокассеты piercing</label>
     <graphicData>
       <texPath>ThornCorps/Defense/Ammo_Blaster</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <ammoClass>ArmorPiercing</ammoClass>
     <cookOffProjectile>TC_Bolt_Piercing</cookOffProjectile>

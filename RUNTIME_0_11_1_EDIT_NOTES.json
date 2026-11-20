@@ -1,0 +1,9 @@
+[
+  "9 armor quality components converted to 1.7-compatible generic CompProperties",
+  "CE ammunition Class and texture graphic classes fixed, HEAT class changed to RocketHEAT",
+  "Removed invalid root About.xml downloadUrl",
+  "Removed invalid ThingDef menuHidden; hidden retrofit-only variants from construction tab",
+  "Weapons moved from auto-recipe parent to BaseGun with quality comp; smeltable false and single category list",
+  "Initial resistance and will ranges added to faction human kinds",
+  "Renamed 167 ThingDef/RecipeDef names ending in numeric digits; updated XML/C#/tests"
+]

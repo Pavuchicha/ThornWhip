@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
   <PawnKindDef Name="TC_BaseHuman" ParentName="OutlanderBase" Abstract="True">
     <race>Human</race>
@@ -13,7 +13,7 @@
     <weaponTags Inherit="False">
       <li>TC_Weapon</li>
     </weaponTags>
-  </PawnKindDef>
+  <initialWillRange>3~6</initialWillRange><initialResistanceRange>10~18</initialResistanceRange></PawnKindDef>
   <PawnKindDef ParentName="TC_BaseHuman">
     <defName>TC_Operator</defName>
     <label>стрелок Терна</label>

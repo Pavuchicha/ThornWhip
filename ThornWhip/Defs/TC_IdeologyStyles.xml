@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
   <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_StyleCorps</defName>
@@ -15,19 +15,19 @@
         <styleDef>TC_Corps_TC_Turret_Minigun</styleDef>
       </li>
       <li>
-        <thingDef>TC_Turret_Minigun_56x6</thingDef>
+        <thingDef>TC_Turret_Minigun_56x6_Core</thingDef>
         <styleDef>TC_Corps_TC_Turret_Minigun_56x6</styleDef>
       </li>
       <li>
-        <thingDef>TC_Turret_Minigun_762x6</thingDef>
+        <thingDef>TC_Turret_Minigun_762x6_Core</thingDef>
         <styleDef>TC_Corps_TC_Turret_Minigun_762x6</styleDef>
       </li>
       <li>
-        <thingDef>TC_Turret_Minigun_762x8</thingDef>
+        <thingDef>TC_Turret_Minigun_762x8_Core</thingDef>
         <styleDef>TC_Corps_TC_Turret_Minigun_762x8</styleDef>
       </li>
       <li>
-        <thingDef>TC_Turret_Minigun_20x6</thingDef>
+        <thingDef>TC_Turret_Minigun_20x6_Core</thingDef>
         <styleDef>TC_Corps_TC_Turret_Minigun_20x6</styleDef>
       </li>
       <li>
@@ -123,339 +123,339 @@
         <styleDef>TC_Corps_TC_Fort_ArmoredGate</styleDef>
       </li>
       <li>
-        <thingDef>TC_Trench_1</thingDef>
+        <thingDef>TC_Trench_1_Core</thingDef>
         <styleDef>TC_Corps_TC_Trench_1</styleDef>
       </li>
       <li>
-        <thingDef>TC_Trench_2</thingDef>
+        <thingDef>TC_Trench_2_Core</thingDef>
         <styleDef>TC_Corps_TC_Trench_2</styleDef>
       </li>
       <li>
-        <thingDef>TC_Trench_3</thingDef>
+        <thingDef>TC_Trench_3_Core</thingDef>
         <styleDef>TC_Corps_TC_Trench_3</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M0</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M1</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M0</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M1</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M0</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M1</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M0</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M1</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M0</thingDef>
+        <thingDef>TT_Auto_R0_B0_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M1</thingDef>
+        <thingDef>TT_Auto_R0_B0_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M0</thingDef>
+        <thingDef>TT_Auto_R0_B1_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M1</thingDef>
+        <thingDef>TT_Auto_R0_B1_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M0</thingDef>
+        <thingDef>TT_Auto_R1_B0_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M1</thingDef>
+        <thingDef>TT_Auto_R1_B0_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M0</thingDef>
+        <thingDef>TT_Auto_R1_B1_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M1</thingDef>
+        <thingDef>TT_Auto_R1_B1_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B0_M0</thingDef>
+        <thingDef>TT_Pistol_R0_B0_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R0_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B0_M1</thingDef>
+        <thingDef>TT_Pistol_R0_B0_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R0_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B1_M0</thingDef>
+        <thingDef>TT_Pistol_R0_B1_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R0_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B1_M1</thingDef>
+        <thingDef>TT_Pistol_R0_B1_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R0_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B0_M0</thingDef>
+        <thingDef>TT_Pistol_R1_B0_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R1_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B0_M1</thingDef>
+        <thingDef>TT_Pistol_R1_B0_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R1_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B1_M0</thingDef>
+        <thingDef>TT_Pistol_R1_B1_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R1_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B1_M1</thingDef>
+        <thingDef>TT_Pistol_R1_B1_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R1_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R0_B0_M0</thingDef>
+        <thingDef>TT_Launcher_R0_B0_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Launcher_R0_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R0_B0_M1</thingDef>
+        <thingDef>TT_Launcher_R0_B0_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Launcher_R0_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R0_B1_M0</thingDef>
+        <thingDef>TT_Launcher_R0_B1_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Launcher_R0_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R0_B1_M1</thingDef>
+        <thingDef>TT_Launcher_R0_B1_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Launcher_R0_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R1_B0_M0</thingDef>
+        <thingDef>TT_Launcher_R1_B0_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Launcher_R1_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R1_B0_M1</thingDef>
+        <thingDef>TT_Launcher_R1_B0_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Launcher_R1_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R1_B1_M0</thingDef>
+        <thingDef>TT_Launcher_R1_B1_M0_Core</thingDef>
         <styleDef>TC_Corps_TT_Launcher_R1_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R1_B1_M1</thingDef>
+        <thingDef>TT_Launcher_R1_B1_M1_Core</thingDef>
         <styleDef>TC_Corps_TT_Launcher_R1_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M0_C1</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M0_C2</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M0_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B0_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M1_C1</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M1_C2</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M1_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B0_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M0_C1</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M0_C2</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M0_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B1_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M1_C1</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M1_C2</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M1_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R0_B1_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M0_C1</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M0_C2</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M0_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B0_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M1_C1</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M1_C2</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M1_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B0_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M0_C1</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M0_C2</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M0_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B1_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M1_C1</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M1_C2</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M1_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Rifle_R1_B1_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M0_C1</thingDef>
+        <thingDef>TT_Auto_R0_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M0_C2</thingDef>
+        <thingDef>TT_Auto_R0_B0_M0_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B0_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M1_C1</thingDef>
+        <thingDef>TT_Auto_R0_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M1_C2</thingDef>
+        <thingDef>TT_Auto_R0_B0_M1_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B0_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M0_C1</thingDef>
+        <thingDef>TT_Auto_R0_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M0_C2</thingDef>
+        <thingDef>TT_Auto_R0_B1_M0_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B1_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M1_C1</thingDef>
+        <thingDef>TT_Auto_R0_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M1_C2</thingDef>
+        <thingDef>TT_Auto_R0_B1_M1_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R0_B1_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M0_C1</thingDef>
+        <thingDef>TT_Auto_R1_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M0_C2</thingDef>
+        <thingDef>TT_Auto_R1_B0_M0_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B0_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M1_C1</thingDef>
+        <thingDef>TT_Auto_R1_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M1_C2</thingDef>
+        <thingDef>TT_Auto_R1_B0_M1_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B0_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M0_C1</thingDef>
+        <thingDef>TT_Auto_R1_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M0_C2</thingDef>
+        <thingDef>TT_Auto_R1_B1_M0_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B1_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M1_C1</thingDef>
+        <thingDef>TT_Auto_R1_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M1_C2</thingDef>
+        <thingDef>TT_Auto_R1_B1_M1_C2_Core</thingDef>
         <styleDef>TC_Corps_TT_Auto_R1_B1_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B0_M0_C1</thingDef>
+        <thingDef>TT_Pistol_R0_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R0_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B0_M1_C1</thingDef>
+        <thingDef>TT_Pistol_R0_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R0_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B1_M0_C1</thingDef>
+        <thingDef>TT_Pistol_R0_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R0_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B1_M1_C1</thingDef>
+        <thingDef>TT_Pistol_R0_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R0_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B0_M0_C1</thingDef>
+        <thingDef>TT_Pistol_R1_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R1_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B0_M1_C1</thingDef>
+        <thingDef>TT_Pistol_R1_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R1_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B1_M0_C1</thingDef>
+        <thingDef>TT_Pistol_R1_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R1_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B1_M1_C1</thingDef>
+        <thingDef>TT_Pistol_R1_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Corps_TT_Pistol_R1_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Light_T1</thingDef>
+        <thingDef>TC_Armor_Light_T1_Core</thingDef>
         <styleDef>TC_Corps_TC_Armor_Light_T1</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Light_T2</thingDef>
+        <thingDef>TC_Armor_Light_T2_Core</thingDef>
         <styleDef>TC_Corps_TC_Armor_Light_T2</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Light_T3</thingDef>
+        <thingDef>TC_Armor_Light_T3_Core</thingDef>
         <styleDef>TC_Corps_TC_Armor_Light_T3</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Medium_T1</thingDef>
+        <thingDef>TC_Armor_Medium_T1_Core</thingDef>
         <styleDef>TC_Corps_TC_Armor_Medium_T1</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Medium_T2</thingDef>
+        <thingDef>TC_Armor_Medium_T2_Core</thingDef>
         <styleDef>TC_Corps_TC_Armor_Medium_T2</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Medium_T3</thingDef>
+        <thingDef>TC_Armor_Medium_T3_Core</thingDef>
         <styleDef>TC_Corps_TC_Armor_Medium_T3</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Heavy_T1</thingDef>
+        <thingDef>TC_Armor_Heavy_T1_Core</thingDef>
         <styleDef>TC_Corps_TC_Armor_Heavy_T1</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Heavy_T2</thingDef>
+        <thingDef>TC_Armor_Heavy_T2_Core</thingDef>
         <styleDef>TC_Corps_TC_Armor_Heavy_T2</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Heavy_T3</thingDef>
+        <thingDef>TC_Armor_Heavy_T3_Core</thingDef>
         <styleDef>TC_Corps_TC_Armor_Heavy_T3</styleDef>
       </li>
     </thingDefStyles>
@@ -1385,19 +1385,19 @@
         <styleDef>TC_Order_TC_Turret_Minigun</styleDef>
       </li>
       <li>
-        <thingDef>TC_Turret_Minigun_56x6</thingDef>
+        <thingDef>TC_Turret_Minigun_56x6_Core</thingDef>
         <styleDef>TC_Order_TC_Turret_Minigun_56x6</styleDef>
       </li>
       <li>
-        <thingDef>TC_Turret_Minigun_762x6</thingDef>
+        <thingDef>TC_Turret_Minigun_762x6_Core</thingDef>
         <styleDef>TC_Order_TC_Turret_Minigun_762x6</styleDef>
       </li>
       <li>
-        <thingDef>TC_Turret_Minigun_762x8</thingDef>
+        <thingDef>TC_Turret_Minigun_762x8_Core</thingDef>
         <styleDef>TC_Order_TC_Turret_Minigun_762x8</styleDef>
       </li>
       <li>
-        <thingDef>TC_Turret_Minigun_20x6</thingDef>
+        <thingDef>TC_Turret_Minigun_20x6_Core</thingDef>
         <styleDef>TC_Order_TC_Turret_Minigun_20x6</styleDef>
       </li>
       <li>
@@ -1493,339 +1493,339 @@
         <styleDef>TC_Order_TC_Fort_ArmoredGate</styleDef>
       </li>
       <li>
-        <thingDef>TC_Trench_1</thingDef>
+        <thingDef>TC_Trench_1_Core</thingDef>
         <styleDef>TC_Order_TC_Trench_1</styleDef>
       </li>
       <li>
-        <thingDef>TC_Trench_2</thingDef>
+        <thingDef>TC_Trench_2_Core</thingDef>
         <styleDef>TC_Order_TC_Trench_2</styleDef>
       </li>
       <li>
-        <thingDef>TC_Trench_3</thingDef>
+        <thingDef>TC_Trench_3_Core</thingDef>
         <styleDef>TC_Order_TC_Trench_3</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M0</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M1</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M0</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M1</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M0</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M1</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M0</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M1</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M0</thingDef>
+        <thingDef>TT_Auto_R0_B0_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M1</thingDef>
+        <thingDef>TT_Auto_R0_B0_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M0</thingDef>
+        <thingDef>TT_Auto_R0_B1_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M1</thingDef>
+        <thingDef>TT_Auto_R0_B1_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M0</thingDef>
+        <thingDef>TT_Auto_R1_B0_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M1</thingDef>
+        <thingDef>TT_Auto_R1_B0_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M0</thingDef>
+        <thingDef>TT_Auto_R1_B1_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M1</thingDef>
+        <thingDef>TT_Auto_R1_B1_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B0_M0</thingDef>
+        <thingDef>TT_Pistol_R0_B0_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R0_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B0_M1</thingDef>
+        <thingDef>TT_Pistol_R0_B0_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R0_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B1_M0</thingDef>
+        <thingDef>TT_Pistol_R0_B1_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R0_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B1_M1</thingDef>
+        <thingDef>TT_Pistol_R0_B1_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R0_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B0_M0</thingDef>
+        <thingDef>TT_Pistol_R1_B0_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R1_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B0_M1</thingDef>
+        <thingDef>TT_Pistol_R1_B0_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R1_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B1_M0</thingDef>
+        <thingDef>TT_Pistol_R1_B1_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R1_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B1_M1</thingDef>
+        <thingDef>TT_Pistol_R1_B1_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R1_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R0_B0_M0</thingDef>
+        <thingDef>TT_Launcher_R0_B0_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Launcher_R0_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R0_B0_M1</thingDef>
+        <thingDef>TT_Launcher_R0_B0_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Launcher_R0_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R0_B1_M0</thingDef>
+        <thingDef>TT_Launcher_R0_B1_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Launcher_R0_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R0_B1_M1</thingDef>
+        <thingDef>TT_Launcher_R0_B1_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Launcher_R0_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R1_B0_M0</thingDef>
+        <thingDef>TT_Launcher_R1_B0_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Launcher_R1_B0_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R1_B0_M1</thingDef>
+        <thingDef>TT_Launcher_R1_B0_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Launcher_R1_B0_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R1_B1_M0</thingDef>
+        <thingDef>TT_Launcher_R1_B1_M0_Core</thingDef>
         <styleDef>TC_Order_TT_Launcher_R1_B1_M0</styleDef>
       </li>
       <li>
-        <thingDef>TT_Launcher_R1_B1_M1</thingDef>
+        <thingDef>TT_Launcher_R1_B1_M1_Core</thingDef>
         <styleDef>TC_Order_TT_Launcher_R1_B1_M1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M0_C1</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M0_C2</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M0_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B0_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M1_C1</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B0_M1_C2</thingDef>
+        <thingDef>TT_Rifle_R0_B0_M1_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B0_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M0_C1</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M0_C2</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M0_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B1_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M1_C1</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R0_B1_M1_C2</thingDef>
+        <thingDef>TT_Rifle_R0_B1_M1_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R0_B1_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M0_C1</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M0_C2</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M0_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B0_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M1_C1</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B0_M1_C2</thingDef>
+        <thingDef>TT_Rifle_R1_B0_M1_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B0_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M0_C1</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M0_C2</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M0_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B1_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M1_C1</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Rifle_R1_B1_M1_C2</thingDef>
+        <thingDef>TT_Rifle_R1_B1_M1_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Rifle_R1_B1_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M0_C1</thingDef>
+        <thingDef>TT_Auto_R0_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M0_C2</thingDef>
+        <thingDef>TT_Auto_R0_B0_M0_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B0_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M1_C1</thingDef>
+        <thingDef>TT_Auto_R0_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B0_M1_C2</thingDef>
+        <thingDef>TT_Auto_R0_B0_M1_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B0_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M0_C1</thingDef>
+        <thingDef>TT_Auto_R0_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M0_C2</thingDef>
+        <thingDef>TT_Auto_R0_B1_M0_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B1_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M1_C1</thingDef>
+        <thingDef>TT_Auto_R0_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R0_B1_M1_C2</thingDef>
+        <thingDef>TT_Auto_R0_B1_M1_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R0_B1_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M0_C1</thingDef>
+        <thingDef>TT_Auto_R1_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M0_C2</thingDef>
+        <thingDef>TT_Auto_R1_B0_M0_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B0_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M1_C1</thingDef>
+        <thingDef>TT_Auto_R1_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B0_M1_C2</thingDef>
+        <thingDef>TT_Auto_R1_B0_M1_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B0_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M0_C1</thingDef>
+        <thingDef>TT_Auto_R1_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M0_C2</thingDef>
+        <thingDef>TT_Auto_R1_B1_M0_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B1_M0_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M1_C1</thingDef>
+        <thingDef>TT_Auto_R1_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Auto_R1_B1_M1_C2</thingDef>
+        <thingDef>TT_Auto_R1_B1_M1_C2_Core</thingDef>
         <styleDef>TC_Order_TT_Auto_R1_B1_M1_C2</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B0_M0_C1</thingDef>
+        <thingDef>TT_Pistol_R0_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R0_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B0_M1_C1</thingDef>
+        <thingDef>TT_Pistol_R0_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R0_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B1_M0_C1</thingDef>
+        <thingDef>TT_Pistol_R0_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R0_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R0_B1_M1_C1</thingDef>
+        <thingDef>TT_Pistol_R0_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R0_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B0_M0_C1</thingDef>
+        <thingDef>TT_Pistol_R1_B0_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R1_B0_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B0_M1_C1</thingDef>
+        <thingDef>TT_Pistol_R1_B0_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R1_B0_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B1_M0_C1</thingDef>
+        <thingDef>TT_Pistol_R1_B1_M0_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R1_B1_M0_C1</styleDef>
       </li>
       <li>
-        <thingDef>TT_Pistol_R1_B1_M1_C1</thingDef>
+        <thingDef>TT_Pistol_R1_B1_M1_C1_Core</thingDef>
         <styleDef>TC_Order_TT_Pistol_R1_B1_M1_C1</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Light_T1</thingDef>
+        <thingDef>TC_Armor_Light_T1_Core</thingDef>
         <styleDef>TC_Order_TC_Armor_Light_T1</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Light_T2</thingDef>
+        <thingDef>TC_Armor_Light_T2_Core</thingDef>
         <styleDef>TC_Order_TC_Armor_Light_T2</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Light_T3</thingDef>
+        <thingDef>TC_Armor_Light_T3_Core</thingDef>
         <styleDef>TC_Order_TC_Armor_Light_T3</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Medium_T1</thingDef>
+        <thingDef>TC_Armor_Medium_T1_Core</thingDef>
         <styleDef>TC_Order_TC_Armor_Medium_T1</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Medium_T2</thingDef>
+        <thingDef>TC_Armor_Medium_T2_Core</thingDef>
         <styleDef>TC_Order_TC_Armor_Medium_T2</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Medium_T3</thingDef>
+        <thingDef>TC_Armor_Medium_T3_Core</thingDef>
         <styleDef>TC_Order_TC_Armor_Medium_T3</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Heavy_T1</thingDef>
+        <thingDef>TC_Armor_Heavy_T1_Core</thingDef>
         <styleDef>TC_Order_TC_Armor_Heavy_T1</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Heavy_T2</thingDef>
+        <thingDef>TC_Armor_Heavy_T2_Core</thingDef>
         <styleDef>TC_Order_TC_Armor_Heavy_T2</styleDef>
       </li>
       <li>
-        <thingDef>TC_Armor_Heavy_T3</thingDef>
+        <thingDef>TC_Armor_Heavy_T3_Core</thingDef>
         <styleDef>TC_Order_TC_Armor_Heavy_T3</styleDef>
       </li>
     </thingDefStyles>

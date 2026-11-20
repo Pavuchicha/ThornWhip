@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
   <ThingDef ParentName="BuildingBase">
     <defName>TC_Turret_Holder</defName>
@@ -46,14 +46,14 @@
       <combatPower>35</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>90</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -102,21 +102,21 @@
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <building>
-      <turretGunDef>TC_Gun_Minigun_56x4</turretGunDef>
+      <turretGunDef>TC_Gun_Minigun_56x4_Core</turretGunDef>
       <turretTopDrawSize>2</turretTopDrawSize>
       <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
       <ai_combatDangerous>true</ai_combatDangerous>
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>410</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -126,7 +126,7 @@
     </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
-    <defName>TC_Turret_Minigun_56x6</defName>
+    <defName>TC_Turret_Minigun_56x6_Core</defName>
     <label>роторная пулемётная турель — 5,56 / 6 стволов</label>
     <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
     <category>Building</category>
@@ -134,7 +134,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -165,21 +164,21 @@
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <building>
-      <turretGunDef>TC_Gun_Minigun_56x6</turretGunDef>
+      <turretGunDef>TC_Gun_Minigun_56x6_Core</turretGunDef>
       <turretTopDrawSize>2</turretTopDrawSize>
       <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
       <ai_combatDangerous>true</ai_combatDangerous>
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>410</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -189,7 +188,7 @@
     </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
-    <defName>TC_Turret_Minigun_762x6</defName>
+    <defName>TC_Turret_Minigun_762x6_Core</defName>
     <label>роторная пулемётная турель — 7,62 / 6 стволов</label>
     <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
     <category>Building</category>
@@ -197,7 +196,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -228,21 +226,21 @@
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <building>
-      <turretGunDef>TC_Gun_Minigun_762x6</turretGunDef>
+      <turretGunDef>TC_Gun_Minigun_762x6_Core</turretGunDef>
       <turretTopDrawSize>2</turretTopDrawSize>
       <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
       <ai_combatDangerous>true</ai_combatDangerous>
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>410</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -252,7 +250,7 @@
     </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
-    <defName>TC_Turret_Minigun_762x8</defName>
+    <defName>TC_Turret_Minigun_762x8_Core</defName>
     <label>роторная пулемётная турель — 7,62 / 8 стволов</label>
     <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
     <category>Building</category>
@@ -260,7 +258,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -291,21 +288,21 @@
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <building>
-      <turretGunDef>TC_Gun_Minigun_762x8</turretGunDef>
+      <turretGunDef>TC_Gun_Minigun_762x8_Core</turretGunDef>
       <turretTopDrawSize>2</turretTopDrawSize>
       <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
       <ai_combatDangerous>true</ai_combatDangerous>
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>410</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -315,7 +312,7 @@
     </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
-    <defName>TC_Turret_Minigun_20x6</defName>
+    <defName>TC_Turret_Minigun_20x6_Core</defName>
     <label>роторная пулемётная турель — 20 мм / 6 стволов</label>
     <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
     <category>Building</category>
@@ -323,7 +320,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -354,21 +350,21 @@
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <building>
-      <turretGunDef>TC_Gun_Minigun_20x6</turretGunDef>
+      <turretGunDef>TC_Gun_Minigun_20x6_Core</turretGunDef>
       <turretTopDrawSize>2</turretTopDrawSize>
       <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
       <ai_combatDangerous>true</ai_combatDangerous>
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>410</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -424,14 +420,14 @@
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>650</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -449,7 +445,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -487,14 +482,14 @@
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>650</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -512,7 +507,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -550,14 +544,14 @@
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>650</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -613,14 +607,14 @@
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>790</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -638,7 +632,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -676,14 +669,14 @@
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>790</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -701,7 +694,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -739,14 +731,14 @@
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>790</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -764,7 +756,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Ultra</techLevel>
     <tradeability>None</tradeability>
-    <designationCategory>Security</designationCategory>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -802,14 +793,14 @@
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>1250</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -827,7 +818,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Ultra</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(3,3)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -865,14 +855,14 @@
       <combatPower>165</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>1730</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -890,7 +880,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Ultra</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(4,4)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -928,14 +917,14 @@
       <combatPower>195</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>2210</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -991,14 +980,14 @@
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>360</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -1016,7 +1005,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -1054,14 +1042,14 @@
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>360</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -1079,7 +1067,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(2,2)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -1117,14 +1104,14 @@
       <combatPower>135</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>360</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -1180,14 +1167,14 @@
       <combatPower>165</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>450</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -1205,7 +1192,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(3,3)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -1243,14 +1229,14 @@
       <combatPower>165</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>450</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>
@@ -1268,7 +1254,6 @@
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <tradeability>None</tradeability>
-    <menuHidden>true</menuHidden>
     <size>(3,3)</size>
     <rotatable>true</rotatable>
     <passability>PassThroughOnly</passability>
@@ -1306,14 +1291,14 @@
       <combatPower>165</combatPower>
     </building>
     <comps>
-      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="ThornWhip.CompProperties_ThornTurret"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>450</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Breakdownable" />
-      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
     </comps>
     <placeWorkers>
       <li>PlaceWorker_ShowTurretRadius</li>

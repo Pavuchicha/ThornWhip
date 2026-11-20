@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
   <ThingCategoryDef>
     <defName>TC_AmmoRail30</defName>
@@ -9,15 +9,15 @@
     <defName>TC_AmmoSet_RailHeavy</defName>
     <label>30 мм электромагнитный сердечник</label>
     <ammoTypes>
-      <TC_Ammo_Rail30>TC_Slug_Rail30</TC_Ammo_Rail30>
+      <TC_Ammo_Rail30_Core>TC_Slug_Rail30_Core</TC_Ammo_Rail30_Core>
     </ammoTypes>
   </CombatExtended.AmmoSetDef>
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="MediumAmmoBase">
-    <defName>TC_Ammo_Rail30</defName>
+    <defName>TC_Ammo_Rail30_Core</defName>
     <label>электромагнитный сердечник 30 мм</label>
     <graphicData>
       <texPath>ThornCorps/Defense/Ammo_Railgun</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <Mass>.58</Mass>
@@ -32,10 +32,10 @@
     </tradeTags>
     <stackLimit>100</stackLimit>
     <ammoClass>ArmorPiercing</ammoClass>
-    <cookOffProjectile>TC_Slug_Rail30</cookOffProjectile>
+    <cookOffProjectile>TC_Slug_Rail30_Core</cookOffProjectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
-    <defName>TC_Slug_Rail30</defName>
+    <defName>TC_Slug_Rail30_Core</defName>
     <label>магнитный сердечник 30 мм</label>
     <graphicData>
       <texPath>ThornCorps/Defense/Projectile_Railgun</texPath>
@@ -87,7 +87,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <TC_Ammo_Rail30>25</TC_Ammo_Rail30>
+      <TC_Ammo_Rail30_Core>25</TC_Ammo_Rail30_Core>
     </products>
     <workAmount>7200</workAmount>
   </RecipeDef>

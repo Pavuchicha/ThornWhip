@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
 <WorkGiverDef><defName>TT_DoWeaponDevelopment</defName><label>разрабатывать оружие</label><giverClass>WorkGiver_DoBill</giverClass><workType>Research</workType><priorityInType>84</priorityInType><fixedBillGiverDefs><li>TT_DesignTable</li></fixedBillGiverDefs><verb>разработать</verb><gerund>разработки</gerund></WorkGiverDef>
 <WorkGiverDef><defName>TT_DoWeaponAssembly</defName><label>собирать оружие Терна</label><giverClass>WorkGiver_DoBill</giverClass><workType>Crafting</workType><priorityInType>84</priorityInType><fixedBillGiverDefs><li>TT_FactoryTable</li></fixedBillGiverDefs><verb>собрать</verb><gerund>сборки</gerund></WorkGiverDef>

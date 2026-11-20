@@ -204,7 +204,7 @@ namespace ThornWhip
             if(!orbital)
             {
                 ThingDef embrasure=DefDatabase<ThingDef>.GetNamedSilentFail("TC_Fort_Embrasure");
-                ThingDef trench=DefDatabase<ThingDef>.GetNamedSilentFail("TC_Trench_2");
+                ThingDef trench=DefDatabase<ThingDef>.GetNamedSilentFail("TC_Trench_2_Core");
                 for(int side=-1;side<=1;side+=2)
                 {
                     for(int off=-4;off<=4;off++)

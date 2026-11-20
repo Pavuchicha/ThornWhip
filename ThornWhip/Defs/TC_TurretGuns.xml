@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_HolderDummy</defName>
@@ -50,9 +50,9 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
-    <defName>TC_Gun_Minigun_56x4</defName>
+    <defName>TC_Gun_Minigun_56x4_Core</defName>
     <label>Minigun 56x4</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -101,9 +101,9 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
-    <defName>TC_Gun_Minigun_56x6</defName>
+    <defName>TC_Gun_Minigun_56x6_Core</defName>
     <label>Minigun 56x6</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -152,9 +152,9 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
-    <defName>TC_Gun_Minigun_762x6</defName>
+    <defName>TC_Gun_Minigun_762x6_Core</defName>
     <label>Minigun 762x6</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -203,9 +203,9 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
-    <defName>TC_Gun_Minigun_762x8</defName>
+    <defName>TC_Gun_Minigun_762x8_Core</defName>
     <label>Minigun 762x8</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -254,9 +254,9 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
-    <defName>TC_Gun_Minigun_20x6</defName>
+    <defName>TC_Gun_Minigun_20x6_Core</defName>
     <label>Minigun 20x6</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
     <thingClass>ThingWithComps</thingClass>
@@ -305,7 +305,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Laser_Focus</defName>
     <label>Laser Focus</label>
@@ -356,7 +356,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Laser_Cooling</defName>
     <label>Laser Cooling</label>
@@ -407,7 +407,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Laser_Pulse</defName>
     <label>Laser Pulse</label>
@@ -458,7 +458,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Blaster_Scatter</defName>
     <label>Blaster Scatter</label>
@@ -509,7 +509,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Blaster_Pierce</defName>
     <label>Blaster Pierce</label>
@@ -560,7 +560,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Blaster_Fury</defName>
     <label>Blaster Fury</label>
@@ -611,7 +611,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Railgun_Light</defName>
     <label>Railgun Light</label>
@@ -662,7 +662,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Railgun_Medium</defName>
     <label>Railgun Medium</label>
@@ -713,7 +713,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Railgun_Heavy</defName>
     <label>Railgun Heavy</label>
@@ -739,7 +739,7 @@
       <li Class="CombatExtended.VerbPropertiesCE">
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>TC_Slug_Rail30</defaultProjectile>
+        <defaultProjectile>TC_Slug_Rail30_Core</defaultProjectile>
         <warmupTime>2.1</warmupTime>
         <range>128</range>
         <burstShotCount>1</burstShotCount>
@@ -764,7 +764,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_ATGM_HEAT</defName>
     <label>ATGM HEAT</label>
@@ -816,7 +816,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_ATGM_Dual</defName>
     <label>ATGM Dual</label>
@@ -868,7 +868,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_ATGM_Guided</defName>
     <label>ATGM Guided</label>
@@ -920,7 +920,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_MLRS_Light</defName>
     <label>MLRS Light</label>
@@ -972,7 +972,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_MLRS_Swarm</defName>
     <label>MLRS Swarm</label>
@@ -1024,7 +1024,7 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_MLRS_Heavy</defName>
     <label>MLRS Heavy</label>
@@ -1076,5 +1076,5 @@
         <aiAimMode>AimedShot</aiAimMode>
       </li>
     </comps>
-  </ThingDef>
+  <smeltable>false</smeltable></ThingDef>
 </Defs>

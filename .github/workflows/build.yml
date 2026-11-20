@@ -36,12 +36,16 @@ jobs:
         id: test011
         continue-on-error: true
         run: python tests_runtime_contract_011.py
+      - name: Validate 0.11.1 game-log-derived Def rules
+        id: runtime_def_audit
+        continue-on-error: true
+        run: python -m pip install lxml && python tests_runtime_0111.py
       - name: Resolve RimWorld 1.7 references
         run: dotnet restore ThornWhip/Source/ThornWhip.csproj
       - name: Compile the entire C# mod
         run: dotnet build ThornWhip/Source/ThornWhip.csproj -c Release --no-restore
       - name: Enforce complete static checks before creating an installable ZIP
-        if: steps.audit.outcome == 'failure' || steps.static.outcome == 'failure' || steps.graphics.outcome == 'failure' || steps.test011.outcome == 'failure'
+        if: steps.audit.outcome == 'failure' || steps.static.outcome == 'failure' || steps.graphics.outcome == 'failure' || steps.runtime_def_audit.outcome == 'failure' || steps.test011.outcome == 'failure'
         run: |
           echo 'At least one structural validation failed. Compilation ran independently for full diagnostics.'
           exit 1

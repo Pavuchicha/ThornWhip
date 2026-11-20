@@ -514,13 +514,13 @@ namespace ThornWhip
             new SpecialModule("Прицел", "Псионический вычислитель", "Экспериментальный оптический синхронизатор; не меняет пули CE", new ModuleOption("Псионический вычислитель", sights: 0.24f, sway: -0.085f, mass: 0.3f, value: 405f, warmup: -0.115f, nightVision: 0.22f, steel: 3, industrial: 2, advanced: 3, gold: 12)),
         };
         public static string WeaponDefName(WeaponBlueprint b) =>
-            $"TT_{Family(b.FamilyId).Key}_R{b.CoreIndex(0)}_B{b.CoreIndex(2)}_M{b.CoreIndex(9)}" + (b.CaliberId==0 ? "" : "_C"+b.CaliberId);
+            $"TT_{Family(b.FamilyId).Key}_R{b.CoreIndex(0)}_B{b.CoreIndex(2)}_M{b.CoreIndex(9)}" + (b.CaliberId==0 ? "" : "_C"+b.CaliberId) + "_Core";
         // One production RecipeDef per underlying CE structural variant (32 total); material
         // requirements are exact per blueprint and escrowed when the user queues the bill.
         public static string RecipeName(WeaponBlueprint b)
         {
             string prefix=b.FamilyId==0 ? "TT_Craft" : "TT_Craft_"+Family(b.FamilyId).Key;
-            return $"{prefix}_R{b.CoreIndex(0)}_B{b.CoreIndex(2)}_M{b.CoreIndex(9)}" + (b.CaliberId==0 ? "" : "_C"+b.CaliberId);
+            return $"{prefix}_R{b.CoreIndex(0)}_B{b.CoreIndex(2)}_M{b.CoreIndex(9)}" + (b.CaliberId==0 ? "" : "_C"+b.CaliberId) + "_Core";
         }
     }
 }
