@@ -8,7 +8,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -80,7 +80,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -152,7 +152,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -224,7 +224,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -296,7 +296,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -368,7 +368,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -440,7 +440,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -512,7 +512,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -584,7 +584,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -656,7 +656,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -728,7 +728,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -800,7 +800,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -872,7 +872,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -944,7 +944,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1016,7 +1016,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1088,7 +1088,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1160,7 +1160,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1234,7 +1234,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1308,7 +1308,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1382,7 +1382,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1456,7 +1456,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1530,7 +1530,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1604,7 +1604,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1678,7 +1678,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1752,7 +1752,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1827,7 +1827,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1902,7 +1902,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1977,7 +1977,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2052,7 +2052,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2127,7 +2127,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2202,7 +2202,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2277,7 +2277,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2352,7 +2352,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2424,7 +2424,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2496,7 +2496,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2568,7 +2568,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2640,7 +2640,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2712,7 +2712,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2784,7 +2784,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2856,7 +2856,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2928,7 +2928,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3000,7 +3000,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3072,7 +3072,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3144,7 +3144,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3216,7 +3216,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3288,7 +3288,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3360,7 +3360,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3432,7 +3432,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3504,7 +3504,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3576,7 +3576,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3648,7 +3648,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3720,7 +3720,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3792,7 +3792,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3864,7 +3864,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -3936,7 +3936,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -4008,7 +4008,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -4080,7 +4080,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -4152,7 +4152,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -4224,7 +4224,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -4296,7 +4296,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -4368,7 +4368,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -4440,7 +4440,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -4512,7 +4512,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -4584,7 +4584,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -4656,7 +4656,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -4730,7 +4730,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -4804,7 +4804,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -4878,7 +4878,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -4952,7 +4952,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -5026,7 +5026,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -5100,7 +5100,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -5174,7 +5174,7 @@
     <techLevel>Spacer</techLevel>
     <tradeability>All</tradeability>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>

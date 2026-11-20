@@ -48,7 +48,8 @@
       <damageDef>Bomb</damageDef>
       <damageAmountBase>175</damageAmountBase>
       <explosionRadius>2.3</explosionRadius>
-      <armorPenetration>11</armorPenetration>
+      <armorPenetrationSharp>11</armorPenetrationSharp>
+      <armorPenetrationBlunt>33</armorPenetrationBlunt>
       <soundExplode>MortarBomb_Explode</soundExplode>
       <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
     </projectile>
@@ -139,7 +140,8 @@
       <damageDef>Bomb</damageDef>
       <damageAmountBase>135</damageAmountBase>
       <explosionRadius>4.3</explosionRadius>
-      <armorPenetration>4</armorPenetration>
+      <armorPenetrationSharp>4</armorPenetrationSharp>
+      <armorPenetrationBlunt>12</armorPenetrationBlunt>
       <soundExplode>MortarBomb_Explode</soundExplode>
       <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
     </projectile>
@@ -242,7 +244,8 @@
       <damageDef>Bomb</damageDef>
       <damageAmountBase>92</damageAmountBase>
       <explosionRadius>3.7</explosionRadius>
-      <armorPenetration>3</armorPenetration>
+      <armorPenetrationSharp>3</armorPenetrationSharp>
+      <armorPenetrationBlunt>9</armorPenetrationBlunt>
       <soundExplode>MortarBomb_Explode</soundExplode>
       <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
     </projectile>

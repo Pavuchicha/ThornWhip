@@ -45,7 +45,8 @@
       <damageDef>Bullet</damageDef>
       <speed>320</speed>
       <damageAmountBase>52</damageAmountBase>
-      <armorPenetration>38</armorPenetration>
+      <armorPenetrationSharp>38</armorPenetrationSharp>
+      <armorPenetrationBlunt>114</armorPenetrationBlunt>
     </projectile>
   </ThingDef>
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">

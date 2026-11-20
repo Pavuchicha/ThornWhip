@@ -1,0 +1,21 @@
+{
+  "patch": "0.10.5",
+  "files": [
+    "ThornWhip/Defs/TC_TurretGuns.xml",
+    "ThornWhip/Defs/TC_RailAmmo.xml",
+    "ThornWhip/Defs/TC_EnergyAmmo.xml",
+    "ThornWhip/Defs/TC_RocketAmmo.xml",
+    "ThornWhip/About/About.xml",
+    "build_defense_09.py",
+    "tests_project_integrity.py"
+  ],
+  "turret_gun_parent_fixed": 21,
+  "ce_projectiles_fixed": {
+    "TC_RailAmmo.xml": 1,
+    "TC_EnergyAmmo.xml": 3,
+    "TC_RocketAmmo.xml": 3
+  },
+  "about_dependency_links": 2,
+  "validated": "XML syntax + static tests 09, visuals10, project integrity",
+  "not_validated": "live RimWorld load, exact installed CE revision, runtime behavior"
+}

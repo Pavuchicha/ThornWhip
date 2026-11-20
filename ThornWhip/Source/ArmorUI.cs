@@ -53,14 +53,14 @@ namespace ThornWhip
                 bool active=mode==0 && selectedPart==i;
                 Widgets.DrawBoxSolid(new Rect(0,y,area.width-22,rowHeight-3),active?DesignerUI.Card:DesignerUI.Pane);
                 string label=(i+1).ToString("00")+"  "+slot.Name+(slot.Required?" *":"");
-                if(DesignerUI.Action(new Rect(3,y+4,area.width*.43f,rowHeight-11),label,active))
+                if(DesignerUI.Action(new Rect(3,y+4,area.width*.40f,rowHeight-11),label,active))
                 {selectedPart=index;mode=0;}
                 int chosen=b.Part(i);
                 string option=chosen<0?"ПУСТО / + установить":slot.Options[chosen].Name;
-                if(DesignerUI.Action(new Rect(area.width*.43f+6,y+4,area.width*.39f-2,rowHeight-11),option,chosen>=0))
+                if(DesignerUI.Action(new Rect(area.width*.41f+6,y+4,area.width*.35f-2,rowHeight-11),option,chosen>=0))
                 {selectedPart=index;mode=0;MenuPart(index);}
-                if(DesignerUI.Action(new Rect(area.width*.82f+6,y+4,area.width*.16f-21,rowHeight-11),
-                    new[]{"СТ","ПЛ","УР"}[b.Material(i)]))
+                if(DesignerUI.Action(new Rect(area.width*.77f+6,y+4,area.width*.21f-20,rowHeight-11),
+                    new[]{"СТАЛЬ","ПЛАСТАЛЬ","УРАН"}[b.Material(i)]))
                 {
                     if(b.Chassis.Tier>1){b.Materials[i]=(b.Material(i)+1)%3;selectedPart=index;mode=0;}
                 }

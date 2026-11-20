@@ -48,7 +48,8 @@
       <damageDef>Burn</damageDef>
       <speed>300</speed>
       <damageAmountBase>14</damageAmountBase>
-      <armorPenetration>0.2</armorPenetration>
+      <armorPenetrationSharp>0.2</armorPenetrationSharp>
+      <armorPenetrationBlunt>0.6</armorPenetrationBlunt>
     </projectile>
   </ThingDef>
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
@@ -142,7 +143,8 @@
       <damageDef>Bullet</damageDef>
       <speed>180</speed>
       <damageAmountBase>18</damageAmountBase>
-      <armorPenetration>1.8</armorPenetration>
+      <armorPenetrationSharp>1.8</armorPenetrationSharp>
+      <armorPenetrationBlunt>5.4</armorPenetrationBlunt>
     </projectile>
   </ThingDef>
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
@@ -208,7 +210,8 @@
       <damageDef>Bullet</damageDef>
       <speed>180</speed>
       <damageAmountBase>14</damageAmountBase>
-      <armorPenetration>8.0</armorPenetration>
+      <armorPenetrationSharp>8.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>24</armorPenetrationBlunt>
     </projectile>
   </ThingDef>
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">

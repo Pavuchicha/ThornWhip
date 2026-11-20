@@ -25,13 +25,16 @@
       <Flammability>0.05</Flammability>
     </statBases>
     <costList>
-      <Steel>45</Steel>
-    </costList>
+      </costList>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <rotatable>true</rotatable>
     <comps>
       <li Class="CompProperties_Styleable" />
     </comps>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>TC_Fort_Embrasure</defName>
@@ -58,8 +61,7 @@
       <Flammability>0.05</Flammability>
     </statBases>
     <costList>
-      <Steel>45</Steel>
-    </costList>
+      </costList>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
     <blockLight>false</blockLight>
@@ -68,6 +70,10 @@
     <comps>
       <li Class="CompProperties_Styleable" />
     </comps>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>TC_Fort_Bunker</defName>
@@ -94,7 +100,6 @@
       <Flammability>0.05</Flammability>
     </statBases>
     <costList>
-      <Steel>85</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
@@ -102,6 +107,10 @@
     <comps>
       <li Class="CompProperties_Styleable" />
     </comps>
+    <costStuffCount>85</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>TC_Fort_Sandbag</defName>
@@ -128,13 +137,16 @@
       <Flammability>0.05</Flammability>
     </statBases>
     <costList>
-      <Steel>30</Steel>
-    </costList>
+      </costList>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <rotatable>true</rotatable>
     <comps>
       <li Class="CompProperties_Styleable" />
     </comps>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>TC_Fort_Foxhole</defName>
@@ -194,7 +206,6 @@
       <Flammability>0.05</Flammability>
     </statBases>
     <costList>
-      <Steel>90</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
@@ -202,6 +213,10 @@
     <comps>
       <li Class="CompProperties_Styleable" />
     </comps>
+    <costStuffCount>90</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>TC_Trench_1</defName>

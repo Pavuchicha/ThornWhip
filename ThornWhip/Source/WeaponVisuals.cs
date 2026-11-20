@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -38,33 +39,65 @@ namespace ThornWhip
             }
             return mat;
         }
-        private static string PartKey(int family, int index, int selected) =>
-            WeaponCatalog.Family(family).Key + "/P" + index.ToString("00") + "_V" + selected;
-        private static string SpecialKey(int family, int index) =>
-            WeaponCatalog.Family(family).Key + "/S" + index.ToString("00");
-        public static void DrawPreview(Rect target, WeaponBlueprint b)
+        private static string PartKey(int family, int index, int selected, bool order = false) =>
+            WeaponCatalog.Family(family).Key + "/P" + index.ToString("00") + "_V" + selected + (order ? "_Order" : "");
+        private static string SpecialKey(int family, int index, bool order = false) =>
+            WeaponCatalog.Family(family).Key + "/S" + index.ToString("00") + (order ? "_Order" : "");
+        // Access the 1.7 style via reflection to remain compatible with style helper
+        // changes across versions of RimWorld. Reflection is only used at draw time.
+        private static readonly PropertyInfo StyleProperty = typeof(Thing).GetProperty("StyleDef", BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+        private static bool IsOrderStyle(Thing thing)
+        {
+            if (thing == null) return false;
+            try
+            {
+                var style = StyleProperty?.GetValue(thing) as Def;
+                return style?.defName?.StartsWith("TC_Order_", StringComparison.Ordinal) == true;
+            }
+            catch (Exception) { return false; }
+        }
+        public static Rect ImageRect(Rect target)
+        {
+            float aspect = 1024f / 320f;
+            float width = Mathf.Min(target.width, target.height * aspect);
+            float height = width / aspect;
+            return new Rect(target.x + (target.width - width) / 2f,
+                target.y + (target.height - height) / 2f, width, height);
+        }
+        public static void DrawPreview(Rect target, WeaponBlueprint b, bool orderStyle = false)
         {
             if (b == null) return;
+            target = ImageRect(target); // never stretch rifle/handgun PNGs into a different aspect ratio
             Color previous = GUI.color;
             GUI.color = Color.white;
-            var chassis = Texture(WeaponCatalog.Family(b.FamilyId).Key + "/Chassis");
-            if (chassis != null) GUI.DrawTexture(target, chassis, ScaleMode.StretchToFill, true);
+            var chassis = Texture(WeaponCatalog.Family(b.FamilyId).Key + (orderStyle ? "/Chassis_Order" : "/Chassis"));
+            if (chassis != null) GUI.DrawTexture(target, chassis, ScaleMode.ScaleToFit, true);
             foreach (int i in DrawOrder)
             {
                 int option = b.SelectedPart(i);
                 if (option < 0) continue; // missing assembly is genuinely missing
-                var tex = Texture(PartKey(b.FamilyId, i, option));
+                var tex = Texture(PartKey(b.FamilyId, i, option, orderStyle));
                 if (tex == null) continue;
-                GUI.color = b.Material(i) == 1 ? new Color(.78f, .96f, 1f, 1f) : Color.white;
-                GUI.DrawTexture(target, tex, ScaleMode.StretchToFill, true);
+                GUI.color = b.Material(i) == 1 ? new Color(.90f, .92f, .95f, 1f) : Color.white;
+                Rect layerRect = target;
+                // The muzzle follows the configured barrel length instead of hovering
+                // at the original rifle's full-length position.
+                if (i == 13)
+                {
+                    float[] lengths = { .75f, 1.08f, .56f, 1.18f, 1.12f };
+                    int barrel = b.SelectedPart(2);
+                    if (barrel >= 0 && barrel < lengths.Length)
+                        layerRect.x += (lengths[barrel] - 1f) * 133f / 1024f * target.width;
+                }
+                GUI.DrawTexture(layerRect, tex, ScaleMode.ScaleToFit, true);
             }
             GUI.color = Color.white;
             for (int i = 0; i < 3; i++)
             {
                 int special = b.Extra(i);
                 if (special < 0) continue;
-                var tex = Texture(SpecialKey(b.FamilyId, special));
-                if (tex != null) GUI.DrawTexture(target, tex, ScaleMode.StretchToFill, true);
+                var tex = Texture(SpecialKey(b.FamilyId, special, orderStyle));
+                if (tex != null) GUI.DrawTexture(target, tex, ScaleMode.ScaleToFit, true);
             }
             GUI.color = previous;
         }
@@ -105,22 +138,20 @@ namespace ThornWhip
         {
             var b = thing?.TryGetComp<CompWeaponDesign>()?.Blueprint;
             if (b == null) return;
-            // Fallback image is based on CE's compact 0/1 mode/range/magazine Def trio.
-            // Each other selected 0..4 module is drawn in its real per-instance variant;
-            // only visible weapons trigger this render method, with no ticking or baking.
+            // Render the full chosen construction, not just differences over a prebaked rifle.
+            // This is invoked by render events, never every simulation tick.
             int layer = 0;
+            bool orderStyle = IsOrderStyle(thing);
             foreach (int i in DrawOrder)
             {
                 int variant = b.SelectedPart(i);
                 if (variant < 0) continue;
-                int baked = i == 0 || i == 2 || i == 9 ? b.CoreIndex(i) : 0;
-                if (variant == baked) continue;
-                DrawLayer(PartKey(b.FamilyId, i, variant), drawLoc, aimAngle, layer++, b.FamilyId);
+                DrawLayer(PartKey(b.FamilyId, i, variant, orderStyle), drawLoc, aimAngle, layer++, b.FamilyId);
             }
             for (int i = 0; i < 3; i++)
             {
                 int extra = b.Extra(i);
-                if (extra >= 0) DrawLayer(SpecialKey(b.FamilyId, extra), drawLoc, aimAngle, layer++, b.FamilyId);
+                if (extra >= 0) DrawLayer(SpecialKey(b.FamilyId, extra, orderStyle), drawLoc, aimAngle, layer++, b.FamilyId);
             }
         }
         private static void DrawLayer(string id, Vector3 pos, float angle, int depth, int family)

@@ -27,7 +27,7 @@ namespace ThornWhip
             yield return new Command_Action
             {
                 defaultLabel = "Конструктор оружия",
-                defaultDesc = "Выбрать оружейное семейство, 14 обязательных узлов × 5 вариантов, материалы и три универсальных слота (15 общих модулей).",
+                defaultDesc = "Выбрать оружейное семейство, 15 узлов (обязательные и необязательные) × 5 вариантов, материалы и три универсальных слота (15 общих модулей).",
                 action = () => Find.WindowStack.Add(new Dialog_WeaponDesign(parent as Building_WorkTable))
             };
         }

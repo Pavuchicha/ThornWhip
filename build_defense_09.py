@@ -53,7 +53,7 @@ GUNS={
 def emit_guns():
     root=E.Element('Defs')
     for name,(ammo,proj,ran,burst,mag,reload,spread,between,sway,cooldown) in GUNS.items():
-        gun=E.SubElement(root,'ThingDef',{'ParentName':'BaseGun_CE'})
+        gun=E.SubElement(root,'ThingDef',{'ParentName':'BaseGun'})
         sub(gun,'defName',name);sub(gun,'label',name.replace('TC_Gun_','').replace('_',' '))
         sub(gun,'description','Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.')
         sub(gun,'thingClass','ThingWithComps');sub(gun,'tradeability','None')
@@ -102,7 +102,7 @@ def emit_energy_ammo():
         base=E.SubElement(root,'ThingDef',{'Name':'TC_Ammo'+id+'Base','ParentName':'SmallAmmoBase','Abstract':'True'});sub(base,'description',spec['label']);stat=sub(base,'statBases');sub(stat,'Mass','.08');sub(stat,'Bulk','.08');sub(stat,'MarketValue','4.2');tags=sub(base,'tradeTags');sub(tags,'li','CE_AutoEnableTrade');categorylist=sub(base,'thingCategories');sub(categorylist,'li','TC_Ammo'+id);sub(base,'stackLimit',300)
         for suffix,bullet,dmg,pen in spec['items']:
             ab=E.SubElement(root,'ThingDef',{'ParentName':'TC_Ammo'+id+'Base'});sub(ab,'defName','TC_Ammo_'+id+'_'+suffix);sub(ab,'label',spec['label']+' '+suffix.lower());gd=sub(ab,'graphicData');sub(gd,'texPath','ThornCorps/Defense/Ammo_'+id);sub(gd,'graphicClass','Graphic_StackCount');sub(ab,'ammoClass','FullMetalJacket' if id=='Laser' else 'ArmorPiercing');sub(ab,'cookOffProjectile',bullet)
-            projectile=E.SubElement(root,'ThingDef',{'ParentName':'BaseBullet'});sub(projectile,'defName',bullet);sub(projectile,'label',id+' '+suffix);gd=sub(projectile,'graphicData');sub(gd,'texPath','ThornCorps/Defense/Projectile_'+id);sub(gd,'graphicClass','Graphic_Single');pj=E.SubElement(projectile,'projectile',{'Class':'CombatExtended.ProjectilePropertiesCE'});sub(pj,'damageDef','Burn' if id=='Laser' else 'Bullet');sub(pj,'speed',300 if id=='Laser' else 180);sub(pj,'damageAmountBase',dmg);sub(pj,'armorPenetration',pen)
+            projectile=E.SubElement(root,'ThingDef',{'ParentName':'BaseBullet'});sub(projectile,'defName',bullet);sub(projectile,'label',id+' '+suffix);gd=sub(projectile,'graphicData');sub(gd,'texPath','ThornCorps/Defense/Projectile_'+id);sub(gd,'graphicClass','Graphic_Single');pj=E.SubElement(projectile,'projectile',{'Class':'CombatExtended.ProjectilePropertiesCE'});sub(pj,'damageDef','Burn' if id=='Laser' else 'Bullet');sub(pj,'speed',300 if id=='Laser' else 180);sub(pj,'damageAmountBase',dmg);sub(pj,'armorPenetrationSharp',pen);sub(pj,'armorPenetrationBlunt',float(pen)*3)
             # Explicit fixed recipe avoids reliance on auto-register heuristics on CE 1.7.
             recipe=E.SubElement(root,'RecipeDef',{'ParentName':'AdvancedAmmoRecipeBase'});sub(recipe,'defName','TC_MakeAmmo_'+id+'_'+suffix);sub(recipe,'label','производить '+spec['label']+' ('+suffix+')');sub(recipe,'jobString','Сборка энергокассет...');ings=sub(recipe,'ingredients')
             for thing,n in [('Steel',spec['steel']),('Plasteel',spec['plas']),('ComponentIndustrial',spec['comps'])]:
@@ -123,7 +123,7 @@ def emit_rail_ammo():
     trade=sub(item,'tradeTags');sub(trade,'li','CE_AutoEnableTrade');sub(item,'stackLimit','100');sub(item,'ammoClass','ArmorPiercing');sub(item,'cookOffProjectile','TC_Slug_Rail30')
     projectile=E.SubElement(root,'ThingDef',{'ParentName':'BaseBullet'});sub(projectile,'defName','TC_Slug_Rail30');sub(projectile,'label','магнитный сердечник 30 мм')
     gd=sub(projectile,'graphicData');sub(gd,'texPath','ThornCorps/Defense/Projectile_Railgun');sub(gd,'graphicClass','Graphic_Single')
-    proj=E.SubElement(projectile,'projectile',{'Class':'CombatExtended.ProjectilePropertiesCE'});sub(proj,'damageDef','Bullet');sub(proj,'speed',320);sub(proj,'damageAmountBase',52);sub(proj,'armorPenetration',38)
+    proj=E.SubElement(projectile,'projectile',{'Class':'CombatExtended.ProjectilePropertiesCE'});sub(proj,'damageDef','Bullet');sub(proj,'speed',320);sub(proj,'damageAmountBase',52);sub(proj,'armorPenetrationSharp',38);sub(proj,'armorPenetrationBlunt',114)
     r=E.SubElement(root,'RecipeDef',{'ParentName':'AdvancedAmmoRecipeBase'});sub(r,'defName','TC_MakeAmmo_Rail30');sub(r,'label','изготовить 30-мм сердечники');sub(r,'jobString','Точение сердечников...')
     ingredients=sub(r,'ingredients')
     for thing,qty in [('Steel',70),('Uranium',8),('ComponentIndustrial',2)]:
@@ -156,7 +156,7 @@ def emit_rocket_ammo():
             gd=sub(projectile,'graphicData');sub(gd,'texPath','ThornCorps/Defense/Projectile_'+family);sub(gd,'graphicClass','Graphic_Single')
             px=E.SubElement(projectile,'projectile',{'Class':'CombatExtended.ProjectilePropertiesCE'})
             sub(px,'speed',72 if family=='ATGM' else 42);sub(px,'damageDef','Bomb');sub(px,'damageAmountBase',damage)
-            sub(px,'explosionRadius',radius);sub(px,'armorPenetration',ap);sub(px,'soundExplode','MortarBomb_Explode')
+            sub(px,'explosionRadius',radius);sub(px,'armorPenetrationSharp',ap);sub(px,'armorPenetrationBlunt',float(ap)*3);sub(px,'soundExplode','MortarBomb_Explode')
             sub(px,'applyDamageToExplosionCellsNeighbors','true')
             r=E.SubElement(root,'RecipeDef',{'ParentName':'AdvancedAmmoRecipeBase'});sub(r,'defName','TC_MakeAmmo_'+family+'_'+suffix);sub(r,'label','собрать '+label+' ('+suffix+')');sub(r,'jobString','Изготовление ракет Терна...')
             ings=sub(r,'ingredients')

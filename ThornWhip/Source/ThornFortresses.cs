@@ -42,11 +42,35 @@ namespace ThornWhip
                 map.Biome?.defName=="Space" || map.Parent?.def?.defName?.Contains("Space")==true;
             int width=Math.Min(orbital?42:66,map.Size.x-18),height=Math.Min(orbital?34:54,map.Size.z-18);
             if(width<22 || height<18)return;
-            IntVec3 mid=map.Center;
+            // Build a complete industrial wing on a contiguous empty plot instead of
+            // scribbling independent wall segments over an already-generated settlement.
+            IntVec3 mid=FindFortressPlot(map,width,height,orbital);
+            if(!mid.IsValid)
+            {
+                Log.Warning("[ThornCorps] no safe plot for a coherent industrial fortress annex; vanilla base left untouched");
+                return;
+            }
             int west=mid.x-width/2,east=mid.x+width/2,south=mid.z-height/2,north=mid.z+height/2;
             ThingDef wall=DefDatabase<ThingDef>.GetNamedSilentFail("TC_Fort_ReinforcedWall") ?? DefDatabase<ThingDef>.GetNamedSilentFail("Wall");
             if(wall==null)return;
             ThingDef stuff=DefDatabase<ThingDef>.GetNamedSilentFail(orbital?"Plasteel":"Steel") ?? ThingDefOf.Steel;
+            // A coherent defensive perimeter must not become random red bars across
+            // vanilla base buildings. Choose an empty perimeter or leave vanilla intact.
+            bool ringClear = true;
+            for (int t=0;t<2 && ringClear;t++)
+            {
+                for(int x=west+t;x<=east-t;x++)
+                    if(Math.Abs(x-mid.x)>3 && (!Clear(map,new IntVec3(x,0,south+t),orbital) || !Clear(map,new IntVec3(x,0,north-t),orbital)))
+                    {ringClear=false;break;}
+                for(int z=south+t;z<=north-t && ringClear;z++)
+                    if(Math.Abs(z-mid.z)>3 && (!Clear(map,new IntVec3(west+t,0,z),orbital) || !Clear(map,new IntVec3(east-t,0,z),orbital)))
+                    {ringClear=false;break;}
+            }
+            if(!ringClear)
+            {
+                Log.Warning("[ThornCorps] coherent fortress perimeter unavailable on this generated map; skipping fragmented ring");
+                return;
+            }
             for(int t=0;t<2;t++)
             {
                 for(int x=west+t;x<=east-t;x++)
@@ -84,6 +108,45 @@ namespace ThornWhip
             PlantWorkshop(map,new IntVec3(mid.x-sz,0,mid.z+10),wall,stuff,orbital,"ElectricSmelter");
             InstallDefenseLine(map,mid,width,height,orbital);
 
+        }
+        private static IntVec3 FindFortressPlot(Map map,int width,int height,bool orbital)
+        {
+            // Off-center wings are favored so existing vanilla faction halls survive.
+            // Work runs once at map-generation, not each tick.
+            var center=map.Center;
+            int[][] offsets = {
+                new[]{width+6,0},new[]{-width-6,0},new[]{0,height+6},new[]{0,-height-6},
+                new[]{width/2+13,height/2+13},new[]{-width/2-13,height/2+13},
+                new[]{width/2+13,-height/2-13},new[]{-width/2-13,-height/2-13},
+                new[]{0,0}
+            };
+            foreach(var off in offsets)
+            {
+                IntVec3 spot=new IntVec3(center.x+off[0],0,center.z+off[1]);
+                bool clear=true;
+                for(int t=0;t<2 && clear;t++)
+                {
+                    for(int x=spot.x-width/2+t;x<=spot.x+width/2-t && clear;x++)
+                    {
+                        if(System.Math.Abs(x-spot.x)<=3)continue;
+                        clear=Clear(map,new IntVec3(x,0,spot.z-height/2+t),orbital) &&
+                            Clear(map,new IntVec3(x,0,spot.z+height/2-t),orbital);
+                    }
+                    for(int z=spot.z-height/2+t;z<=spot.z+height/2-t && clear;z++)
+                    {
+                        if(System.Math.Abs(z-spot.z)<=3)continue;
+                        clear=Clear(map,new IntVec3(spot.x-width/2+t,0,z),orbital) &&
+                            Clear(map,new IntVec3(spot.x+width/2-t,0,z),orbital);
+                    }
+                }
+                if(!clear)continue;
+                int sz=orbital?10:14;
+                foreach(var test in new[]{new IntVec3(spot.x-sz,0,spot.z-10),new IntVec3(spot.x+sz,0,spot.z+10),
+                      new IntVec3(spot.x+sz,0,spot.z-10),new IntVec3(spot.x-sz,0,spot.z+10)})
+                    if(!Clear(map,test,orbital))clear=false;
+                if(clear)return spot;
+            }
+            return IntVec3.Invalid;
         }
         private static bool Clear(Map map,IntVec3 cell,bool orbit)
         {
@@ -203,6 +266,18 @@ namespace ThornWhip
                 // 3-wide opening to avoid trapping the defending garrison.
                 if(dz==-halfZ && Math.Abs(dx)<=1)continue;
                 TryWall(map,new IntVec3(centre.x+dx,0,centre.z+dz),wall,stuff,orbit);
+            }
+            if(!orbit)
+            {
+                var factoryFloor=DefDatabase<TerrainDef>.GetNamedSilentFail("Concrete");
+                if(factoryFloor!=null)
+                    for(int dx=-halfX+1;dx<halfX;dx++)
+                    for(int dz=-halfZ+1;dz<halfZ;dz++)
+                    {
+                        var c=new IntVec3(centre.x+dx,0,centre.z+dz);
+                        if(Clear(map,c,false) || (dx==0 && dz==0))
+                            map.terrainGrid.SetTerrain(c,factoryFloor);
+                    }
             }
             var bench=DefDatabase<ThingDef>.GetNamedSilentFail(benchName);
             var pos=new IntVec3(centre.x,0,centre.z);

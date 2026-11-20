@@ -4,6 +4,7 @@
     <defName>TC_StyleCorps</defName>
     <label>Корпус Терна</label>
     <description>Чёрные броневые панели, красная индустриальная разметка.</description>
+    <iconPath>UI/StyleCategories/TC_Corps</iconPath>
     <thingDefStyles>
       <li>
         <thingDef>TC_Turret_Holder</thingDef>
@@ -715,7 +716,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B0_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -723,7 +724,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B0_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -731,7 +732,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B1_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -739,7 +740,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B1_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -747,7 +748,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B0_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -755,7 +756,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B0_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -763,7 +764,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B1_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -771,7 +772,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B1_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -779,7 +780,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B0_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -787,7 +788,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B0_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -795,7 +796,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B1_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -803,7 +804,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B1_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -811,7 +812,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B0_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -819,7 +820,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B0_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -827,7 +828,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B1_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -835,7 +836,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B1_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -843,7 +844,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R0_B0_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -851,7 +852,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R0_B0_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -859,7 +860,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R0_B1_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -867,7 +868,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R0_B1_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -875,7 +876,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R1_B0_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -883,7 +884,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R1_B0_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -891,7 +892,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R1_B1_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -899,7 +900,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R1_B1_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -907,7 +908,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Launcher_R0_B0_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -915,7 +916,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Launcher_R0_B0_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -923,7 +924,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Launcher_R0_B1_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -931,7 +932,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Launcher_R0_B1_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -939,7 +940,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Launcher_R1_B0_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -947,7 +948,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Launcher_R1_B0_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -955,7 +956,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Launcher_R1_B1_M0</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -963,7 +964,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Launcher_R1_B1_M1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Launcher_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -971,7 +972,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B0_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -979,7 +980,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B0_M0_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -987,7 +988,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B0_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -995,7 +996,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B0_M1_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1003,7 +1004,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B1_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1011,7 +1012,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B1_M0_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1019,7 +1020,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B1_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1027,7 +1028,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R0_B1_M1_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1035,7 +1036,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B0_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1043,7 +1044,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B0_M0_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1051,7 +1052,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B0_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1059,7 +1060,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B0_M1_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1067,7 +1068,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B1_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1075,7 +1076,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B1_M0_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1083,7 +1084,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B1_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1091,7 +1092,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Rifle_R1_B1_M1_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Rifle_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1099,7 +1100,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B0_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1107,7 +1108,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B0_M0_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1115,7 +1116,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B0_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1123,7 +1124,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B0_M1_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1131,7 +1132,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B1_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1139,7 +1140,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B1_M0_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1147,7 +1148,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B1_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1155,7 +1156,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R0_B1_M1_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1163,7 +1164,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B0_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1171,7 +1172,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B0_M0_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1179,7 +1180,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B0_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1187,7 +1188,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B0_M1_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1195,7 +1196,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B1_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1203,7 +1204,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B1_M0_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1211,7 +1212,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B1_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1219,7 +1220,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Auto_R1_B1_M1_C2</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Auto_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -1227,7 +1228,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R0_B0_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1235,7 +1236,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R0_B0_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1243,7 +1244,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R0_B1_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1251,7 +1252,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R0_B1_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1259,7 +1260,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R1_B0_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1267,7 +1268,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R1_B0_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1275,7 +1276,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R1_B1_M0_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1283,7 +1284,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Corps_TT_Pistol_R1_B1_M1_C1</defName>
     <graphicData>
-      <texPath>Things/Weapons/TW_Pistol_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -1373,6 +1374,7 @@
     <defName>TC_StyleOrder</defName>
     <label>Орден Терна</label>
     <description>Белые броневые панели, красная церемониальная разметка.</description>
+    <iconPath>UI/StyleCategories/TC_Order</iconPath>
     <thingDefStyles>
       <li>
         <thingDef>TC_Turret_Holder</thingDef>
@@ -2084,7 +2086,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B0_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2092,7 +2094,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B0_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2100,7 +2102,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B1_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2108,7 +2110,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B1_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2116,7 +2118,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B0_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2124,7 +2126,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B0_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2132,7 +2134,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B1_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2140,7 +2142,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B1_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2148,7 +2150,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B0_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2156,7 +2158,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B0_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2164,7 +2166,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B1_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2172,7 +2174,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B1_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2180,7 +2182,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B0_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2188,7 +2190,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B0_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2196,7 +2198,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B1_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2204,7 +2206,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B1_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2212,7 +2214,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R0_B0_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2220,7 +2222,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R0_B0_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2228,7 +2230,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R0_B1_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2236,7 +2238,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R0_B1_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2244,7 +2246,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R1_B0_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2252,7 +2254,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R1_B0_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2260,7 +2262,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R1_B1_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2268,7 +2270,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R1_B1_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2276,7 +2278,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Launcher_R0_B0_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Launcher_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2284,7 +2286,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Launcher_R0_B0_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Launcher_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2292,7 +2294,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Launcher_R0_B1_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Launcher_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2300,7 +2302,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Launcher_R0_B1_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Launcher_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2308,7 +2310,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Launcher_R1_B0_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Launcher_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2316,7 +2318,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Launcher_R1_B0_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Launcher_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2324,7 +2326,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Launcher_R1_B1_M0</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Launcher_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2332,7 +2334,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Launcher_R1_B1_M1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Launcher_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Launcher/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2340,7 +2342,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B0_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2348,7 +2350,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B0_M0_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2356,7 +2358,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B0_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2364,7 +2366,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B0_M1_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2372,7 +2374,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B1_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2380,7 +2382,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B1_M0_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2388,7 +2390,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B1_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2396,7 +2398,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R0_B1_M1_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2404,7 +2406,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B0_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2412,7 +2414,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B0_M0_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2420,7 +2422,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B0_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2428,7 +2430,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B0_M1_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2436,7 +2438,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B1_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2444,7 +2446,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B1_M0_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2452,7 +2454,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B1_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2460,7 +2462,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Rifle_R1_B1_M1_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Rifle_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Rifle/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2468,7 +2470,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B0_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2476,7 +2478,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B0_M0_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2484,7 +2486,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B0_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2492,7 +2494,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B0_M1_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2500,7 +2502,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B1_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2508,7 +2510,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B1_M0_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2516,7 +2518,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B1_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2524,7 +2526,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R0_B1_M1_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2532,7 +2534,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B0_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2540,7 +2542,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B0_M0_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2548,7 +2550,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B0_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2556,7 +2558,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B0_M1_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2564,7 +2566,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B1_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2572,7 +2574,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B1_M0_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2580,7 +2582,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B1_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2588,7 +2590,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Auto_R1_B1_M1_C2</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Auto_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Auto/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.58,0.50)</drawSize>
     </graphicData>
@@ -2596,7 +2598,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R0_B0_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R0B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2604,7 +2606,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R0_B0_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R0B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2612,7 +2614,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R0_B1_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R0B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2620,7 +2622,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R0_B1_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R0B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2628,7 +2630,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R1_B0_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R1B0M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2636,7 +2638,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R1_B0_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R1B0M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2644,7 +2646,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R1_B1_M0_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R1B1M0</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>
@@ -2652,7 +2654,7 @@
   <ThingStyleDef MayRequire="Ludeon.RimWorld.Ideology">
     <defName>TC_Order_TT_Pistol_R1_B1_M1_C1</defName>
     <graphicData>
-      <texPath>ThornCorps/StyleOrder/Things/Weapons/TW_Pistol_R1B1M1</texPath>
+      <texPath>ThornWhip/Parts/Pistol/Chassis_Order</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.92,0.46)</drawSize>
     </graphicData>

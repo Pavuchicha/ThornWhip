@@ -86,6 +86,7 @@ namespace ThornWhip
         }
         public override IEnumerable<Gizmo> CompGetGizmosExtra()
         {
+            if (parent.Faction != Faction.OfPlayer) yield break;
             foreach (var original in base.CompGetGizmosExtra()) yield return original;
             yield return new Command_Action
             {
@@ -112,7 +113,7 @@ namespace ThornWhip
         public override IEnumerable<FloatMenuOption> CompFloatMenuOptions(Pawn selPawn)
         {
             foreach (var option in base.CompFloatMenuOptions(selPawn)) yield return option;
-            if (selPawn == null || selPawn.Faction != parent.Faction) yield break;
+            if (selPawn == null || selPawn.Faction != Faction.OfPlayer || parent.Faction != Faction.OfPlayer) yield break;
             yield return new FloatMenuOption("Корпус Терна: изменить турель", OpenRetrofit);
             if (Family == "Holder" && selPawn.equipment?.Primary != null)
             {
@@ -145,7 +146,7 @@ namespace ThornWhip
         }
         public bool Request(ThingDef next)
         {
-            if (!parent.Spawned || next == null || next == parent.def || next.building?.turretGunDef == null) return false;
+            if (!parent.Spawned || parent.Faction != Faction.OfPlayer || next == null || next == parent.def || next.building?.turretGunDef == null) return false;
             if (!UpgradeChoices().Contains(next) || !CanFit(next)) return false;
             Cancel(); targetDef = next.defName;
             var current = parent.def.building?.turretGunDef;
@@ -227,7 +228,7 @@ namespace ThornWhip
         }
         public bool QueueMount(Pawn pawn, ThingWithComps weapon)
         {
-            if (pawn == null || weapon == null || Family != "Holder" || !parent.Spawned || pawn.Faction != parent.Faction) return false;
+            if (pawn == null || weapon == null || Family != "Holder" || !parent.Spawned || pawn.Faction != Faction.OfPlayer || parent.Faction != Faction.OfPlayer) return false;
             // No weapon deletion: the actual pawn-held weapon is transferred to a ThingOwner by an explicit job.
             JobDef def=DefDatabase<JobDef>.GetNamedSilentFail("TC_MountWeapon");if(def==null)return false;
             pawn.jobs.TryTakeOrderedJob(JobMaker.MakeJob(def,parent));return true;
@@ -350,11 +351,25 @@ namespace ThornWhip
         {
             var type=AccessTools.TypeByName("CombatExtended.Building_TurretGunCE");
             if(type==null)return;
+            // CE may expose a forced-target gizmo even on a hostile turret.
+            // Only our hostile installations have those command gizmos suppressed.
+            try
+            {
+                var gizmos=AccessTools.Method(type,"GetGizmos");
+                if(gizmos!=null) h.Patch(gizmos,
+                    postfix:new HarmonyMethod(typeof(ThornTurretCombatGate),nameof(FilterHostileGizmos)));
+            }
+            catch(Exception ex){Log.Warning("[ThornCorps] hostile gizmo safety gate unavailable: "+ex.Message);}
             foreach(string n in new[]{"TryStartShootSomething","BeginBurst"})
             {
                 try {var method=AccessTools.Method(type,n);if(method!=null)h.Patch(method,prefix:new HarmonyMethod(typeof(ThornTurretCombatGate),nameof(Gate)));}
                 catch(Exception ex){Log.Warning("[ThornCorps] CE turret gate not patched ("+n+"): "+ex.Message);}
             }
+        }
+        public static void FilterHostileGizmos(Thing __instance, ref IEnumerable<Gizmo> __result)
+        {
+            if(__instance?.def?.defName?.StartsWith("TC_Turret_",StringComparison.Ordinal)!=true)return;
+            if(__instance.Faction != Faction.OfPlayer) __result = Enumerable.Empty<Gizmo>();
         }
         public static bool Gate(Thing __instance)
         {

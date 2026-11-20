@@ -1,4 +1,4 @@
-name: Build Thorn Corps 0.10 (audited) for RimWorld 1.7
+name: Build Thorn Corps 0.11 (field test) for RimWorld 1.7
 on:
   workflow_dispatch:
   push:
@@ -32,12 +32,16 @@ jobs:
         id: graphics
         continue-on-error: true
         run: python tests_visuals_10.py
+      - name: Validate 0.11 runtime contracts and authored graphic layers
+        id: test011
+        continue-on-error: true
+        run: python tests_runtime_contract_011.py
       - name: Resolve RimWorld 1.7 references
         run: dotnet restore ThornWhip/Source/ThornWhip.csproj
       - name: Compile the entire C# mod
         run: dotnet build ThornWhip/Source/ThornWhip.csproj -c Release --no-restore
       - name: Enforce complete static checks before creating an installable ZIP
-        if: steps.audit.outcome == 'failure' || steps.static.outcome == 'failure' || steps.graphics.outcome == 'failure'
+        if: steps.audit.outcome == 'failure' || steps.static.outcome == 'failure' || steps.graphics.outcome == 'failure' || steps.test011.outcome == 'failure'
         run: |
           echo 'At least one structural validation failed. Compilation ran independently for full diagnostics.'
           exit 1
@@ -48,9 +52,9 @@ jobs:
           mkdir -p _release/ThornWhip
           cp -a ThornWhip/About ThornWhip/Defs ThornWhip/Textures ThornWhip/1.7 ThornWhip/LoadFolders.xml _release/ThornWhip/
           cd _release
-          zip -qr ../ThornCorps_CE_Constructor_0.10_AUDIT_INSTALL.zip ThornWhip
+          zip -qr ../ThornCorps_CE_0.11_TEST_INSTALL.zip ThornWhip
       - uses: actions/upload-artifact@v4
         with:
-          name: ThornCorps-CE-Constructor-AUDITED
-          path: ThornCorps_CE_Constructor_0.10_AUDIT_INSTALL.zip
+          name: ThornCorps-CE-0.11-TEST
+          path: ThornCorps_CE_0.11_TEST_INSTALL.zip
           if-no-files-found: error

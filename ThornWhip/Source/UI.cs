@@ -60,13 +60,13 @@ namespace ThornWhip
         {
             if (o == null) return "";
             var list = new List<string>();
-            if (o.Sights != 0) list.Add($"CE прицел: {o.Sights:+0.000;-0.000}");
-            if (o.Spread != 0) list.Add($"Разброс: {o.Spread:+0.000;-0.000}");
-            if (o.Sway != 0) list.Add($"Колебание: {o.Sway:+0.000;-0.000}");
-            if (o.Recoil != 0) list.Add($"Отдача: {o.Recoil:+0.000;-0.000}");
-            if (o.Warmup != 0) list.Add($"Подготовка: {o.Warmup:+0.000;-0.000}");
-            if (o.Reload != 0) list.Add($"Перезарядка: {o.Reload:+0.000;-0.000}");
-            if (o.Cooldown != 0) list.Add($"Перерыв: {o.Cooldown:+0.000;-0.000}");
+            if (o.Sights != 0) list.Add($"CE эффективность прицела: {o.Sights:+0.000;-0.000} (+ лучше)");
+            if (o.Spread != 0) list.Add($"Угловой разброс: {o.Spread:+0.000;-0.000} (− точнее)");
+            if (o.Sway != 0) list.Add($"Колебание при наведении: {o.Sway:+0.000;-0.000} (− лучше)");
+            if (o.Recoil != 0) list.Add($"Отдача: {o.Recoil*100:+0.0;-0.0}% (− лучше)");
+            if (o.Warmup != 0) list.Add($"Прицеливание: {o.Warmup*100:+0.0;-0.0}% времени (− быстрее)");
+            if (o.Reload != 0) list.Add($"Перезарядка: {o.Reload*100:+0.0;-0.0}% времени (− быстрее)");
+            if (o.Cooldown != 0) list.Add($"Перерыв: {o.Cooldown*100:+0.0;-0.0}% базовой паузы (− быстрее)");
             if (o.Mass != 0) list.Add($"Масса: {o.Mass:+0.00;-0.00}");
             if (o.Bulk != 0) list.Add($"Габарит: {o.Bulk:+0.00;-0.00}");
             if (o.NightVision != 0) list.Add($"Ночное зрение: {o.NightVision:+0.000;-0.000}");
@@ -80,6 +80,7 @@ namespace ThornWhip
         private readonly Building_WorkTable bench;
         private readonly WeaponBlueprint design;
         private int selectedPart = 0;
+        private bool previewOrderStyle;
         private int qualityIndex = 2;
         private int showKind = 0; // 0=part, 1=extra
         private int selectedSpecialSlot = 0;
@@ -145,10 +146,12 @@ namespace ThornWhip
             // Technical preview / layers.
             Rect viewport = new Rect(13, 151, leftWidth, 202);
             DesignerUI.Panel(viewport, DesignerUI.Pane);
-            DesignerUI.Txt(new Rect(viewport.x + 16, viewport.y + 11, viewport.width - 28, 22),
-                "КОНСТРУКТОР  /  ИНЖЕНЕРНАЯ ПРОЕКЦИЯ  /  НАЖМИ НА ДЕТАЛЬ", DesignerUI.Accent);
-            Rect weaponRect = new Rect(viewport.x + 11, viewport.y + 36, viewport.width - 22, 153);
-            WeaponVisuals.DrawPreview(weaponRect, design);
+            DesignerUI.Txt(new Rect(viewport.x + 16, viewport.y + 11, viewport.width - 191, 22),
+                "КОНСТРУКТОР  /  НАЖМИ НА ДЕТАЛЬ", DesignerUI.Accent);
+            if (DesignerUI.Action(new Rect(viewport.xMax - 160f, viewport.y + 5f, 148f, 26f),
+                previewOrderStyle ? "СТИЛЬ: ОРДЕН" : "СТИЛЬ: КОРПУС")) previewOrderStyle = !previewOrderStyle;
+            Rect weaponRect = WeaponVisuals.ImageRect(new Rect(viewport.x + 11, viewport.y + 36, viewport.width - 22, 153));
+            WeaponVisuals.DrawPreview(weaponRect, design, previewOrderStyle);
             var hotspots = WeaponVisuals.HotspotsFor(design);
             for (int i = 0; i < hotspots.Length; i++)
             {
@@ -204,8 +207,7 @@ namespace ThornWhip
                 "МАТЕРИАЛЫ: " + DesignerUI.Materials(design), DesignerUI.Muted);
             DesignerUI.Txt(new Rect(268, foot.y + 34, r.width - 621, 24),
                 design.MissingCount > 0 ? "Не хватает обязательных узлов: " + design.MissingCount :
-                design.IsValid ? "ПРОЕКТ ГОТОВ К РАЗРАБОТКЕ" :
-                (!WeaponCalibers.Compatible(design) ? WeaponCalibers.Problem(design) : "ОШИБКА: ПОВТОР ОДНОЙ МОДИФИКАЦИИ"),
+                design.IsValid ? "ПРОЕКТ ГОТОВ К РАЗРАБОТКЕ" : design.ValidationProblem,
                 design.IsValid ? DesignerUI.Accent : DesignerUI.Brass);
             if (DesignerUI.Action(new Rect(r.width - 335, foot.y + 11, 308, 47), "НАЧАТЬ РАЗРАБОТКУ  ›", design.IsValid))
                 EnqueueResearch();
@@ -216,15 +218,15 @@ namespace ThornWhip
             Widgets.DrawBoxSolid(r, selected ? new Color(.15f, .35f, .35f, 1f) : DesignerUI.Card);
             string label = WeaponCatalog.RequiredFor(design)[id].Label + (WeaponCatalog.RequiredFor(design)[id].Required ? " *" : "");
             int selectedId = design.SelectedPart(id);
-            if (DesignerUI.Action(new Rect(r.x + 3, r.y + 3, r.width * .43f, r.height - 6),
+            if (DesignerUI.Action(new Rect(r.x + 3, r.y + 3, r.width * .385f, r.height - 6),
                 (id + 1).ToString("00") + "  " + label, selected))
             { selectedPart = id; showKind = 0; }
             var opts = WeaponCatalog.RequiredFor(design)[id].Options;
             string selectedName = selectedId >= 0 ? (selectedId + 1) + "/" + opts.Length + "  " + opts[selectedId].Name : "УСТАНОВИТЬ  ▾";
-            if (DesignerUI.Action(new Rect(r.x + r.width * .44f, r.y + 3, r.width * .40f, r.height - 6), selectedName, selectedId >= 0))
+            if (DesignerUI.Action(new Rect(r.x + r.width * .40f, r.y + 3, r.width * .36f, r.height - 6), selectedName, selectedId >= 0))
             { selectedPart = id; showKind = 0; ShowPartMenu(id); }
-            if (DesignerUI.Action(new Rect(r.x + r.width * .85f, r.y + 3, r.width * .145f, r.height - 6),
-                design.Material(id) == 1 ? "ПЛ" : "СТ"))
+            if (DesignerUI.Action(new Rect(r.x + r.width * .775f, r.y + 3, r.width * .22f, r.height - 6),
+                design.Material(id) == 1 ? "ПЛАСТАЛЬ" : "СТАЛЬ"))
             { design.Materials[id] = 1 - design.Material(id); selectedPart = id; showKind = 0; }
         }
         private void ShowPartMenu(int index)
@@ -244,7 +246,7 @@ namespace ThornWhip
         private void DrawRightInfo(Rect r)
         {
             Rect body = new Rect(r.x, r.y, r.width, r.height);
-            Rect canvas = new Rect(0, 0, r.width - 18f, 920f);
+            Rect canvas = new Rect(0, 0, r.width - 18f, 1650f);
             Widgets.BeginScrollView(body, ref rightInfoScroll, canvas);
             r = canvas;
             DesignerUI.Txt(new Rect(r.x, r.y, r.width, 28), "ДАННЫЕ COMBAT EXTENDED", DesignerUI.Accent, GameFont.Medium);
@@ -252,7 +254,11 @@ namespace ThornWhip
             string[] lines = DesignerUI.Stats(design, qualities[qualityIndex]).Split('\n');
             foreach (string line in lines)
             { DesignerUI.Txt(new Rect(r.x + 2, infoY, r.width - 6, 32), line, DesignerUI.White); infoY += 40; }
-            infoY += 5;
+            infoY += 8;
+            DesignerUI.Txt(new Rect(r.x + 2, infoY, r.width - 6, 76),
+                "×1.00 = без изменения; ×0.90 = на 10% быстрее. Пауза указана в СЕКУНДАХ. Меньшие разброс, отдача и колебание — лучше. Результат зависит от патрона CE и стрелка.",
+                DesignerUI.Muted);
+            infoY += 84;
             Widgets.DrawLineHorizontal(r.x, infoY, r.width);
             infoY += 14;
             if (showKind == 0)
@@ -268,9 +274,9 @@ namespace ThornWhip
                         (v + 1) + " / " + slot.Options.Length + " · " + slot.Options[v].Name,
                         design.SelectedPart(selectedPart) == v ? DesignerUI.Accent : DesignerUI.White);
                     infoY += 25;
-                    DesignerUI.Txt(new Rect(r.x + 8, infoY, r.width - 15, 45),
-                        WeaponCosts.Display(slot.Options[v]) + "\n" + DesignerUI.Effects(slot.Options[v]).Replace("\n", " · "), DesignerUI.Muted);
-                    infoY += 48;
+                    DesignerUI.Txt(new Rect(r.x + 8, infoY, r.width - 15, 105),
+                        WeaponCosts.Display(slot.Options[v]) + "\n" + DesignerUI.Effects(slot.Options[v]), DesignerUI.Muted);
+                    infoY += 110;
                 }
             }
             else
@@ -304,13 +310,13 @@ namespace ThornWhip
                 if (taken) continue;
                 int id = j;
                 var sp = WeaponCatalog.Specials[id];
-                opts.Add(new FloatMenuOption(sp.Target + " / " + sp.Name + "  [" + WeaponCosts.Display(sp.Effects) + "]", () => design.Special[index] = id));
+                opts.Add(new FloatMenuOption(sp.Target + " / " + sp.Name + " | " + DesignerUI.Effects(sp.Effects).Split('\n')[0] + "  [" + WeaponCosts.Display(sp.Effects) + "]", () => { design.Special[index] = id; showKind = 1; selectedSpecialSlot = index; }));
             }
             Find.WindowStack.Add(new FloatMenu(opts));
         }
         private void EnqueueResearch()
         {
-            if (!design.IsValid) { Messages.Message("Заполни обязательные узлы и устрани повторы", MessageTypeDefOf.RejectInput, false); return; }
+            if (!design.IsValid) { Messages.Message(design.ValidationProblem, MessageTypeDefOf.RejectInput, false); return; }
             RecipeDef recipe = DefDatabase<RecipeDef>.GetNamedSilentFail("TT_DevelopDesign");
             if (recipe == null || bench?.billStack == null) { Messages.Message("Стол разработки недоступен", MessageTypeDefOf.RejectInput, false); return; }
             bench.billStack.AddBill(new Bill_WeaponResearch(recipe, design));

@@ -30,7 +30,24 @@ namespace ThornWhip
         {
             get { for (int i = 0; i < 3; i++) for (int j = i + 1; j < 3; j++) if (Extra(i) >= 0 && Extra(i) == Extra(j)) return true; return false; }
         }
-        public bool IsValid => MissingCount == 0 && !HasDuplicateSpecials && WeaponCalibers.Compatible(this);
+        public string ValidationProblem
+        {
+            get
+            {
+                if (MissingCount > 0)
+                {
+                    var missing = new List<string>();
+                    var slots = WeaponCatalog.RequiredFor(this);
+                    for (int i = 0; i < slots.Length; i++)
+                        if (slots[i].Required && SelectedPart(i) < 0) missing.Add(slots[i].Label);
+                    return "Не установлены: " + string.Join(", ", missing);
+                }
+                if (HasDuplicateSpecials) return "Нельзя повторять одну и ту же уникальную модификацию.";
+                if (!WeaponCalibers.Compatible(this)) return WeaponCalibers.Problem(this);
+                return "";
+            }
+        }
+        public bool IsValid => string.IsNullOrEmpty(ValidationProblem);
         public WeaponBlueprint Copy() => new WeaponBlueprint { Title = Title, Identifier = Identifier, FamilyId = FamilyId, CaliberId = CaliberId,
             Parts = new List<int>(Parts), Materials = new List<int>(Materials), Special = new List<int>(Special) };
         public static WeaponBlueprint BasicFor(ThingDef def)

@@ -15,7 +15,6 @@
       <drawSize>(2,1)</drawSize>
     </graphicData>
     <costList>
-      <Steel>95</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <researchPrerequisites>
@@ -36,6 +35,10 @@
       <li Class="CompProperties_Styleable" />
     </comps>
     <rotatable>true</rotatable>
+    <costStuffCount>95</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
   </ThingDef>
   <ThingDef ParentName="BenchBase">
     <defName>TT_FactoryTable</defName>
@@ -52,7 +55,6 @@
       <drawSize>(2,1)</drawSize>
     </graphicData>
     <costList>
-      <Steel>120</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <researchPrerequisites>
@@ -152,5 +154,9 @@
       <li Class="CompProperties_Styleable" />
     </comps>
     <rotatable>true</rotatable>
+    <costStuffCount>120</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
   </ThingDef>
 </Defs>

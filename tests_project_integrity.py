@@ -52,6 +52,23 @@ for fn,doc in xml.items():
         if elt.tag in ('driverClass','giverClass','thingClass') and elt.text and elt.text.strip().startswith('ThornWhip.'):
             cl=elt.text.strip().split('.')[-1]
             if cl not in classes:errors.append(f'{fn}: references missing C# class {cl}')
+# CE compatibility checks based on current CE projectile schema. These catch our previous
+# missing-parent cascade without trying to replicate the entire RimWorld XML loader.
+for fn,doc in xml.items():
+    for node in doc:
+        if node.get('ParentName')=='BaseGun_CE':
+            errors.append(f'{fn}: removed/absent CE parent BaseGun_CE (use BaseGun)')
+        projectile=node.find('projectile')
+        if projectile is not None and projectile.get('Class')=='CombatExtended.ProjectilePropertiesCE':
+            if projectile.find('armorPenetration') is not None:
+                errors.append(f'{fn}: legacy CE projectile armorPenetration field')
+            if projectile.find('armorPenetrationSharp') is None or projectile.find('armorPenetrationBlunt') is None:
+                if node.findtext('defName','').startswith('TC_'):
+                    errors.append(f'{fn}: Thorn CE projectile missing sharp/blunt armor penetration: {node.findtext("defName")}')
+# Guard the generator too: generated XML must not reintroduce old CE tags.
+generator=(root/'build_defense_09.py').read_text(encoding='utf-8')
+if "BaseGun_CE" in generator or re.search(r"'armorPenetration'\s*,", generator):
+    errors.append('build_defense_09.py would regenerate absent CE parent or legacy penetration XML')
 # Critical known RimWorld 1.7 compile issues & free crafted-item exploit
 for filename in ('ThornMoats.cs','TurretRetrofits.cs'):
     if 'override void PostDeSpawn(' in (source/filename).read_text():errors.append(f'{filename} invalid 1.7 PostDeSpawn override')

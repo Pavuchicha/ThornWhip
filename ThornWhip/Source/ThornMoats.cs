@@ -44,8 +44,9 @@ namespace ThornWhip
         public void SetFlooded(bool value)
         {
             if(value==flooded || !parent.Spawned)return;
-            flooded=value;
             var map=parent.Map;
+            if(map==null)return;
+            flooded=value;
             if(value)
             {
                 var water=DefDatabase<TerrainDef>.GetNamedSilentFail(Depth>=3?"WaterDeep":"WaterShallow");

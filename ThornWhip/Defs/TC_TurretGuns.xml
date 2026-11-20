@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_HolderDummy</defName>
     <label>HolderDummy</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -51,7 +51,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Minigun_56x4</defName>
     <label>Minigun 56x4</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -102,7 +102,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Minigun_56x6</defName>
     <label>Minigun 56x6</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -153,7 +153,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Minigun_762x6</defName>
     <label>Minigun 762x6</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -204,7 +204,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Minigun_762x8</defName>
     <label>Minigun 762x8</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -255,7 +255,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Minigun_20x6</defName>
     <label>Minigun 20x6</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -306,7 +306,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Laser_Focus</defName>
     <label>Laser Focus</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -357,7 +357,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Laser_Cooling</defName>
     <label>Laser Cooling</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -408,7 +408,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Laser_Pulse</defName>
     <label>Laser Pulse</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -459,7 +459,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Blaster_Scatter</defName>
     <label>Blaster Scatter</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -510,7 +510,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Blaster_Pierce</defName>
     <label>Blaster Pierce</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -561,7 +561,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Blaster_Fury</defName>
     <label>Blaster Fury</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -612,7 +612,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Railgun_Light</defName>
     <label>Railgun Light</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -663,7 +663,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Railgun_Medium</defName>
     <label>Railgun Medium</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -714,7 +714,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_Railgun_Heavy</defName>
     <label>Railgun Heavy</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -765,7 +765,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_ATGM_HEAT</defName>
     <label>ATGM HEAT</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -817,7 +817,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_ATGM_Dual</defName>
     <label>ATGM Dual</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -869,7 +869,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_ATGM_Guided</defName>
     <label>ATGM Guided</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -921,7 +921,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_MLRS_Light</defName>
     <label>MLRS Light</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -973,7 +973,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_MLRS_Swarm</defName>
     <label>MLRS Swarm</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
@@ -1025,7 +1025,7 @@
       </li>
     </comps>
   </ThingDef>
-  <ThingDef ParentName="BaseGun_CE">
+  <ThingDef ParentName="BaseGun">
     <defName>TC_Gun_MLRS_Heavy</defName>
     <label>MLRS Heavy</label>
     <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
