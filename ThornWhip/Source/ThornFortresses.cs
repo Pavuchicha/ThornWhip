@@ -168,7 +168,7 @@ namespace ThornWhip
             if(comp==null)return;
             string prefix=index==0?"TT_Auto_":"TT_Rifle_";
             ThingDef gun=DefDatabase<ThingDef>.AllDefsListForReading.FirstOrDefault(
-                t=>t.defName.StartsWith(prefix,StringComparison.Ordinal) && t.IsWeapon && t.verbs!=null);
+                t=>t.defName.StartsWith(prefix,StringComparison.Ordinal) && t.IsWeapon);
             if(gun==null)return;
             try
             {

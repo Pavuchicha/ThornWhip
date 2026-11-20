@@ -145,7 +145,7 @@ namespace ThornWhip
         }
         public bool Request(ThingDef next)
         {
-            if (!parent.Spawned || next == null || next == parent.def || next.def.building?.turretGunDef == null) return false;
+            if (!parent.Spawned || next == null || next == parent.def || next.building?.turretGunDef == null) return false;
             if (!UpgradeChoices().Contains(next) || !CanFit(next)) return false;
             Cancel(); targetDef = next.defName;
             var current = parent.def.building?.turretGunDef;

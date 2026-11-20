@@ -65,7 +65,7 @@ for pawn in pawns:
 assert f.find('pawnGroupMakers').get('Inherit')=='False'
 source='\n'.join(p.read_text() for p in (M/'Source').glob('*.cs'))
 assert not re.search(r'\bGameComponentTick\s*\(',source)
-# Moat and turret registries both perform interval-gated cleanup; no global pawn ticking.
+# 0.9 adds a gated MapComponentTick for connected moat networks; only that file may use it.
 assert {p.name for p in (M/'Source').glob('*.cs') if re.search(r'\bMapComponentTick\s*\(',p.read_text())} == {'ThornMoats.cs', 'TurretRetrofits.cs'}
 assert 'WeaponCalibers.Compatible' in (M/'Source/Blueprints.cs').read_text()
 assert 'MapGenerated' in (M/'Source/ThornFortresses.cs').read_text()

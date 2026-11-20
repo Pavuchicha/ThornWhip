@@ -71,12 +71,26 @@ namespace ThornWhip
             if (recipeDef?.defName == null) return;
             if (recipeDef.defName.StartsWith("TC_Craft_Armor_", StringComparison.Ordinal))
             {
-                if (worker?.CurJob?.bill is Bill_ArmorManufacture armor && armor.Blueprint != null)
-                    __result=AttachArmorBlueprint(__result,armor.Blueprint.Copy());
+                // Craft recipes have zero vanilla ingredients because a custom bill
+                // escrows resources up front. Never emit free equipment from a plain bill.
+                if (worker?.CurJob?.bill is not Bill_ArmorManufacture armor ||
+                    !armor.Prepaid || armor.Blueprint == null || !armor.Blueprint.IsValid)
+                {
+                    __result = System.Linq.Enumerable.Empty<Thing>();
+                    Log.Warning("[ThornCorps] Blocked armor crafting without a valid paid blueprint");
+                    return;
+                }
+                __result = AttachArmorBlueprint(__result, armor.Blueprint.Copy());
                 return;
             }
             if (!recipeDef.defName.StartsWith("TT_Craft_", StringComparison.Ordinal)) return;
-            if (worker?.CurJob?.bill is not Bill_WeaponManufacture order || order.Blueprint == null) return;
+            if (worker?.CurJob?.bill is not Bill_WeaponManufacture order ||
+                !order.Prepaid || order.Blueprint == null || !order.Blueprint.IsValid)
+            {
+                __result = System.Linq.Enumerable.Empty<Thing>();
+                Log.Warning("[ThornCorps] Blocked weapon crafting without a valid paid blueprint");
+                return;
+            }
             // Materializing at enumeration-time preserves normal CE+RimWorld quality crafting.
             __result = AttachBlueprint(__result, order.Blueprint.Copy());
         }

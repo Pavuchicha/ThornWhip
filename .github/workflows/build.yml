@@ -1,12 +1,12 @@
-name: Build Thorn Corps 0.10 for RimWorld 1.7
+name: Build Thorn Corps 0.10 (audited) for RimWorld 1.7
 on:
   workflow_dispatch:
   push:
     paths:
       - 'ThornWhip/**'
-      - 'tests_static_09.py'
-      - 'tests_visuals_10.py'
+      - 'tests_*.py'
       - '.github/workflows/build.yml'
+      - 'AUDIT_REPORT_RU.md'
 jobs:
   compile-and-package:
     runs-on: ubuntu-latest
@@ -18,28 +18,39 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install static-test dependency
+      - name: Install test dependency
         run: python -m pip install 'Pillow>=10.0,<13'
-      # Source defs are checked in. Never run older generators in CI; they overwrite calibre/armor data.
-      # 0.10 defense defs can be regenerated locally with build_defense_09.py.
-      - name: Validate checked-in 0.10 definitions
+      - name: Check all internal source and Def references
+        id: audit
+        continue-on-error: true
+        run: python tests_project_integrity.py
+      - name: Validate 0.10 definitions and research data
+        id: static
+        continue-on-error: true
         run: python tests_static_09.py
-      - name: Verify actual in-game graphic refs and styles
+      - name: Validate actual in-game textures and Ideology styles
+        id: graphics
+        continue-on-error: true
         run: python tests_visuals_10.py
       - name: Resolve RimWorld 1.7 references
         run: dotnet restore ThornWhip/Source/ThornWhip.csproj
-      - name: Build assembly
+      - name: Compile the entire C# mod
         run: dotnet build ThornWhip/Source/ThornWhip.csproj -c Release --no-restore
-      - name: Verify game DLL
+      - name: Enforce complete static checks before creating an installable ZIP
+        if: steps.audit.outcome == 'failure' || steps.static.outcome == 'failure' || steps.graphics.outcome == 'failure'
+        run: |
+          echo 'At least one structural validation failed. Compilation ran independently for full diagnostics.'
+          exit 1
+      - name: Confirm game DLL exists
         run: test -s ThornWhip/1.7/Assemblies/ThornWhip.dll
-      - name: Package a single installable mod directory
+      - name: Package one installable mod directory
         run: |
           mkdir -p _release/ThornWhip
           cp -a ThornWhip/About ThornWhip/Defs ThornWhip/Textures ThornWhip/1.7 ThornWhip/LoadFolders.xml _release/ThornWhip/
           cd _release
-          zip -qr ../ThornCorps_CE_Constructor_0.10_INSTALL.zip ThornWhip
+          zip -qr ../ThornCorps_CE_Constructor_0.10_AUDIT_INSTALL.zip ThornWhip
       - uses: actions/upload-artifact@v4
         with:
-          name: ThornCorps-CE-Constructor-0.10
-          path: ThornCorps_CE_Constructor_0.10_INSTALL.zip
+          name: ThornCorps-CE-Constructor-AUDITED
+          path: ThornCorps_CE_Constructor_0.10_AUDIT_INSTALL.zip
           if-no-files-found: error
