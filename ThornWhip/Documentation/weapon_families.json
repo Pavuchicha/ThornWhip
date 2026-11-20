@@ -1,0 +1,5034 @@
+[
+  {
+    "family": {
+      "key": "Rifle",
+      "label": "Марксанская винтовка «Плеть Терна»",
+      "short": "ВИНТОВКА",
+      "caliber": "5,56×45 NATO",
+      "ammoSet": "AmmoSet_556x45mmNATO",
+      "projectile": "Bullet_556x45mmNATO_FMJ",
+      "sound": "Shot_AssaultRifle",
+      "tail": "GunTail_Medium",
+      "sights": 0.85,
+      "spread": 0.09,
+      "sway": 1.45,
+      "cooldown": 0.88,
+      "mass": 3.7,
+      "bulk": 4.8,
+      "value": 420,
+      "range": [
+        55,
+        70
+      ],
+      "magazine": [
+        20,
+        30
+      ],
+      "burst": [
+        2,
+        1
+      ],
+      "between": 8,
+      "warmup": 1.2,
+      "recoil": 0.76,
+      "reload": 3.8,
+      "minRange": 0,
+      "steel": 65,
+      "component": 4,
+      "work": 16500,
+      "visual": "M16-inspired high-tech long rifle"
+    },
+    "slots": [
+      {
+        "id": 0,
+        "label": "Верхняя ствольная коробка",
+        "options": [
+          {
+            "name": "Двухимпульсная автоматика",
+            "effects": {
+              "sway": 0.045,
+              "cooldown": -0.03,
+              "mass": -0.06
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Одиночный точный цикл",
+            "effects": {
+              "sights": 0.09,
+              "spread": -0.004,
+              "recoil": -0.06,
+              "cooldown": 0.03,
+              "mass": 0.11
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Экономичный кулачковый затвор",
+            "effects": {
+              "cooldown": -0.07,
+              "recoil": 0.15,
+              "mass": -0.11,
+              "value": 9
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Адаптивный сервозатвор",
+            "effects": {
+              "cooldown": -0.025,
+              "recoil": -0.11,
+              "mass": 0.19,
+              "warmup": 0.025,
+              "value": 52
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Нейропрограммируемая автоматика",
+            "effects": {
+              "cooldown": -0.065,
+              "recoil": -0.045,
+              "sights": 0.08,
+              "mass": 0.2,
+              "warmup": -0.025,
+              "value": 146
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 1,
+        "label": "Нижняя ствольная коробка",
+        "options": [
+          {
+            "name": "Стандартная",
+            "effects": {
+              "mass": -0.13,
+              "bulk": -0.1,
+              "sway": 0.045
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Нейрокомпозитная",
+            "effects": {
+              "mass": 0.1,
+              "bulk": 0.05,
+              "spread": -0.003,
+              "sights": 0.04,
+              "value": 36
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Штампованная коробка",
+            "effects": {
+              "mass": -0.22,
+              "bulk": -0.12,
+              "spread": 0.006,
+              "value": 12
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Керамическая силовая коробка",
+            "effects": {
+              "mass": 0.16,
+              "bulk": 0.09,
+              "spread": -0.006,
+              "value": 63
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Живая метаматериальная коробка",
+            "effects": {
+              "mass": -0.03,
+              "sights": 0.07,
+              "spread": -0.003,
+              "bulk": 0.06,
+              "value": 163
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 2,
+        "label": "Ствол",
+        "options": [
+          {
+            "name": "Короткий",
+            "effects": {
+              "spread": 0.01,
+              "sway": -0.04,
+              "mass": -0.18,
+              "bulk": -0.14,
+              "cooldown": -0.03
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Удлинённый",
+            "effects": {
+              "spread": -0.01,
+              "sway": 0.04,
+              "mass": 0.28,
+              "bulk": 0.19,
+              "value": 30
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Карабинный тонкий ствол",
+            "effects": {
+              "mass": -0.27,
+              "bulk": -0.2,
+              "spread": 0.017,
+              "range": -0.07,
+              "value": 15
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Матчевый толстостенный ствол",
+            "effects": {
+              "mass": 0.43,
+              "bulk": 0.24,
+              "spread": -0.012,
+              "range": 0.09,
+              "sway": 0.06,
+              "value": 74
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Активно охлаждаемый наноствол",
+            "effects": {
+              "mass": 0.13,
+              "spread": -0.018,
+              "range": 0.12,
+              "bulk": 0.11,
+              "value": 180
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 3,
+        "label": "Затворная группа",
+        "options": [
+          {
+            "name": "Усиленная",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": 0.075,
+              "mass": -0.08
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Облегчённая",
+            "effects": {
+              "cooldown": 0.04,
+              "recoil": -0.1,
+              "mass": 0.16,
+              "value": 25
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Простой полусвободный затвор",
+            "effects": {
+              "cooldown": -0.06,
+              "recoil": 0.14,
+              "mass": -0.07,
+              "value": 18
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Титановая затворная группа",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": -0.075,
+              "mass": 0.13,
+              "value": 85
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Электромагнитный затвор",
+            "effects": {
+              "cooldown": -0.075,
+              "recoil": -0.035,
+              "reload": -0.055,
+              "mass": 0.18,
+              "value": 197
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 2,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 4,
+        "label": "Газовый блок",
+        "options": [
+          {
+            "name": "Фиксированный",
+            "effects": {
+              "recoil": 0.055,
+              "cooldown": -0.03,
+              "mass": -0.07
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Регулируемый",
+            "effects": {
+              "recoil": -0.08,
+              "cooldown": 0.025,
+              "mass": 0.11,
+              "value": 38
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Газовый кран полевого ремонта",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": 0.095,
+              "mass": -0.06,
+              "value": 21
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Импульсный газовый блок",
+            "effects": {
+              "cooldown": 0.025,
+              "recoil": -0.11,
+              "mass": 0.14,
+              "value": 96
+            },
+            "cost": {
+              "steel": 8,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Автонастраиваемый плазмоклапан",
+            "effects": {
+              "cooldown": -0.02,
+              "recoil": -0.065,
+              "spread": -0.004,
+              "mass": 0.17,
+              "value": 214
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 5,
+        "label": "Ударно-спусковой механизм",
+        "options": [
+          {
+            "name": "Военный",
+            "effects": {
+              "warmup": -0.04,
+              "spread": 0.004,
+              "mass": -0.02
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Прецизионный",
+            "effects": {
+              "warmup": 0.015,
+              "spread": -0.008,
+              "sights": 0.07,
+              "value": 36
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Полевой механический спуск",
+            "effects": {
+              "warmup": -0.055,
+              "spread": 0.012,
+              "value": 24
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Двухступенчатый спуск",
+            "effects": {
+              "warmup": 0.015,
+              "spread": -0.009,
+              "sights": 0.025,
+              "value": 107
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Нейросенсорный спуск",
+            "effects": {
+              "warmup": -0.095,
+              "spread": -0.003,
+              "sights": 0.12,
+              "value": 231
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 6,
+        "label": "Возвратный механизм",
+        "options": [
+          {
+            "name": "Усиленная пружина",
+            "effects": {
+              "cooldown": -0.045,
+              "recoil": 0.06
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Инерционный демпфер",
+            "effects": {
+              "cooldown": 0.05,
+              "recoil": -0.12,
+              "mass": 0.15,
+              "value": 30
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Лёгкий буфер",
+            "effects": {
+              "cooldown": -0.08,
+              "recoil": 0.14,
+              "mass": -0.07,
+              "value": 27
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Гидравлический буфер",
+            "effects": {
+              "cooldown": 0.025,
+              "recoil": -0.15,
+              "mass": 0.24,
+              "value": 118
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Магнитореологический демпфер",
+            "effects": {
+              "cooldown": -0.03,
+              "recoil": -0.14,
+              "mass": 0.21,
+              "value": 248
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 7,
+        "label": "Приклад",
+        "options": [
+          {
+            "name": "Складной",
+            "effects": {
+              "sway": 0.1,
+              "bulk": -0.28,
+              "mass": -0.23
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Стабилизированный",
+            "effects": {
+              "sway": -0.09,
+              "recoil": -0.07,
+              "bulk": 0.22,
+              "mass": 0.22,
+              "value": 29
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Каркасный приклад",
+            "effects": {
+              "bulk": -0.35,
+              "mass": -0.25,
+              "sway": 0.15,
+              "value": 30
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Матчевый тяжёлый приклад",
+            "effects": {
+              "bulk": 0.3,
+              "mass": 0.35,
+              "sway": -0.13,
+              "recoil": -0.065,
+              "value": 129
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Гироскопический приклад",
+            "effects": {
+              "bulk": 0.08,
+              "mass": 0.23,
+              "sway": -0.115,
+              "recoil": -0.13,
+              "value": 265
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 8,
+        "label": "Цевьё",
+        "options": [
+          {
+            "name": "Лёгкое",
+            "effects": {
+              "mass": -0.2,
+              "cooldown": -0.02,
+              "spread": 0.006
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Охлаждаемое",
+            "effects": {
+              "mass": 0.24,
+              "spread": -0.008,
+              "sway": -0.07,
+              "value": 40
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Перфорированное цевьё",
+            "effects": {
+              "mass": -0.23,
+              "bulk": -0.12,
+              "spread": 0.007,
+              "value": 33
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Углеродный тепловой кожух",
+            "effects": {
+              "mass": 0.27,
+              "spread": -0.01,
+              "sway": -0.06,
+              "value": 57
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Криоканальное цевьё",
+            "effects": {
+              "mass": 0.2,
+              "spread": -0.012,
+              "sway": -0.045,
+              "cooldown": -0.035,
+              "value": 282
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 9,
+        "label": "Магазин",
+        "options": [
+          {
+            "name": "20 патронов",
+            "effects": {
+              "mass": -0.07,
+              "bulk": -0.07,
+              "reload": -0.07
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "30 патронов",
+            "effects": {
+              "mass": 0.17,
+              "bulk": 0.18,
+              "reload": 0.1,
+              "value": 30
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Скоросъёмный магазин",
+            "effects": {
+              "mass": -0.08,
+              "bulk": -0.09,
+              "reload": -0.16,
+              "value": 36
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Усиленный магазин",
+            "effects": {
+              "mass": 0.26,
+              "bulk": 0.24,
+              "reload": 0.16,
+              "value": 68
+            },
+            "cost": {
+              "steel": 8,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Смарт-магазин с диагностикой",
+            "effects": {
+              "mass": 0.11,
+              "bulk": 0.06,
+              "reload": -0.1,
+              "cooldown": -0.012,
+              "value": 299
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 2,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 10,
+        "label": "Прицельная система",
+        "options": [
+          {
+            "name": "Механическая",
+            "effects": {
+              "sights": -0.05,
+              "mass": -0.05
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Цифровая",
+            "effects": {
+              "sights": 0.22,
+              "warmup": -0.075,
+              "mass": 0.13,
+              "value": 66,
+              "nightVision": 0.1
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Открытые резервные прицельные",
+            "effects": {
+              "sights": -0.025,
+              "mass": -0.07,
+              "warmup": -0.035,
+              "value": 39
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Оптика переменной кратности",
+            "effects": {
+              "sights": 0.28,
+              "mass": 0.28,
+              "warmup": 0.055,
+              "value": 79
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Нейрооптический модуль",
+            "effects": {
+              "sights": 0.2,
+              "warmup": -0.12,
+              "nightVision": 0.18,
+              "mass": 0.16,
+              "value": 159
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": false
+      },
+      {
+        "id": 11,
+        "label": "Пистолетная рукоять",
+        "options": [
+          {
+            "name": "Полимерная",
+            "effects": {
+              "sway": 0.03,
+              "mass": -0.07
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Сенсорная",
+            "effects": {
+              "sway": -0.05,
+              "recoil": -0.04,
+              "mass": 0.055,
+              "value": 26
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Петлевая полевая рукоять",
+            "effects": {
+              "mass": -0.09,
+              "sway": 0.05,
+              "value": 11
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Биомеханическая рукоять",
+            "effects": {
+              "mass": 0.11,
+              "sway": -0.11,
+              "recoil": -0.03,
+              "value": 90
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Адаптивная сенсорная рукоять",
+            "effects": {
+              "mass": 0.07,
+              "sway": -0.12,
+              "warmup": -0.045,
+              "value": 176
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 12,
+        "label": "Рукоятка взвода",
+        "options": [
+          {
+            "name": "Ручная",
+            "effects": {
+              "reload": -0.03,
+              "cooldown": 0.01
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Электроассистент",
+            "effects": {
+              "reload": -0.12,
+              "mass": 0.09,
+              "value": 30
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Двусторонняя рукоятка взвода",
+            "effects": {
+              "reload": -0.06,
+              "mass": 0.02,
+              "value": 14
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Сервовзвод",
+            "effects": {
+              "reload": -0.17,
+              "mass": 0.17,
+              "bulk": 0.065,
+              "value": 101
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Бесконтактный привод затвора",
+            "effects": {
+              "reload": -0.11,
+              "mass": 0.085,
+              "cooldown": -0.04,
+              "value": 193
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 13,
+        "label": "Дульное устройство",
+        "options": [
+          {
+            "name": "Пламегаситель",
+            "effects": {
+              "mass": -0.05,
+              "recoil": 0.055
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Умный компенсатор",
+            "effects": {
+              "recoil": -0.12,
+              "spread": -0.006,
+              "mass": 0.16,
+              "bulk": 0.06,
+              "value": 34
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Простой дульный тормоз",
+            "effects": {
+              "recoil": -0.035,
+              "mass": 0.05,
+              "bulk": 0.035,
+              "value": 17
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Многокамерный компенсатор",
+            "effects": {
+              "recoil": -0.19,
+              "mass": 0.18,
+              "bulk": 0.1,
+              "value": 112
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Активная антиимпульсная насадка",
+            "effects": {
+              "recoil": -0.12,
+              "mass": 0.14,
+              "spread": -0.005,
+              "value": 210
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": false
+      },
+      {
+        "id": 14,
+        "label": "Нижняя аксессуарная планка",
+        "required": false,
+        "options": [
+          {
+            "name": "Базовая нижняя планка",
+            "effects": {
+              "mass": 0.04,
+              "bulk": 0.04
+            },
+            "cost": {
+              "steel": 3
+            }
+          },
+          {
+            "name": "Облегчённая рельса",
+            "effects": {
+              "mass": -0.08,
+              "sway": 0.02
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1
+            }
+          },
+          {
+            "name": "Усиленная рельса",
+            "effects": {
+              "mass": 0.2,
+              "sway": -0.04,
+              "recoil": -0.02
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2
+            }
+          },
+          {
+            "name": "Многопозиционный кронштейн",
+            "effects": {
+              "mass": 0.16,
+              "sights": 0.04,
+              "warmup": -0.015
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 1
+            }
+          },
+          {
+            "name": "Умная интерфейсная рельса",
+            "effects": {
+              "mass": 0.1,
+              "sights": 0.07,
+              "nightVision": 0.03,
+              "value": 140
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "family": {
+      "key": "Auto",
+      "label": "Автомат «Гнев Терна»",
+      "short": "АВТОМАТ",
+      "caliber": "5,56×45 NATO",
+      "ammoSet": "AmmoSet_556x45mmNATO",
+      "projectile": "Bullet_556x45mmNATO_FMJ",
+      "sound": "Shot_AssaultRifle",
+      "tail": "GunTail_Medium",
+      "sights": 0.92,
+      "spread": 0.135,
+      "sway": 1.21,
+      "cooldown": 0.4,
+      "mass": 3.25,
+      "bulk": 4.3,
+      "value": 455,
+      "range": [
+        40,
+        51
+      ],
+      "magazine": [
+        25,
+        40
+      ],
+      "burst": [
+        5,
+        3
+      ],
+      "between": 5,
+      "warmup": 0.65,
+      "recoil": 1.28,
+      "reload": 3.3,
+      "minRange": 0,
+      "steel": 62,
+      "component": 5,
+      "work": 18200,
+      "visual": "modular NATO bullpup / HK416 silhouette, angular compact receiver"
+    },
+    "slots": [
+      {
+        "id": 0,
+        "label": "Ствольная коробка",
+        "options": [
+          {
+            "name": "Скорострельный цикл",
+            "effects": {
+              "sway": 0.045,
+              "cooldown": -0.0255,
+              "mass": -0.06
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Контролируемые очереди",
+            "effects": {
+              "sights": 0.09,
+              "spread": -0.004,
+              "recoil": -0.06,
+              "cooldown": 0.0255,
+              "mass": 0.11
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Бюджетный открытый цикл",
+            "effects": {
+              "cooldown": -0.07,
+              "recoil": 0.15,
+              "mass": -0.1012,
+              "value": 9
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Контроллер коротких очередей",
+            "effects": {
+              "cooldown": -0.025,
+              "recoil": -0.11,
+              "mass": 0.1748,
+              "warmup": 0.025,
+              "value": 52
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Предиктивный контроллер огня",
+            "effects": {
+              "cooldown": -0.065,
+              "recoil": -0.045,
+              "sights": 0.08,
+              "mass": 0.184,
+              "warmup": -0.025,
+              "value": 146
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 1,
+        "label": "Нижний корпус",
+        "options": [
+          {
+            "name": "Лёгкий полимер",
+            "effects": {
+              "mass": -0.13,
+              "bulk": -0.1,
+              "sway": 0.045
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Экзосплавный",
+            "effects": {
+              "mass": 0.1,
+              "bulk": 0.05,
+              "spread": -0.003,
+              "sights": 0.04,
+              "value": 36
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Штампованный нижний корпус",
+            "effects": {
+              "mass": -0.2024,
+              "bulk": -0.1104,
+              "spread": 0.006,
+              "value": 12
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Титановая силовая рама",
+            "effects": {
+              "mass": 0.1472,
+              "bulk": 0.0828,
+              "spread": -0.006,
+              "value": 63
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Плетёный метакорпус",
+            "effects": {
+              "mass": -0.0276,
+              "sights": 0.07,
+              "spread": -0.003,
+              "bulk": 0.0552,
+              "value": 163
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 2,
+        "label": "Ствол",
+        "options": [
+          {
+            "name": "Штурмовой короткий",
+            "effects": {
+              "spread": 0.01,
+              "sway": -0.04,
+              "mass": -0.18,
+              "bulk": -0.14,
+              "cooldown": -0.0255
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Средний утолщённый",
+            "effects": {
+              "spread": -0.01,
+              "sway": 0.04,
+              "mass": 0.28,
+              "bulk": 0.19,
+              "value": 30
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Штурмовой ультракороткий ствол",
+            "effects": {
+              "mass": -0.2484,
+              "bulk": -0.184,
+              "spread": 0.017,
+              "range": -0.07,
+              "value": 15
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Тяжёлый средний ствол",
+            "effects": {
+              "mass": 0.3956,
+              "bulk": 0.2208,
+              "spread": -0.012,
+              "range": 0.09,
+              "sway": 0.06,
+              "value": 74
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Охлаждаемый активный ствол",
+            "effects": {
+              "mass": 0.1196,
+              "spread": -0.018,
+              "range": 0.12,
+              "bulk": 0.1012,
+              "value": 180
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 3,
+        "label": "Затвор",
+        "options": [
+          {
+            "name": "Высокоскоростной",
+            "effects": {
+              "cooldown": -0.034,
+              "recoil": 0.075,
+              "mass": -0.08
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Демпфированный",
+            "effects": {
+              "cooldown": 0.034,
+              "recoil": -0.1,
+              "mass": 0.16,
+              "value": 25
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Упрощённый скоростной затвор",
+            "effects": {
+              "cooldown": -0.06,
+              "recoil": 0.14,
+              "mass": -0.0644,
+              "value": 18
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Усиленный затворный привод",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": -0.075,
+              "mass": 0.1196,
+              "value": 85
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Электромагнитный цикл",
+            "effects": {
+              "cooldown": -0.075,
+              "recoil": -0.035,
+              "reload": -0.055,
+              "mass": 0.1656,
+              "value": 197
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 2,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 4,
+        "label": "Газоотвод",
+        "options": [
+          {
+            "name": "Форсированный",
+            "effects": {
+              "recoil": 0.055,
+              "cooldown": -0.0255,
+              "mass": -0.07
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Адаптивный",
+            "effects": {
+              "recoil": -0.08,
+              "cooldown": 0.02125,
+              "mass": 0.11,
+              "value": 38
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Газоотвод фиксированного давления",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": 0.095,
+              "mass": -0.0552,
+              "value": 21
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Сервогазоотвод",
+            "effects": {
+              "cooldown": 0.025,
+              "recoil": -0.11,
+              "mass": 0.1288,
+              "value": 96
+            },
+            "cost": {
+              "steel": 8,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Плазморегулятор подачи",
+            "effects": {
+              "cooldown": -0.02,
+              "recoil": -0.065,
+              "spread": -0.004,
+              "mass": 0.1564,
+              "value": 214
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 5,
+        "label": "Спуск",
+        "options": [
+          {
+            "name": "Боевой",
+            "effects": {
+              "warmup": -0.04,
+              "spread": 0.004,
+              "mass": -0.02
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Электронный",
+            "effects": {
+              "warmup": 0.015,
+              "spread": -0.008,
+              "sights": 0.07,
+              "value": 36
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Штампованный спуск",
+            "effects": {
+              "warmup": -0.055,
+              "spread": 0.012,
+              "value": 24
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Двухконтурный спуск",
+            "effects": {
+              "warmup": 0.015,
+              "spread": -0.009,
+              "sights": 0.025,
+              "value": 107
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Прогнозирующий нейроспуск",
+            "effects": {
+              "warmup": -0.095,
+              "spread": -0.003,
+              "sights": 0.12,
+              "value": 231
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 6,
+        "label": "Возвратная пружина",
+        "options": [
+          {
+            "name": "Жёсткая",
+            "effects": {
+              "cooldown": -0.03825,
+              "recoil": 0.06
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Стабилизирующая",
+            "effects": {
+              "cooldown": 0.0425,
+              "recoil": -0.12,
+              "mass": 0.15,
+              "value": 30
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Жёсткий возвратный узел",
+            "effects": {
+              "cooldown": -0.08,
+              "recoil": 0.14,
+              "mass": -0.0644,
+              "value": 27
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Гидравлический буфер",
+            "effects": {
+              "cooldown": 0.025,
+              "recoil": -0.15,
+              "mass": 0.2208,
+              "value": 118
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Активный импульсный демпфер",
+            "effects": {
+              "cooldown": -0.03,
+              "recoil": -0.14,
+              "mass": 0.1932,
+              "value": 248
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 7,
+        "label": "Приклад",
+        "options": [
+          {
+            "name": "Телескопический",
+            "effects": {
+              "sway": 0.1,
+              "bulk": -0.28,
+              "mass": -0.23
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Гироскопический",
+            "effects": {
+              "sway": -0.09,
+              "recoil": -0.07,
+              "bulk": 0.22,
+              "mass": 0.22,
+              "value": 29
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Проволочный складной приклад",
+            "effects": {
+              "bulk": -0.322,
+              "mass": -0.23,
+              "sway": 0.15,
+              "value": 30
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Тяжёлый тактический приклад",
+            "effects": {
+              "bulk": 0.276,
+              "mass": 0.322,
+              "sway": -0.13,
+              "recoil": -0.065,
+              "value": 129
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Миниатюрный гироприклад",
+            "effects": {
+              "bulk": 0.0736,
+              "mass": 0.2116,
+              "sway": -0.115,
+              "recoil": -0.13,
+              "value": 265
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 8,
+        "label": "Цевьё",
+        "options": [
+          {
+            "name": "Открытая вентиляция",
+            "effects": {
+              "mass": -0.2,
+              "cooldown": -0.017,
+              "spread": 0.006
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Тепловой кожух",
+            "effects": {
+              "mass": 0.24,
+              "spread": -0.008,
+              "sway": -0.07,
+              "value": 40
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Короткое перфорированное цевьё",
+            "effects": {
+              "mass": -0.2116,
+              "bulk": -0.1104,
+              "spread": 0.007,
+              "value": 33
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Теплоизоляционное цевьё",
+            "effects": {
+              "mass": 0.2484,
+              "spread": -0.01,
+              "sway": -0.06,
+              "value": 57
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Микроканальное охлаждение",
+            "effects": {
+              "mass": 0.184,
+              "spread": -0.012,
+              "sway": -0.045,
+              "cooldown": -0.035,
+              "value": 282
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 9,
+        "label": "Магазин",
+        "options": [
+          {
+            "name": "25 патронов",
+            "effects": {
+              "mass": -0.07,
+              "bulk": -0.07,
+              "reload": -0.07
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "40 патронов",
+            "effects": {
+              "mass": 0.17,
+              "bulk": 0.18,
+              "reload": 0.1,
+              "value": 30
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Быстросменный магазин",
+            "effects": {
+              "mass": -0.0736,
+              "bulk": -0.0828,
+              "reload": -0.16,
+              "value": 36
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Упрочнённый магазин",
+            "effects": {
+              "mass": 0.2392,
+              "bulk": 0.2208,
+              "reload": 0.16,
+              "value": 68
+            },
+            "cost": {
+              "steel": 8,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Диагностический смарт-магазин",
+            "effects": {
+              "mass": 0.1012,
+              "bulk": 0.0552,
+              "reload": -0.1,
+              "cooldown": -0.012,
+              "value": 299
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 2,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 10,
+        "label": "Прицел",
+        "options": [
+          {
+            "name": "Голографический",
+            "effects": {
+              "sights": -0.05,
+              "mass": -0.05
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Нейрорефлексный",
+            "effects": {
+              "sights": 0.22,
+              "warmup": -0.075,
+              "mass": 0.13,
+              "value": 66,
+              "nightVision": 0.1
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Открытый коллиматор",
+            "effects": {
+              "sights": -0.025,
+              "mass": -0.0644,
+              "warmup": -0.035,
+              "value": 39
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Штурмовой мультиприцел",
+            "effects": {
+              "sights": 0.28,
+              "mass": 0.2576,
+              "warmup": 0.055,
+              "value": 79
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Нейрорефлексный прицел",
+            "effects": {
+              "sights": 0.2,
+              "warmup": -0.12,
+              "nightVision": 0.18,
+              "mass": 0.1472,
+              "value": 159
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": false
+      },
+      {
+        "id": 11,
+        "label": "Рукоять",
+        "options": [
+          {
+            "name": "Тактическая",
+            "effects": {
+              "sway": 0.03,
+              "mass": -0.07
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Датчиковая",
+            "effects": {
+              "sway": -0.05,
+              "recoil": -0.04,
+              "mass": 0.055,
+              "value": 26
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Текстурная рукоять",
+            "effects": {
+              "mass": -0.0828,
+              "sway": 0.05,
+              "value": 11
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Сервосцепление рукояти",
+            "effects": {
+              "mass": 0.1012,
+              "sway": -0.11,
+              "recoil": -0.03,
+              "value": 90
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Биометрическая рукоять",
+            "effects": {
+              "mass": 0.0644,
+              "sway": -0.12,
+              "warmup": -0.045,
+              "value": 176
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 12,
+        "label": "Переводчик огня",
+        "options": [
+          {
+            "name": "Механический",
+            "effects": {
+              "reload": -0.03,
+              "cooldown": 0.0085
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Программируемый",
+            "effects": {
+              "reload": -0.12,
+              "mass": 0.09,
+              "value": 30
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Двусторонний переключатель",
+            "effects": {
+              "reload": -0.06,
+              "mass": 0.0184,
+              "value": 14
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Автоматический селектор",
+            "effects": {
+              "reload": -0.17,
+              "mass": 0.1564,
+              "bulk": 0.0598,
+              "value": 101
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Динамический предиктор очереди",
+            "effects": {
+              "reload": -0.11,
+              "mass": 0.0782,
+              "cooldown": -0.04,
+              "value": 193
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 13,
+        "label": "Дульное устройство",
+        "options": [
+          {
+            "name": "Пламегаситель",
+            "effects": {
+              "mass": -0.05,
+              "recoil": 0.055
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Активный компенсатор",
+            "effects": {
+              "recoil": -0.12,
+              "spread": -0.006,
+              "mass": 0.16,
+              "bulk": 0.06,
+              "value": 34
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Короткий пламегаситель",
+            "effects": {
+              "recoil": -0.035,
+              "mass": 0.046,
+              "bulk": 0.0322,
+              "value": 17
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Многокамерный ДТК",
+            "effects": {
+              "recoil": -0.19,
+              "mass": 0.1656,
+              "bulk": 0.092,
+              "value": 112
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Активный векторный компенсатор",
+            "effects": {
+              "recoil": -0.12,
+              "mass": 0.1288,
+              "spread": -0.005,
+              "value": 210
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": false
+      },
+      {
+        "id": 14,
+        "label": "Нижняя аксессуарная планка",
+        "required": false,
+        "options": [
+          {
+            "name": "Базовая нижняя планка",
+            "effects": {
+              "mass": 0.04,
+              "bulk": 0.04
+            },
+            "cost": {
+              "steel": 3
+            }
+          },
+          {
+            "name": "Облегчённая рельса",
+            "effects": {
+              "mass": -0.08,
+              "sway": 0.02
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1
+            }
+          },
+          {
+            "name": "Усиленная рельса",
+            "effects": {
+              "mass": 0.2,
+              "sway": -0.04,
+              "recoil": -0.02
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2
+            }
+          },
+          {
+            "name": "Многопозиционный кронштейн",
+            "effects": {
+              "mass": 0.16,
+              "sights": 0.04,
+              "warmup": -0.015
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 1
+            }
+          },
+          {
+            "name": "Умная интерфейсная рельса",
+            "effects": {
+              "mass": 0.1,
+              "sights": 0.07,
+              "nightVision": 0.03,
+              "value": 140
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "family": {
+      "key": "Pistol",
+      "label": "Пистолет «Клык Терна»",
+      "short": "ПИСТОЛЕТ",
+      "caliber": "9×19 Parabellum",
+      "ammoSet": "AmmoSet_9x19mmPara",
+      "projectile": "Bullet_9x19mmPara_FMJ",
+      "sound": "Shot_Autopistol",
+      "tail": "GunTail_Light",
+      "sights": 0.7,
+      "spread": 0.18,
+      "sway": 0.87,
+      "cooldown": 0.39,
+      "mass": 1.15,
+      "bulk": 1.9,
+      "value": 260,
+      "range": [
+        17,
+        23
+      ],
+      "magazine": [
+        12,
+        20
+      ],
+      "burst": [
+        1,
+        3
+      ],
+      "between": 6,
+      "warmup": 0.43,
+      "recoil": 1.5,
+      "reload": 2.5,
+      "minRange": 0,
+      "steel": 35,
+      "component": 3,
+      "work": 9900,
+      "visual": "futuristic western service pistol slide and compact polymer frame"
+    },
+    "slots": [
+      {
+        "id": 0,
+        "label": "Затворная рама",
+        "options": [
+          {
+            "name": "Одиночный цикл",
+            "effects": {
+              "sway": 0.045,
+              "cooldown": -0.03,
+              "mass": -0.027
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Трёхвыстрельная отсечка",
+            "effects": {
+              "sights": 0.09,
+              "spread": -0.004,
+              "recoil": -0.06,
+              "cooldown": 0.03,
+              "mass": 0.0495
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Упрощённый ударниковый цикл",
+            "effects": {
+              "cooldown": -0.07,
+              "recoil": 0.15,
+              "mass": -0.0594,
+              "value": 9
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Электронный цикл затвора",
+            "effects": {
+              "cooldown": -0.025,
+              "recoil": -0.11,
+              "mass": 0.1026,
+              "warmup": 0.025,
+              "value": 52
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Программируемый интеллектуальный затвор",
+            "effects": {
+              "cooldown": -0.065,
+              "recoil": -0.045,
+              "sights": 0.08,
+              "mass": 0.108,
+              "warmup": -0.025,
+              "value": 146
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 1,
+        "label": "Рамка",
+        "options": [
+          {
+            "name": "Полимерная",
+            "effects": {
+              "mass": -0.0585,
+              "bulk": -0.05,
+              "sway": 0.045
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Армированная",
+            "effects": {
+              "mass": 0.045,
+              "bulk": 0.025,
+              "spread": -0.003,
+              "sights": 0.04,
+              "value": 36
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Штампованная облегчённая рамка",
+            "effects": {
+              "mass": -0.1188,
+              "bulk": -0.0648,
+              "spread": 0.006,
+              "value": 12
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Титановая рамка",
+            "effects": {
+              "mass": 0.0864,
+              "bulk": 0.0486,
+              "spread": -0.006,
+              "value": 63
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Морфирующая экзорамка",
+            "effects": {
+              "mass": -0.0162,
+              "sights": 0.07,
+              "spread": -0.003,
+              "bulk": 0.0324,
+              "value": 163
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 2,
+        "label": "Ствол",
+        "options": [
+          {
+            "name": "Компактный",
+            "effects": {
+              "spread": 0.01,
+              "sway": -0.04,
+              "mass": -0.081,
+              "bulk": -0.07,
+              "cooldown": -0.03
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Удлинённый",
+            "effects": {
+              "spread": -0.01,
+              "sway": 0.04,
+              "mass": 0.126,
+              "bulk": 0.095,
+              "value": 30
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Ультракороткий ствол",
+            "effects": {
+              "mass": -0.1458,
+              "bulk": -0.108,
+              "spread": 0.017,
+              "range": -0.07,
+              "value": 15
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Матчевый ствол",
+            "effects": {
+              "mass": 0.2322,
+              "bulk": 0.1296,
+              "spread": -0.012,
+              "range": 0.09,
+              "sway": 0.06,
+              "value": 74
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Стабилизированный наноствол",
+            "effects": {
+              "mass": 0.0702,
+              "spread": -0.018,
+              "range": 0.12,
+              "bulk": 0.0594,
+              "value": 180
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 3,
+        "label": "Затвор",
+        "options": [
+          {
+            "name": "Облегчённый",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": 0.075,
+              "mass": -0.036
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Утяжелённый",
+            "effects": {
+              "cooldown": 0.04,
+              "recoil": -0.1,
+              "mass": 0.072,
+              "value": 25
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Тонкий полусвободный затвор",
+            "effects": {
+              "cooldown": -0.06,
+              "recoil": 0.14,
+              "mass": -0.0378,
+              "value": 18
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Упрочнённый затвор",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": -0.075,
+              "mass": 0.0702,
+              "value": 85
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Электромагнитный привод затвора",
+            "effects": {
+              "cooldown": -0.075,
+              "recoil": -0.035,
+              "reload": -0.055,
+              "mass": 0.0972,
+              "value": 197
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 2,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 4,
+        "label": "Экстрактор",
+        "options": [
+          {
+            "name": "Пружинный",
+            "effects": {
+              "recoil": 0.055,
+              "cooldown": -0.03,
+              "mass": -0.0315
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Электромагнитный",
+            "effects": {
+              "recoil": -0.08,
+              "cooldown": 0.025,
+              "mass": 0.0495,
+              "value": 38
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Простой экстрактор",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": 0.095,
+              "mass": -0.0324,
+              "value": 21
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Двойной экстрактор",
+            "effects": {
+              "cooldown": 0.025,
+              "recoil": -0.11,
+              "mass": 0.0756,
+              "value": 96
+            },
+            "cost": {
+              "steel": 8,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Магнитный экстрактор",
+            "effects": {
+              "cooldown": -0.02,
+              "recoil": -0.065,
+              "spread": -0.004,
+              "mass": 0.0918,
+              "value": 214
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 5,
+        "label": "Спуск",
+        "options": [
+          {
+            "name": "Двойного действия",
+            "effects": {
+              "warmup": -0.04,
+              "spread": 0.004,
+              "mass": -0.009
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Сенсорный",
+            "effects": {
+              "warmup": 0.015,
+              "spread": -0.008,
+              "sights": 0.07,
+              "value": 36
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Стандартный спуск",
+            "effects": {
+              "warmup": -0.055,
+              "spread": 0.012,
+              "value": 24
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Матчевый двойной спуск",
+            "effects": {
+              "warmup": 0.015,
+              "spread": -0.009,
+              "sights": 0.025,
+              "value": 107
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Биометрический спуск",
+            "effects": {
+              "warmup": -0.095,
+              "spread": -0.003,
+              "sights": 0.12,
+              "value": 231
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 6,
+        "label": "Возвратная пружина",
+        "options": [
+          {
+            "name": "Компактная",
+            "effects": {
+              "cooldown": -0.045,
+              "recoil": 0.06
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Мягкая",
+            "effects": {
+              "cooldown": 0.05,
+              "recoil": -0.12,
+              "mass": 0.0675,
+              "value": 30
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Жёсткая возвратная пружина",
+            "effects": {
+              "cooldown": -0.08,
+              "recoil": 0.14,
+              "mass": -0.0378,
+              "value": 27
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Масляный демпфер",
+            "effects": {
+              "cooldown": 0.025,
+              "recoil": -0.15,
+              "mass": 0.1296,
+              "value": 118
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Магнитный амортизатор",
+            "effects": {
+              "cooldown": -0.03,
+              "recoil": -0.14,
+              "mass": 0.1134,
+              "value": 248
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 7,
+        "label": "Задняя панель рукояти",
+        "options": [
+          {
+            "name": "Обтекаемая",
+            "effects": {
+              "sway": 0.1,
+              "bulk": -0.14,
+              "mass": -0.1035
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Стабилизирующая",
+            "effects": {
+              "sway": -0.09,
+              "recoil": -0.07,
+              "bulk": 0.11,
+              "mass": 0.099,
+              "value": 29
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Тонкая тыльная накладка",
+            "effects": {
+              "bulk": -0.189,
+              "mass": -0.135,
+              "sway": 0.15,
+              "value": 30
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Контурный упор ладони",
+            "effects": {
+              "bulk": 0.162,
+              "mass": 0.189,
+              "sway": -0.13,
+              "recoil": -0.065,
+              "value": 129
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Активный противооткатный упор",
+            "effects": {
+              "bulk": 0.0432,
+              "mass": 0.1242,
+              "sway": -0.115,
+              "recoil": -0.13,
+              "value": 265
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 8,
+        "label": "Кожух затвора",
+        "options": [
+          {
+            "name": "Открытый",
+            "effects": {
+              "mass": -0.09,
+              "cooldown": -0.02,
+              "spread": 0.006
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Термокожух",
+            "effects": {
+              "mass": 0.108,
+              "spread": -0.008,
+              "sway": -0.07,
+              "value": 40
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Открытый кожух затвора",
+            "effects": {
+              "mass": -0.1242,
+              "bulk": -0.0648,
+              "spread": 0.007,
+              "value": 33
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Карбоновый термокожух",
+            "effects": {
+              "mass": 0.1458,
+              "spread": -0.01,
+              "sway": -0.06,
+              "value": 57
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Криоэкран затвора",
+            "effects": {
+              "mass": 0.108,
+              "spread": -0.012,
+              "sway": -0.045,
+              "cooldown": -0.035,
+              "value": 282
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 9,
+        "label": "Магазин",
+        "options": [
+          {
+            "name": "12 патронов",
+            "effects": {
+              "mass": -0.0315,
+              "bulk": -0.035,
+              "reload": -0.07
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "20 патронов",
+            "effects": {
+              "mass": 0.0765,
+              "bulk": 0.09,
+              "reload": 0.1,
+              "value": 30
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Облегчённый магазин",
+            "effects": {
+              "mass": -0.0432,
+              "bulk": -0.0486,
+              "reload": -0.16,
+              "value": 36
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Упрочнённый магазин",
+            "effects": {
+              "mass": 0.1404,
+              "bulk": 0.1296,
+              "reload": 0.16,
+              "value": 68
+            },
+            "cost": {
+              "steel": 8,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Смарт-магазин пистолета",
+            "effects": {
+              "mass": 0.0594,
+              "bulk": 0.0324,
+              "reload": -0.1,
+              "cooldown": -0.012,
+              "value": 299
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 2,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 10,
+        "label": "Прицел",
+        "options": [
+          {
+            "name": "Тритиевый",
+            "effects": {
+              "sights": -0.05,
+              "mass": -0.0225
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Компактный коллиматор",
+            "effects": {
+              "sights": 0.22,
+              "warmup": -0.075,
+              "mass": 0.0585,
+              "value": 66,
+              "nightVision": 0.1
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Открытые механические прицельные",
+            "effects": {
+              "sights": -0.025,
+              "mass": -0.0378,
+              "warmup": -0.035,
+              "value": 39
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Компактная гибридная оптика",
+            "effects": {
+              "sights": 0.28,
+              "mass": 0.1512,
+              "warmup": 0.055,
+              "value": 79
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Нейросинхронизированная оптика",
+            "effects": {
+              "sights": 0.2,
+              "warmup": -0.12,
+              "nightVision": 0.18,
+              "mass": 0.0864,
+              "value": 159
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": false
+      },
+      {
+        "id": 11,
+        "label": "Накладки рукояти",
+        "options": [
+          {
+            "name": "Шероховатые",
+            "effects": {
+              "sway": 0.03,
+              "mass": -0.0315
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Биометрические",
+            "effects": {
+              "sway": -0.05,
+              "recoil": -0.04,
+              "mass": 0.02475,
+              "value": 26
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Рифлёные накладки",
+            "effects": {
+              "mass": -0.0486,
+              "sway": 0.05,
+              "value": 11
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Тактическая текстура",
+            "effects": {
+              "mass": 0.0594,
+              "sway": -0.11,
+              "recoil": -0.03,
+              "value": 90
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Сенсорная подладонная рукоять",
+            "effects": {
+              "mass": 0.0378,
+              "sway": -0.12,
+              "warmup": -0.045,
+              "value": 176
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 12,
+        "label": "Затворная задержка",
+        "options": [
+          {
+            "name": "Ручная",
+            "effects": {
+              "reload": -0.03,
+              "cooldown": 0.01
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Автоматическая",
+            "effects": {
+              "reload": -0.12,
+              "mass": 0.0405,
+              "value": 30
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Механическая затворная задержка",
+            "effects": {
+              "reload": -0.06,
+              "mass": 0.0108,
+              "value": 14
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Самосбрасываемая задержка",
+            "effects": {
+              "reload": -0.17,
+              "mass": 0.0918,
+              "bulk": 0.0351,
+              "value": 101
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Электронная задержка",
+            "effects": {
+              "reload": -0.11,
+              "mass": 0.0459,
+              "cooldown": -0.04,
+              "value": 193
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 13,
+        "label": "Насадка на ствол",
+        "options": [
+          {
+            "name": "Защитная",
+            "effects": {
+              "mass": -0.0225,
+              "recoil": 0.055
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Компенсирующая",
+            "effects": {
+              "recoil": -0.12,
+              "spread": -0.006,
+              "mass": 0.072,
+              "bulk": 0.03,
+              "value": 34
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Простой защитный колпачок",
+            "effects": {
+              "recoil": -0.035,
+              "mass": 0.027,
+              "bulk": 0.0189,
+              "value": 17
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Двухкамерный тормоз",
+            "effects": {
+              "recoil": -0.19,
+              "mass": 0.0972,
+              "bulk": 0.054,
+              "value": 112
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Активный компенсатор пистолета",
+            "effects": {
+              "recoil": -0.12,
+              "mass": 0.0756,
+              "spread": -0.005,
+              "value": 210
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": false
+      },
+      {
+        "id": 14,
+        "label": "Нижняя аксессуарная планка",
+        "required": false,
+        "options": [
+          {
+            "name": "Базовая нижняя планка",
+            "effects": {
+              "mass": 0.04,
+              "bulk": 0.04
+            },
+            "cost": {
+              "steel": 3
+            }
+          },
+          {
+            "name": "Облегчённая рельса",
+            "effects": {
+              "mass": -0.08,
+              "sway": 0.02
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1
+            }
+          },
+          {
+            "name": "Усиленная рельса",
+            "effects": {
+              "mass": 0.2,
+              "sway": -0.04,
+              "recoil": -0.02
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2
+            }
+          },
+          {
+            "name": "Многопозиционный кронштейн",
+            "effects": {
+              "mass": 0.16,
+              "sights": 0.04,
+              "warmup": -0.015
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 1
+            }
+          },
+          {
+            "name": "Умная интерфейсная рельса",
+            "effects": {
+              "mass": 0.1,
+              "sights": 0.07,
+              "nightVision": 0.03,
+              "value": 140
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "family": {
+      "key": "Launcher",
+      "label": "Гранатомёт «Гром Терна»",
+      "short": "ГРАНАТОМЁТ",
+      "caliber": "40×46 mm LV",
+      "ammoSet": "AmmoSet_40x46mmGrenade",
+      "projectile": "Bullet_40x46mmGrenade_HE",
+      "sound": "InfernoCannon_Fire",
+      "tail": null,
+      "sights": 1.1,
+      "spread": 0.18,
+      "sway": 1.31,
+      "cooldown": 0.62,
+      "mass": 5.3,
+      "bulk": 5.65,
+      "value": 850,
+      "range": [
+        34,
+        40
+      ],
+      "magazine": [
+        3,
+        6
+      ],
+      "burst": [
+        1,
+        2
+      ],
+      "between": 23,
+      "warmup": 1.05,
+      "recoil": 2.93,
+      "reload": 5.1,
+      "minRange": 5,
+      "steel": 85,
+      "component": 8,
+      "work": 25500,
+      "visual": "rotating multi-shot 40mm launcher like MGL silhouette with sci-fi stock"
+    },
+    "slots": [
+      {
+        "id": 0,
+        "label": "Блок управления",
+        "options": [
+          {
+            "name": "Одиночный подрывной цикл",
+            "effects": {
+              "sway": 0.045,
+              "cooldown": -0.03,
+              "mass": -0.06
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Двойной последовательный залп",
+            "effects": {
+              "sights": 0.09,
+              "spread": -0.0048,
+              "recoil": -0.0696,
+              "cooldown": 0.03,
+              "mass": 0.11
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Упрощённый блок подрыва",
+            "effects": {
+              "cooldown": -0.07,
+              "recoil": 0.15,
+              "mass": -0.1265,
+              "value": 9
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Управляемый последовательный цикл",
+            "effects": {
+              "cooldown": -0.025,
+              "recoil": -0.11,
+              "mass": 0.2185,
+              "warmup": 0.025,
+              "value": 52
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Интеллектуальный контроллер залпа",
+            "effects": {
+              "cooldown": -0.065,
+              "recoil": -0.045,
+              "sights": 0.08,
+              "mass": 0.23,
+              "warmup": -0.025,
+              "value": 146
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 1,
+        "label": "Ствольная коробка",
+        "options": [
+          {
+            "name": "Усиленная стальная",
+            "effects": {
+              "mass": -0.13,
+              "bulk": -0.1,
+              "sway": 0.045
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Композитная",
+            "effects": {
+              "mass": 0.1,
+              "bulk": 0.05,
+              "spread": -0.0036,
+              "sights": 0.04,
+              "value": 36
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Сварной стальной ресивер",
+            "effects": {
+              "mass": -0.253,
+              "bulk": -0.138,
+              "spread": 0.006,
+              "value": 12
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Керамический герморесивер",
+            "effects": {
+              "mass": 0.184,
+              "bulk": 0.1035,
+              "spread": -0.006,
+              "value": 63
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Наноплетёная ствольная коробка",
+            "effects": {
+              "mass": -0.0345,
+              "sights": 0.07,
+              "spread": -0.003,
+              "bulk": 0.069,
+              "value": 163
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 2,
+        "label": "Ствол",
+        "options": [
+          {
+            "name": "Короткий гранатомётный",
+            "effects": {
+              "spread": 0.012,
+              "sway": -0.04,
+              "mass": -0.18,
+              "bulk": -0.14,
+              "cooldown": -0.03
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Длинный стабилизированный",
+            "effects": {
+              "spread": -0.012,
+              "sway": 0.04,
+              "mass": 0.28,
+              "bulk": 0.19,
+              "value": 30
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Укороченный гранатный ствол",
+            "effects": {
+              "mass": -0.3105,
+              "bulk": -0.23,
+              "spread": 0.017,
+              "range": -0.07,
+              "value": 15
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Тяжёлый нарезной ствол",
+            "effects": {
+              "mass": 0.4945,
+              "bulk": 0.276,
+              "spread": -0.012,
+              "range": 0.09,
+              "sway": 0.06,
+              "value": 74
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Активный гироствол",
+            "effects": {
+              "mass": 0.1495,
+              "spread": -0.018,
+              "range": 0.12,
+              "bulk": 0.1265,
+              "value": 180
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 3,
+        "label": "Затвор",
+        "options": [
+          {
+            "name": "Механическая казённая часть",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": 0.087,
+              "mass": -0.08
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Герметизированный блок",
+            "effects": {
+              "cooldown": 0.04,
+              "recoil": -0.116,
+              "mass": 0.16,
+              "value": 25
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Простая казённая крышка",
+            "effects": {
+              "cooldown": -0.06,
+              "recoil": 0.14,
+              "mass": -0.0805,
+              "value": 18
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Усиленный гермозатвор",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": -0.075,
+              "mass": 0.1495,
+              "value": 85
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Электропривод затвора",
+            "effects": {
+              "cooldown": -0.075,
+              "recoil": -0.035,
+              "reload": -0.055,
+              "mass": 0.207,
+              "value": 197
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 2,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 4,
+        "label": "Механизм подачи",
+        "options": [
+          {
+            "name": "Храповик",
+            "effects": {
+              "recoil": 0.0638,
+              "cooldown": -0.03,
+              "mass": -0.07
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Сервопривод",
+            "effects": {
+              "recoil": -0.0928,
+              "cooldown": 0.025,
+              "mass": 0.11,
+              "value": 38
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Механическая подача",
+            "effects": {
+              "cooldown": -0.04,
+              "recoil": 0.095,
+              "mass": -0.069,
+              "value": 21
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Прецизионный барабанный привод",
+            "effects": {
+              "cooldown": 0.025,
+              "recoil": -0.11,
+              "mass": 0.161,
+              "value": 96
+            },
+            "cost": {
+              "steel": 8,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Предиктивный сервопривод барабана",
+            "effects": {
+              "cooldown": -0.02,
+              "recoil": -0.065,
+              "spread": -0.004,
+              "mass": 0.1955,
+              "value": 214
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 5,
+        "label": "Спуск",
+        "options": [
+          {
+            "name": "Механический",
+            "effects": {
+              "warmup": -0.04,
+              "spread": 0.0048,
+              "mass": -0.02
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Дистанционный электро-спуск",
+            "effects": {
+              "warmup": 0.015,
+              "spread": -0.0096,
+              "sights": 0.07,
+              "value": 36
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Рычажный спуск",
+            "effects": {
+              "warmup": -0.055,
+              "spread": 0.012,
+              "value": 24
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Электроспуск с блокировкой",
+            "effects": {
+              "warmup": 0.015,
+              "spread": -0.009,
+              "sights": 0.025,
+              "value": 107
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Нейроспуск с датчиком цели",
+            "effects": {
+              "warmup": -0.095,
+              "spread": -0.003,
+              "sights": 0.12,
+              "value": 231
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 6,
+        "label": "Возврат/амортизатор",
+        "options": [
+          {
+            "name": "Пружинный",
+            "effects": {
+              "cooldown": -0.045,
+              "recoil": 0.0696
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Гидравлический",
+            "effects": {
+              "cooldown": 0.05,
+              "recoil": -0.1392,
+              "mass": 0.15,
+              "value": 30
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Простая возвратная пружина",
+            "effects": {
+              "cooldown": -0.08,
+              "recoil": 0.14,
+              "mass": -0.0805,
+              "value": 27
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Тяжёлый гидродемпфер",
+            "effects": {
+              "cooldown": 0.025,
+              "recoil": -0.15,
+              "mass": 0.276,
+              "value": 118
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Магнитный противооткатный блок",
+            "effects": {
+              "cooldown": -0.03,
+              "recoil": -0.14,
+              "mass": 0.2415,
+              "value": 248
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 7,
+        "label": "Приклад",
+        "options": [
+          {
+            "name": "Откидной",
+            "effects": {
+              "sway": 0.1,
+              "bulk": -0.28,
+              "mass": -0.23
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Противооткатный",
+            "effects": {
+              "sway": -0.09,
+              "recoil": -0.0812,
+              "bulk": 0.22,
+              "mass": 0.22,
+              "value": 29
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Лёгкий рамочный приклад",
+            "effects": {
+              "bulk": -0.4025,
+              "mass": -0.2875,
+              "sway": 0.15,
+              "value": 30
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Жёсткий противооткатный приклад",
+            "effects": {
+              "bulk": 0.345,
+              "mass": 0.4025,
+              "sway": -0.13,
+              "recoil": -0.065,
+              "value": 129
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Гиростабилизирующий приклад",
+            "effects": {
+              "bulk": 0.092,
+              "mass": 0.2645,
+              "sway": -0.115,
+              "recoil": -0.13,
+              "value": 265
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 8,
+        "label": "Цевьё",
+        "options": [
+          {
+            "name": "Сетчатое",
+            "effects": {
+              "mass": -0.2,
+              "cooldown": -0.02,
+              "spread": 0.0072
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Изолированное",
+            "effects": {
+              "mass": 0.24,
+              "spread": -0.0096,
+              "sway": -0.07,
+              "value": 40
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Перфорированный экран",
+            "effects": {
+              "mass": -0.2645,
+              "bulk": -0.138,
+              "spread": 0.007,
+              "value": 33
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Термокерамический кожух",
+            "effects": {
+              "mass": 0.3105,
+              "spread": -0.01,
+              "sway": -0.06,
+              "value": 57
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Криоактивное цевьё",
+            "effects": {
+              "mass": 0.23,
+              "spread": -0.012,
+              "sway": -0.045,
+              "cooldown": -0.035,
+              "value": 282
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 9,
+        "label": "Барабан",
+        "options": [
+          {
+            "name": "3 гранаты",
+            "effects": {
+              "mass": -0.07,
+              "bulk": -0.07,
+              "reload": -0.07
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "6 гранат",
+            "effects": {
+              "mass": 0.17,
+              "bulk": 0.18,
+              "reload": 0.1,
+              "value": 30
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Лёгкий барабан",
+            "effects": {
+              "mass": -0.092,
+              "bulk": -0.1035,
+              "reload": -0.16,
+              "value": 36
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Усиленный барабан",
+            "effects": {
+              "mass": 0.299,
+              "bulk": 0.276,
+              "reload": 0.16,
+              "value": 68
+            },
+            "cost": {
+              "steel": 8,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Барабан с диагностикой камор",
+            "effects": {
+              "mass": 0.1265,
+              "bulk": 0.069,
+              "reload": -0.1,
+              "cooldown": -0.012,
+              "value": 299
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 2,
+              "advanced": 3,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 10,
+        "label": "Прицельный комплекс",
+        "options": [
+          {
+            "name": "Лестничный",
+            "effects": {
+              "sights": -0.05,
+              "mass": -0.05
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Дальномерный",
+            "effects": {
+              "sights": 0.22,
+              "warmup": -0.075,
+              "mass": 0.13,
+              "value": 66,
+              "nightVision": 0.1
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 1,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Лестничный резервный прицел",
+            "effects": {
+              "sights": -0.025,
+              "mass": -0.0805,
+              "warmup": -0.035,
+              "value": 39
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Дальномерная оптика",
+            "effects": {
+              "sights": 0.28,
+              "mass": 0.322,
+              "warmup": 0.055,
+              "value": 79
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Интеллектуальный баллистический вычислитель",
+            "effects": {
+              "sights": 0.2,
+              "warmup": -0.12,
+              "nightVision": 0.18,
+              "mass": 0.184,
+              "value": 159
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": false
+      },
+      {
+        "id": 11,
+        "label": "Рукоять",
+        "options": [
+          {
+            "name": "Резиновая",
+            "effects": {
+              "sway": 0.03,
+              "mass": -0.07
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Экзоприводная",
+            "effects": {
+              "sway": -0.05,
+              "recoil": -0.0464,
+              "mass": 0.055,
+              "value": 26
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Резиновая полевая рукоять",
+            "effects": {
+              "mass": -0.1035,
+              "sway": 0.05,
+              "value": 11
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Противооткатная рукоять",
+            "effects": {
+              "mass": 0.1265,
+              "sway": -0.11,
+              "recoil": -0.03,
+              "value": 90
+            },
+            "cost": {
+              "steel": 5,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Нейрогироскопическая рукоять",
+            "effects": {
+              "mass": 0.0805,
+              "sway": -0.12,
+              "warmup": -0.045,
+              "value": 176
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 12,
+        "label": "Замок барабана",
+        "options": [
+          {
+            "name": "Ручной",
+            "effects": {
+              "reload": -0.03,
+              "cooldown": 0.01
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Автосброс",
+            "effects": {
+              "reload": -0.12,
+              "mass": 0.09,
+              "value": 30
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 1,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Ручной фиксатор барабана",
+            "effects": {
+              "reload": -0.06,
+              "mass": 0.023,
+              "value": 14
+            },
+            "cost": {
+              "steel": 1,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Сервозамок",
+            "effects": {
+              "reload": -0.17,
+              "mass": 0.1955,
+              "bulk": 0.07475,
+              "value": 101
+            },
+            "cost": {
+              "steel": 6,
+              "industrial": 1,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Автоматический синхрозамок",
+            "effects": {
+              "reload": -0.11,
+              "mass": 0.09775,
+              "cooldown": -0.04,
+              "value": 193
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 9
+            }
+          }
+        ],
+        "required": true
+      },
+      {
+        "id": 13,
+        "label": "Надульный узел",
+        "options": [
+          {
+            "name": "Раструб",
+            "effects": {
+              "mass": -0.05,
+              "recoil": 0.0638
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Газовый диффузор",
+            "effects": {
+              "recoil": -0.1392,
+              "spread": -0.0072,
+              "mass": 0.16,
+              "bulk": 0.06,
+              "value": 34
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Простой защитный раструб",
+            "effects": {
+              "recoil": -0.035,
+              "mass": 0.0575,
+              "bulk": 0.04025,
+              "value": 17
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 0,
+              "advanced": 0,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Диффузор отдачи",
+            "effects": {
+              "recoil": -0.19,
+              "mass": 0.207,
+              "bulk": 0.115,
+              "value": 112
+            },
+            "cost": {
+              "steel": 7,
+              "industrial": 2,
+              "advanced": 1,
+              "gold": 0
+            }
+          },
+          {
+            "name": "Активный газовый модулятор",
+            "effects": {
+              "recoil": -0.12,
+              "mass": 0.161,
+              "spread": -0.005,
+              "value": 210
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 2,
+              "gold": 4
+            }
+          }
+        ],
+        "required": false
+      },
+      {
+        "id": 14,
+        "label": "Нижняя аксессуарная планка",
+        "required": false,
+        "options": [
+          {
+            "name": "Базовая нижняя планка",
+            "effects": {
+              "mass": 0.04,
+              "bulk": 0.04
+            },
+            "cost": {
+              "steel": 3
+            }
+          },
+          {
+            "name": "Облегчённая рельса",
+            "effects": {
+              "mass": -0.08,
+              "sway": 0.02
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1
+            }
+          },
+          {
+            "name": "Усиленная рельса",
+            "effects": {
+              "mass": 0.2,
+              "sway": -0.04,
+              "recoil": -0.02
+            },
+            "cost": {
+              "steel": 4,
+              "industrial": 2
+            }
+          },
+          {
+            "name": "Многопозиционный кронштейн",
+            "effects": {
+              "mass": 0.16,
+              "sights": 0.04,
+              "warmup": -0.015
+            },
+            "cost": {
+              "steel": 3,
+              "industrial": 2,
+              "advanced": 1
+            }
+          },
+          {
+            "name": "Умная интерфейсная рельса",
+            "effects": {
+              "mass": 0.1,
+              "sights": 0.07,
+              "nightVision": 0.03,
+              "value": 140
+            },
+            "cost": {
+              "steel": 2,
+              "industrial": 1,
+              "advanced": 3,
+              "gold": 5
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

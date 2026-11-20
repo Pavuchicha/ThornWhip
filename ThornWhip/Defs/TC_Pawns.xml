@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef Name="TC_BaseHuman" ParentName="OutlanderBase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>TC_ThornCorps</defaultFactionType>
+    <combatPower>115</combatPower>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponMoney>1800~4200</weaponMoney>
+    <apparelMoney>5000~18000</apparelMoney>
+    <apparelColor>(78, 104, 111)</apparelColor>
+    <gearHealthRange>0.70~1</gearHealthRange>
+    <itemQuality>Normal</itemQuality>
+    <weaponTags Inherit="False">
+      <li>TC_Weapon</li>
+    </weaponTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="TC_BaseHuman">
+    <defName>TC_Operator</defName>
+    <label>стрелок Терна</label>
+    <combatPower>105</combatPower>
+    <weaponTags Inherit="False">
+      <li>TC_Weapon</li>
+    </weaponTags>
+    <apparelTags Inherit="False">
+      <li>TC_Armor_Light</li>
+      <li>TC_Armor_Medium</li>
+    </apparelTags>
+    <apparelMoney>1500~6500</apparelMoney>
+  </PawnKindDef>
+  <PawnKindDef ParentName="TC_BaseHuman">
+    <defName>TC_Engineer</defName>
+    <label>инженер-гарнизонный Терна</label>
+    <combatPower>95</combatPower>
+    <weaponTags Inherit="False">
+      <li>TC_Weapon</li>
+    </weaponTags>
+    <apparelTags Inherit="False">
+      <li>TC_Armor_Light</li>
+      <li>TC_Armor_Medium</li>
+    </apparelTags>
+    <apparelMoney>1500~6500</apparelMoney>
+  </PawnKindDef>
+  <PawnKindDef ParentName="TC_BaseHuman">
+    <defName>TC_Bulwark</defName>
+    <label>тяжёлый страж Терна</label>
+    <combatPower>250</combatPower>
+    <weaponTags Inherit="False">
+      <li>TC_Weapon</li>
+    </weaponTags>
+    <apparelTags Inherit="False">
+      <li>TC_Armor_Heavy</li>
+    </apparelTags>
+    <apparelMoney>5500~18500</apparelMoney>
+  </PawnKindDef>
+</Defs>

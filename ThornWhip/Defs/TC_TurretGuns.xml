@@ -1,0 +1,1080 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_HolderDummy</defName>
+    <label>HolderDummy</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.45</ShotSpread>
+      <SwayFactor>0.5</SwayFactor>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>1</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>8</magazineSize>
+        <reloadTime>0</reloadTime>
+        <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Minigun_56x4</defName>
+    <label>Minigun 56x4</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.18</ShotSpread>
+      <SwayFactor>1.3</SwayFactor>
+      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>55</range>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>62</magazineSize>
+        <reloadTime>1.0</reloadTime>
+        <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Minigun_56x6</defName>
+    <label>Minigun 56x6</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.22</ShotSpread>
+      <SwayFactor>1.5</SwayFactor>
+      <RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>62</range>
+        <burstShotCount>16</burstShotCount>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>90</magazineSize>
+        <reloadTime>1.15</reloadTime>
+        <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Minigun_762x6</defName>
+    <label>Minigun 762x6</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.24</ShotSpread>
+      <SwayFactor>1.6</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>64</range>
+        <burstShotCount>12</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>75</magazineSize>
+        <reloadTime>1.6</reloadTime>
+        <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Minigun_762x8</defName>
+    <label>Minigun 762x8</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.26</ShotSpread>
+      <SwayFactor>1.8</SwayFactor>
+      <RangedWeapon_Cooldown>0.45</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>65</range>
+        <burstShotCount>18</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>125</magazineSize>
+        <reloadTime>2.0</reloadTime>
+        <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Minigun_20x6</defName>
+    <label>Minigun 20x6</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.21</ShotSpread>
+      <SwayFactor>2.2</SwayFactor>
+      <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_20x128mmOerlikon_AP</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>73</range>
+        <burstShotCount>7</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>42</magazineSize>
+        <reloadTime>2.3</reloadTime>
+        <ammoSet>AmmoSet_20x128mmOerlikon</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Laser_Focus</defName>
+    <label>Laser Focus</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.001</ShotSpread>
+      <SwayFactor>0.05</SwayFactor>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Beam_Standard</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>58</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <recoilAmount>0.2</recoilAmount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>36</magazineSize>
+        <reloadTime>1.6</reloadTime>
+        <ammoSet>TC_AmmoSet_Laser</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Laser_Cooling</defName>
+    <label>Laser Cooling</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.001</ShotSpread>
+      <SwayFactor>0.05</SwayFactor>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Beam_Standard</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>58</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <recoilAmount>0.2</recoilAmount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>55</magazineSize>
+        <reloadTime>1.05</reloadTime>
+        <ammoSet>TC_AmmoSet_Laser</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Laser_Pulse</defName>
+    <label>Laser Pulse</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.004</ShotSpread>
+      <SwayFactor>0.07</SwayFactor>
+      <RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Beam_Standard</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>54</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <recoilAmount>0.2</recoilAmount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>48</magazineSize>
+        <reloadTime>1.3</reloadTime>
+        <ammoSet>TC_AmmoSet_Laser</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Blaster_Scatter</defName>
+    <label>Blaster Scatter</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.12</ShotSpread>
+      <SwayFactor>0.15</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Bolt_Standard</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>50</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>65</magazineSize>
+        <reloadTime>1.7</reloadTime>
+        <ammoSet>TC_AmmoSet_Blaster</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Blaster_Pierce</defName>
+    <label>Blaster Pierce</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.065</ShotSpread>
+      <SwayFactor>0.1</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Bolt_Piercing</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>57</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>48</magazineSize>
+        <reloadTime>2.0</reloadTime>
+        <ammoSet>TC_AmmoSet_Blaster</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Blaster_Fury</defName>
+    <label>Blaster Fury</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.2</ShotSpread>
+      <SwayFactor>0.2</SwayFactor>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Bolt_Standard</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>43</range>
+        <burstShotCount>8</burstShotCount>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>85</magazineSize>
+        <reloadTime>1.7</reloadTime>
+        <ammoSet>TC_AmmoSet_Blaster</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Railgun_Light</defName>
+    <label>Railgun Light</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.9</SightsEfficiency>
+      <ShotSpread>0.025</ShotSpread>
+      <SwayFactor>0.4</SwayFactor>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>85</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>20</magazineSize>
+        <reloadTime>2.5</reloadTime>
+        <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Railgun_Medium</defName>
+    <label>Railgun Medium</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.9</SightsEfficiency>
+      <ShotSpread>0.018</ShotSpread>
+      <SwayFactor>0.6</SwayFactor>
+      <RangedWeapon_Cooldown>3.8</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_20x128mmOerlikon_AP</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>106</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>12</magazineSize>
+        <reloadTime>4.4</reloadTime>
+        <ammoSet>AmmoSet_20x128mmOerlikon</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_Railgun_Heavy</defName>
+    <label>Railgun Heavy</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.9</SightsEfficiency>
+      <ShotSpread>0.014</ShotSpread>
+      <SwayFactor>0.7</SwayFactor>
+      <RangedWeapon_Cooldown>5.0</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Slug_Rail30</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>128</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>8</magazineSize>
+        <reloadTime>6.0</reloadTime>
+        <ammoSet>TC_AmmoSet_RailHeavy</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_ATGM_HEAT</defName>
+    <label>ATGM HEAT</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.9</SightsEfficiency>
+      <ShotSpread>0.024</ShotSpread>
+      <SwayFactor>0.2</SwayFactor>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Missile_HEAT</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>92</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <minRange>12</minRange>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>4</magazineSize>
+        <reloadTime>5.0</reloadTime>
+        <ammoSet>TC_AmmoSet_ATGM</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_ATGM_Dual</defName>
+    <label>ATGM Dual</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.9</SightsEfficiency>
+      <ShotSpread>0.035</ShotSpread>
+      <SwayFactor>0.3</SwayFactor>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Missile_HEAT</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>91</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <minRange>12</minRange>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>6</magazineSize>
+        <reloadTime>6.0</reloadTime>
+        <ammoSet>TC_AmmoSet_ATGM</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_ATGM_Guided</defName>
+    <label>ATGM Guided</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.9</SightsEfficiency>
+      <ShotSpread>0.008</ShotSpread>
+      <SwayFactor>0.2</SwayFactor>
+      <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Missile_HEAT</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>100</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <minRange>12</minRange>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>6</magazineSize>
+        <reloadTime>5.5</reloadTime>
+        <ammoSet>TC_AmmoSet_ATGM</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_MLRS_Light</defName>
+    <label>MLRS Light</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.7</ShotSpread>
+      <SwayFactor>0.75</SwayFactor>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Rocket_HE</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>88</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <minRange>12</minRange>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>24</magazineSize>
+        <reloadTime>5.5</reloadTime>
+        <ammoSet>TC_AmmoSet_MLRS</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_MLRS_Swarm</defName>
+    <label>MLRS Swarm</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.85</ShotSpread>
+      <SwayFactor>0.85</SwayFactor>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Rocket_HE</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>90</range>
+        <burstShotCount>12</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <minRange>12</minRange>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>48</magazineSize>
+        <reloadTime>6.8</reloadTime>
+        <ammoSet>TC_AmmoSet_MLRS</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun_CE">
+    <defName>TC_Gun_MLRS_Heavy</defName>
+    <label>MLRS Heavy</label>
+    <description>Внутренний CE-механизм «Корпуса Терна». Боеприпасы, перезарядка и баллистика управляются CE.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>ThornCorps/Defense/GunMount</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
+    <statBases>
+      <Mass>12</Mass>
+      <Bulk>20</Bulk>
+      <SightsEfficiency>1.1</SightsEfficiency>
+      <ShotSpread>0.9</ShotSpread>
+      <SwayFactor>0.8</SwayFactor>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>TC_Rocket_HE</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>105</range>
+        <burstShotCount>9</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <recoilAmount>1.7</recoilAmount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <minRange>12</minRange>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>36</magazineSize>
+        <reloadTime>7.3</reloadTime>
+        <ammoSet>TC_AmmoSet_MLRS</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>true</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Fort_ReinforcedWall</defName>
+    <label>армированная стена Терна</label>
+    <description>Укрепление Корпуса Терна с массивными бронеплитами и датчиками. Амбразуры предназначены для огня сквозь укрытие; их CE-LoS требует отдельного теста.</description>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <designationCategory>Security</designationCategory>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>1.0</fillPercent>
+    <size>(1,1)</size>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Fort_ReinforcedWall</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>850</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Flammability>0.05</Flammability>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+    </costList>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <rotatable>true</rotatable>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Fort_Embrasure</defName>
+    <label>амбразура Терна</label>
+    <description>Укрепление Корпуса Терна с массивными бронеплитами и датчиками. Амбразуры предназначены для огня сквозь укрытие; их CE-LoS требует отдельного теста.</description>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <designationCategory>Security</designationCategory>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.68</fillPercent>
+    <size>(1,1)</size>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Fort_Embrasure</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>440</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Flammability>0.05</Flammability>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+    </costList>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
+    <blockLight>false</blockLight>
+    <coversFloor>true</coversFloor>
+    <rotatable>true</rotatable>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Fort_Bunker</defName>
+    <label>модульный бастион Терна</label>
+    <description>Укрепление Корпуса Терна с массивными бронеплитами и датчиками. Амбразуры предназначены для огня сквозь укрытие; их CE-LoS требует отдельного теста.</description>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <designationCategory>Security</designationCategory>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.9</fillPercent>
+    <size>(1,1)</size>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Fort_Bunker</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>850</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Flammability>0.05</Flammability>
+    </statBases>
+    <costList>
+      <Steel>85</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <rotatable>true</rotatable>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Fort_Sandbag</defName>
+    <label>инженерная огневая позиция</label>
+    <description>Укрепление Корпуса Терна с массивными бронеплитами и датчиками. Амбразуры предназначены для огня сквозь укрытие; их CE-LoS требует отдельного теста.</description>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <designationCategory>Security</designationCategory>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.44</fillPercent>
+    <size>(1,1)</size>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Fort_Sandbag</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Flammability>0.05</Flammability>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <rotatable>true</rotatable>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Fort_Foxhole</defName>
+    <label>окоп Терна</label>
+    <description>Укрепление Корпуса Терна с массивными бронеплитами и датчиками. Амбразуры предназначены для огня сквозь укрытие; их CE-LoS требует отдельного теста.</description>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <designationCategory>Security</designationCategory>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0.29</fillPercent>
+    <size>(1,1)</size>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Fort_Foxhole</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Flammability>0.05</Flammability>
+    </statBases>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <rotatable>true</rotatable>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Fort_ArmoredGate</defName>
+    <label>ворота укреплённого завода</label>
+    <description>Укрепление Корпуса Терна с массивными бронеплитами и датчиками. Амбразуры предназначены для огня сквозь укрытие; их CE-LoS требует отдельного теста.</description>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <designationCategory>Security</designationCategory>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.92</fillPercent>
+    <size>(1,1)</size>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Fort_ArmoredGate</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>900</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Flammability>0.05</Flammability>
+    </statBases>
+    <costList>
+      <Steel>90</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <rotatable>true</rotatable>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Trench_1</defName>
+    <label>ров Терна — глубина 1</label>
+    <description>Разработанная траншея глубины 1. При подключении к водоёму связанные рвы заполняются. Глубина 3 после затопления становится непроходимой.</description>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <designationCategory>Security</designationCategory>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <tickerType>Rare</tickerType>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Trench_1</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>320</MaxHitPoints>
+      <WorkToBuild>9000</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <costList>
+      <Steel>24</Steel>
+    </costList>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTrench" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <rotatable>true</rotatable>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Trench_2</defName>
+    <label>ров Терна — глубина 2</label>
+    <description>Разработанная траншея глубины 2. При подключении к водоёму связанные рвы заполняются. Глубина 3 после затопления становится непроходимой.</description>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <designationCategory>Security</designationCategory>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <tickerType>Rare</tickerType>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Trench_2</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>420</MaxHitPoints>
+      <WorkToBuild>13500</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <costList>
+      <Steel>36</Steel>
+    </costList>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTrench" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <rotatable>true</rotatable>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Trench_3</defName>
+    <label>ров Терна — глубина 3</label>
+    <description>Разработанная траншея глубины 3. При подключении к водоёму связанные рвы заполняются. Глубина 3 после затопления становится непроходимой.</description>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <designationCategory>Security</designationCategory>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <tickerType>Rare</tickerType>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Trench_3</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>520</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <costList>
+      <Steel>48</Steel>
+    </costList>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTrench" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <rotatable>true</rotatable>
+  </ThingDef>
+</Defs>

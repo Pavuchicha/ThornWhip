@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>TC_HaulRetrofitPart</defName>
+    <driverClass>ThornWhip.JobDriver_ThornDeliver</driverClass>
+    <reportString>доставляет материалы для модернизации турели</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>TC_WorkRetrofit</defName>
+    <driverClass>ThornWhip.JobDriver_ThornRetrofitWork</driverClass>
+    <reportString>модернизирует стационарное вооружение Терна</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>TC_MountWeapon</defName>
+    <driverClass>ThornWhip.JobDriver_ThornMount</driverClass>
+    <reportString>устанавливает оружие на турель-держатель</reportString>
+  </JobDef>
+  <WorkGiverDef>
+    <defName>TC_UpgradeTurrets</defName>
+    <label>модернизировать турели Терна</label>
+    <giverClass>ThornWhip.WorkGiver_ThornRetrofit</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>75</priorityInType>
+    <verb>модернизирует</verb>
+    <gerund>модернизация</gerund>
+    <requiredCapacities><li>Manipulation</li></requiredCapacities>
+  </WorkGiverDef>
+</Defs>

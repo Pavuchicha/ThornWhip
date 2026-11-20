@@ -1,0 +1,364 @@
+{
+  "turrets": [
+    {
+      "id": "Holder",
+      "name": "держатель вооружения",
+      "size": 1,
+      "hp": 310,
+      "power": 90,
+      "steel": 100,
+      "plasteel": 10,
+      "industrial": 4,
+      "adv": 0,
+      "tech": "Industrial",
+      "research": "Gunsmithing",
+      "profiles": [
+        [
+          "Empty",
+          "TC_Gun_HolderDummy",
+          "пустая рама"
+        ]
+      ]
+    },
+    {
+      "id": "Minigun",
+      "name": "роторная пулемётная турель",
+      "size": 2,
+      "hp": 500,
+      "power": 410,
+      "steel": 195,
+      "plasteel": 35,
+      "industrial": 8,
+      "adv": 2,
+      "tech": "Spacer",
+      "research": "HeavyTurrets",
+      "profiles": [
+        [
+          "56x4",
+          "TC_Gun_Minigun_56x4",
+          "5,56 / 4 ствола"
+        ],
+        [
+          "56x6",
+          "TC_Gun_Minigun_56x6",
+          "5,56 / 6 стволов"
+        ],
+        [
+          "762x6",
+          "TC_Gun_Minigun_762x6",
+          "7,62 / 6 стволов"
+        ],
+        [
+          "762x8",
+          "TC_Gun_Minigun_762x8",
+          "7,62 / 8 стволов"
+        ],
+        [
+          "20x6",
+          "TC_Gun_Minigun_20x6",
+          "20 мм / 6 стволов"
+        ]
+      ]
+    },
+    {
+      "id": "Laser",
+      "name": "лазерная турель",
+      "size": 2,
+      "hp": 450,
+      "power": 650,
+      "steel": 175,
+      "plasteel": 55,
+      "industrial": 6,
+      "adv": 5,
+      "tech": "Spacer",
+      "research": "ChargedShot",
+      "profiles": [
+        [
+          "Focus",
+          "TC_Gun_Laser_Focus",
+          "фокусирующая линза"
+        ],
+        [
+          "Cooling",
+          "TC_Gun_Laser_Cooling",
+          "криоконтур"
+        ],
+        [
+          "Pulse",
+          "TC_Gun_Laser_Pulse",
+          "быстрый импульс"
+        ]
+      ]
+    },
+    {
+      "id": "Blaster",
+      "name": "бластерная турель",
+      "size": 2,
+      "hp": 520,
+      "power": 790,
+      "steel": 210,
+      "plasteel": 65,
+      "industrial": 8,
+      "adv": 6,
+      "tech": "Spacer",
+      "research": "ChargedShot",
+      "profiles": [
+        [
+          "Scatter",
+          "TC_Gun_Blaster_Scatter",
+          "рассеивание"
+        ],
+        [
+          "Pierce",
+          "TC_Gun_Blaster_Pierce",
+          "бронебойный пакет"
+        ],
+        [
+          "Fury",
+          "TC_Gun_Blaster_Fury",
+          "скоростной пакет"
+        ]
+      ]
+    },
+    {
+      "id": "Railgun",
+      "name": "рейлган",
+      "size": 2,
+      "hp": 750,
+      "power": 1250,
+      "steel": 280,
+      "plasteel": 95,
+      "industrial": 12,
+      "adv": 8,
+      "tech": "Ultra",
+      "research": "Fabrication",
+      "profiles": [
+        [
+          "Light",
+          "TC_Gun_Railgun_Light",
+          "лёгкий"
+        ],
+        [
+          "Medium",
+          "TC_Gun_Railgun_Medium",
+          "средний"
+        ],
+        [
+          "Heavy",
+          "TC_Gun_Railgun_Heavy",
+          "тяжёлый"
+        ]
+      ]
+    },
+    {
+      "id": "ATGM",
+      "name": "автоматическая ПТУР",
+      "size": 2,
+      "hp": 440,
+      "power": 360,
+      "steel": 210,
+      "plasteel": 40,
+      "industrial": 8,
+      "adv": 3,
+      "tech": "Spacer",
+      "research": "CE_Launchers",
+      "profiles": [
+        [
+          "HEAT",
+          "TC_Gun_ATGM_HEAT",
+          "ПТУР / HEAT или HE"
+        ],
+        [
+          "Dual",
+          "TC_Gun_ATGM_Dual",
+          "двойная пусковая"
+        ],
+        [
+          "Guided",
+          "TC_Gun_ATGM_Guided",
+          "улучшенное сопровождение"
+        ]
+      ]
+    },
+    {
+      "id": "MLRS",
+      "name": "пакетная РСЗО",
+      "size": 3,
+      "hp": 700,
+      "power": 450,
+      "steel": 335,
+      "plasteel": 75,
+      "industrial": 13,
+      "adv": 4,
+      "tech": "Spacer",
+      "research": "CE_Launchers",
+      "profiles": [
+        [
+          "Light",
+          "TC_Gun_MLRS_Light",
+          "облегчённый блок"
+        ],
+        [
+          "Swarm",
+          "TC_Gun_MLRS_Swarm",
+          "залп 12 ракет"
+        ],
+        [
+          "Heavy",
+          "TC_Gun_MLRS_Heavy",
+          "утяжелённый блок"
+        ]
+      ]
+    }
+  ],
+  "guns": {
+    "TC_Gun_HolderDummy": {
+      "ammoSet": "AmmoSet_556x45mmNATO",
+      "projectile": "Bullet_556x45mmNATO_FMJ",
+      "range": 1,
+      "burst": 1,
+      "magazine": 8
+    },
+    "TC_Gun_Minigun_56x4": {
+      "ammoSet": "AmmoSet_556x45mmNATO",
+      "projectile": "Bullet_556x45mmNATO_FMJ",
+      "range": 55,
+      "burst": 10,
+      "magazine": 62
+    },
+    "TC_Gun_Minigun_56x6": {
+      "ammoSet": "AmmoSet_556x45mmNATO",
+      "projectile": "Bullet_556x45mmNATO_FMJ",
+      "range": 62,
+      "burst": 16,
+      "magazine": 90
+    },
+    "TC_Gun_Minigun_762x6": {
+      "ammoSet": "AmmoSet_762x51mmNATO",
+      "projectile": "Bullet_762x51mmNATO_FMJ",
+      "range": 64,
+      "burst": 12,
+      "magazine": 75
+    },
+    "TC_Gun_Minigun_762x8": {
+      "ammoSet": "AmmoSet_762x51mmNATO",
+      "projectile": "Bullet_762x51mmNATO_FMJ",
+      "range": 65,
+      "burst": 18,
+      "magazine": 125
+    },
+    "TC_Gun_Minigun_20x6": {
+      "ammoSet": "AmmoSet_20x128mmOerlikon",
+      "projectile": "Bullet_20x128mmOerlikon_AP",
+      "range": 73,
+      "burst": 7,
+      "magazine": 42
+    },
+    "TC_Gun_Laser_Focus": {
+      "ammoSet": "TC_AmmoSet_Laser",
+      "projectile": "TC_Beam_Standard",
+      "range": 58,
+      "burst": 1,
+      "magazine": 36
+    },
+    "TC_Gun_Laser_Cooling": {
+      "ammoSet": "TC_AmmoSet_Laser",
+      "projectile": "TC_Beam_Standard",
+      "range": 58,
+      "burst": 1,
+      "magazine": 55
+    },
+    "TC_Gun_Laser_Pulse": {
+      "ammoSet": "TC_AmmoSet_Laser",
+      "projectile": "TC_Beam_Standard",
+      "range": 54,
+      "burst": 3,
+      "magazine": 48
+    },
+    "TC_Gun_Blaster_Scatter": {
+      "ammoSet": "TC_AmmoSet_Blaster",
+      "projectile": "TC_Bolt_Standard",
+      "range": 50,
+      "burst": 5,
+      "magazine": 65
+    },
+    "TC_Gun_Blaster_Pierce": {
+      "ammoSet": "TC_AmmoSet_Blaster",
+      "projectile": "TC_Bolt_Piercing",
+      "range": 57,
+      "burst": 3,
+      "magazine": 48
+    },
+    "TC_Gun_Blaster_Fury": {
+      "ammoSet": "TC_AmmoSet_Blaster",
+      "projectile": "TC_Bolt_Standard",
+      "range": 43,
+      "burst": 8,
+      "magazine": 85
+    },
+    "TC_Gun_Railgun_Light": {
+      "ammoSet": "AmmoSet_762x51mmNATO",
+      "projectile": "Bullet_762x51mmNATO_FMJ",
+      "range": 85,
+      "burst": 1,
+      "magazine": 20
+    },
+    "TC_Gun_Railgun_Medium": {
+      "ammoSet": "AmmoSet_20x128mmOerlikon",
+      "projectile": "Bullet_20x128mmOerlikon_AP",
+      "range": 106,
+      "burst": 1,
+      "magazine": 12
+    },
+    "TC_Gun_Railgun_Heavy": {
+      "ammoSet": "TC_AmmoSet_RailHeavy",
+      "projectile": "TC_Slug_Rail30",
+      "range": 128,
+      "burst": 1,
+      "magazine": 8
+    },
+    "TC_Gun_ATGM_HEAT": {
+      "ammoSet": "TC_AmmoSet_ATGM",
+      "projectile": "TC_Missile_HEAT",
+      "range": 92,
+      "burst": 1,
+      "magazine": 4
+    },
+    "TC_Gun_ATGM_Dual": {
+      "ammoSet": "TC_AmmoSet_ATGM",
+      "projectile": "TC_Missile_HEAT",
+      "range": 91,
+      "burst": 2,
+      "magazine": 6
+    },
+    "TC_Gun_ATGM_Guided": {
+      "ammoSet": "TC_AmmoSet_ATGM",
+      "projectile": "TC_Missile_HEAT",
+      "range": 100,
+      "burst": 1,
+      "magazine": 6
+    },
+    "TC_Gun_MLRS_Light": {
+      "ammoSet": "TC_AmmoSet_MLRS",
+      "projectile": "TC_Rocket_HE",
+      "range": 88,
+      "burst": 6,
+      "magazine": 24
+    },
+    "TC_Gun_MLRS_Swarm": {
+      "ammoSet": "TC_AmmoSet_MLRS",
+      "projectile": "TC_Rocket_HE",
+      "range": 90,
+      "burst": 12,
+      "magazine": 48
+    },
+    "TC_Gun_MLRS_Heavy": {
+      "ammoSet": "TC_AmmoSet_MLRS",
+      "projectile": "TC_Rocket_HE",
+      "range": 105,
+      "burst": 9,
+      "magazine": 36
+    }
+  },
+  "status": "Uncompiled. Energy projectile profiles approximate; perfect-hit continuous CE beams pending runtime integration."
+}

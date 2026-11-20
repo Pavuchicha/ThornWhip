@@ -1,0 +1,19 @@
+{
+  "Rifle": [
+    {"name":"5,56×45 NATO", "ammoSet":"AmmoSet_556x45mmNATO", "projectile":"Bullet_556x45mmNATO_FMJ", "mass":0, "recoil":1.00, "magMultiplier":1.00, "extraSteel":0, "extraComp":0, "requireReinforced":false},
+    {"name":"7,62×39 Soviet", "ammoSet":"AmmoSet_762x39mmSoviet", "projectile":"Bullet_762x39mmSoviet_FMJ", "mass":0.16, "recoil":1.40, "magMultiplier":0.90, "extraSteel":6, "extraComp":1, "requireReinforced":false},
+    {"name":"7,62×51 NATO", "ammoSet":"AmmoSet_762x51mmNATO", "projectile":"Bullet_762x51mmNATO_FMJ", "mass":0.48, "recoil":1.70, "magMultiplier":0.73, "extraSteel":14, "extraComp":3, "requireReinforced":true}
+  ],
+  "Auto": [
+    {"name":"5,56×45 NATO", "ammoSet":"AmmoSet_556x45mmNATO", "projectile":"Bullet_556x45mmNATO_FMJ", "mass":0, "recoil":1.00, "magMultiplier":1.00, "extraSteel":0, "extraComp":0, "requireReinforced":false},
+    {"name":"5,45×39 Soviet", "ammoSet":"AmmoSet_545x39mmSoviet", "projectile":"Bullet_545x39mmSoviet_FMJ", "mass":-0.12, "recoil":0.90, "magMultiplier":1.00, "extraSteel":4, "extraComp":1, "requireReinforced":false},
+    {"name":"7,62×39 Soviet", "ammoSet":"AmmoSet_762x39mmSoviet", "projectile":"Bullet_762x39mmSoviet_FMJ", "mass":0.31, "recoil":1.45, "magMultiplier":0.82, "extraSteel":9, "extraComp":2, "requireReinforced":true}
+  ],
+  "Pistol": [
+    {"name":"9×19 Parabellum", "ammoSet":"AmmoSet_9x19mmPara", "projectile":"Bullet_9x19mmPara_FMJ", "mass":0, "recoil":1.00, "magMultiplier":1.00, "extraSteel":0, "extraComp":0, "requireReinforced":false},
+    {"name":".45 ACP", "ammoSet":"AmmoSet_45ACP", "projectile":"Bullet_45ACP_FMJ", "mass":0.15, "recoil":1.25, "magMultiplier":0.75, "extraSteel":5, "extraComp":1, "requireReinforced":true}
+  ],
+  "Launcher": [
+    {"name":"40×46 LV CE", "ammoSet":"AmmoSet_40x46mmGrenade", "projectile":"Bullet_40x46mmGrenade_HE", "mass":0, "recoil":1.00, "magMultiplier":1.00, "extraSteel":0, "extraComp":0, "requireReinforced":false}
+  ]
+}

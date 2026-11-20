@@ -1,0 +1,5283 @@
+{
+  "schema": 1,
+  "families": [
+    {
+      "key": "Light",
+      "label": "Лёгкий жилет",
+      "short": "ЖИЛЕТ",
+      "coverage": [
+        "Torso"
+      ],
+      "slots": [
+        {
+          "id": 0,
+          "label": "Баллистическая подкладка",
+          "region": "Torso",
+          "required": true,
+          "options": [
+            {
+              "id": "Light_00_V0",
+              "name": "Серийный — баллистическая подкладка",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.3,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_00_V1",
+              "name": "Упрощённый — баллистическая подкладка",
+              "minTier": 1,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.32,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_00_V2",
+              "name": "Упрочнённый — баллистическая подкладка",
+              "minTier": 2,
+              "cost": {
+                "Steel": 7,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 0.95,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_00_V3",
+              "name": "Композитный — баллистическая подкладка",
+              "minTier": 2,
+              "cost": {
+                "Steel": 3,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.45,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_00_V4",
+              "name": "Метаматериальный — баллистическая подкладка",
+              "minTier": 3,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -0.75,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "label": "Передняя плита",
+          "region": "Torso",
+          "required": true,
+          "options": [
+            {
+              "id": "Light_01_V0",
+              "name": "Серийный — передняя плита",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.78,
+                "blunt": 1.56,
+                "heat": 0,
+                "mass": 0.3,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_01_V1",
+              "name": "Упрощённый — передняя плита",
+              "minTier": 1,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.065,
+                "blunt": 0.65,
+                "heat": 0,
+                "mass": -0.32,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_01_V2",
+              "name": "Упрочнённый — передняя плита",
+              "minTier": 2,
+              "cost": {
+                "Steel": 7,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.73,
+                "blunt": 5.46,
+                "heat": 0.01,
+                "mass": 0.95,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.027,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_01_V3",
+              "name": "Композитный — передняя плита",
+              "minTier": 2,
+              "cost": {
+                "Steel": 3,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.82,
+                "blunt": 3.64,
+                "heat": 0.02,
+                "mass": -0.45,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_01_V4",
+              "name": "Метаматериальный — передняя плита",
+              "minTier": 3,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 4.55,
+                "blunt": 8.32,
+                "heat": 0.04,
+                "mass": -0.75,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.005,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Задняя плита",
+          "region": "Torso",
+          "required": true,
+          "options": [
+            {
+              "id": "Light_02_V0",
+              "name": "Серийный — задняя плита",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.78,
+                "blunt": 1.56,
+                "heat": 0,
+                "mass": 0.3,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_02_V1",
+              "name": "Упрощённый — задняя плита",
+              "minTier": 1,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.065,
+                "blunt": 0.65,
+                "heat": 0,
+                "mass": -0.32,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_02_V2",
+              "name": "Упрочнённый — задняя плита",
+              "minTier": 2,
+              "cost": {
+                "Steel": 7,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.73,
+                "blunt": 5.46,
+                "heat": 0.01,
+                "mass": 0.95,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.027,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_02_V3",
+              "name": "Композитный — задняя плита",
+              "minTier": 2,
+              "cost": {
+                "Steel": 3,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.82,
+                "blunt": 3.64,
+                "heat": 0.02,
+                "mass": -0.45,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_02_V4",
+              "name": "Метаматериальный — задняя плита",
+              "minTier": 3,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 4.55,
+                "blunt": 8.32,
+                "heat": 0.04,
+                "mass": -0.75,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.005,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Подвесная система",
+          "region": "All",
+          "required": true,
+          "options": [
+            {
+              "id": "Light_03_V0",
+              "name": "Серийный — подвесная система",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.3,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.02,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_03_V1",
+              "name": "Упрощённый — подвесная система",
+              "minTier": 1,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.32,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.02,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 6,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_03_V2",
+              "name": "Упрочнённый — подвесная система",
+              "minTier": 2,
+              "cost": {
+                "Steel": 7,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 0.95,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.046,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 65,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_03_V3",
+              "name": "Композитный — подвесная система",
+              "minTier": 2,
+              "cost": {
+                "Steel": 3,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.45,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.036,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 105,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_03_V4",
+              "name": "Метаматериальный — подвесная система",
+              "minTier": 3,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -0.75,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.053,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 360,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Боковые плиты",
+          "region": "Torso",
+          "required": false,
+          "options": [
+            {
+              "id": "Light_04_V0",
+              "name": "Серийный — боковые плиты",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.3,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_04_V1",
+              "name": "Упрощённый — боковые плиты",
+              "minTier": 1,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.32,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_04_V2",
+              "name": "Упрочнённый — боковые плиты",
+              "minTier": 2,
+              "cost": {
+                "Steel": 7,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 0.95,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_04_V3",
+              "name": "Композитный — боковые плиты",
+              "minTier": 2,
+              "cost": {
+                "Steel": 3,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.45,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_04_V4",
+              "name": "Метаматериальный — боковые плиты",
+              "minTier": 3,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -0.75,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "label": "Противоосколочный фартук",
+          "region": "Torso",
+          "required": false,
+          "options": [
+            {
+              "id": "Light_05_V0",
+              "name": "Серийный — противоосколочный фартук",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.3,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_05_V1",
+              "name": "Упрощённый — противоосколочный фартук",
+              "minTier": 1,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.32,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_05_V2",
+              "name": "Упрочнённый — противоосколочный фартук",
+              "minTier": 2,
+              "cost": {
+                "Steel": 7,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 0.95,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_05_V3",
+              "name": "Композитный — противоосколочный фартук",
+              "minTier": 2,
+              "cost": {
+                "Steel": 3,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.45,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_05_V4",
+              "name": "Метаматериальный — противоосколочный фартук",
+              "minTier": 3,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -0.75,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "label": "Травматический демпфер",
+          "region": "Torso",
+          "required": false,
+          "options": [
+            {
+              "id": "Light_06_V0",
+              "name": "Серийный — травматический демпфер",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.3,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_06_V1",
+              "name": "Упрощённый — травматический демпфер",
+              "minTier": 1,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.32,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_06_V2",
+              "name": "Упрочнённый — травматический демпфер",
+              "minTier": 2,
+              "cost": {
+                "Steel": 7,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 0.95,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_06_V3",
+              "name": "Композитный — травматический демпфер",
+              "minTier": 2,
+              "cost": {
+                "Steel": 3,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.45,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Light_06_V4",
+              "name": "Метаматериальный — травматический демпфер",
+              "minTier": 3,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -0.75,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "label": "Термовкладыш",
+          "region": "All",
+          "required": false,
+          "options": [
+            {
+              "id": "Light_07_V0",
+              "name": "Серийный — термовкладыш",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.3,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_07_V1",
+              "name": "Упрощённый — термовкладыш",
+              "minTier": 1,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.32,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_07_V2",
+              "name": "Упрочнённый — термовкладыш",
+              "minTier": 2,
+              "cost": {
+                "Steel": 7,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 0.95,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_07_V3",
+              "name": "Композитный — термовкладыш",
+              "minTier": 2,
+              "cost": {
+                "Steel": 3,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.45,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_07_V4",
+              "name": "Метаматериальный — термовкладыш",
+              "minTier": 3,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -0.75,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "label": "Кабельный жгут",
+          "region": "All",
+          "required": false,
+          "options": [
+            {
+              "id": "Light_08_V0",
+              "name": "Серийный — кабельный жгут",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.3,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.02,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_08_V1",
+              "name": "Упрощённый — кабельный жгут",
+              "minTier": 1,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.32,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.02,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 6,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_08_V2",
+              "name": "Упрочнённый — кабельный жгут",
+              "minTier": 2,
+              "cost": {
+                "Steel": 7,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 0.95,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.046,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 65,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_08_V3",
+              "name": "Композитный — кабельный жгут",
+              "minTier": 2,
+              "cost": {
+                "Steel": 3,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.45,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.036,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 105,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_08_V4",
+              "name": "Метаматериальный — кабельный жгут",
+              "minTier": 3,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -0.75,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.053,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 360,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "label": "Навесной каркас",
+          "region": "All",
+          "required": false,
+          "options": [
+            {
+              "id": "Light_09_V0",
+              "name": "Серийный — навесной каркас",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.3,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.02,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_09_V1",
+              "name": "Упрощённый — навесной каркас",
+              "minTier": 1,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.32,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.02,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 6,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_09_V2",
+              "name": "Упрочнённый — навесной каркас",
+              "minTier": 2,
+              "cost": {
+                "Steel": 7,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 0.95,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.046,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 65,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_09_V3",
+              "name": "Композитный — навесной каркас",
+              "minTier": 2,
+              "cost": {
+                "Steel": 3,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.45,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.036,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 105,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Light_09_V4",
+              "name": "Метаматериальный — навесной каркас",
+              "minTier": 3,
+              "cost": {
+                "Steel": 2,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -0.75,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.053,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 360,
+                "region": "All"
+              }
+            }
+          ]
+        }
+      ],
+      "chassis": [
+        {
+          "tier": 1,
+          "defName": "TC_Armor_Light_T1",
+          "label": "Лёгкий жилет Т1",
+          "sharp": 7,
+          "blunt": 12,
+          "heat": 0.09,
+          "mass": 6,
+          "bulk": 7,
+          "wornBulk": 2,
+          "move": -0.08,
+          "price": 170
+        },
+        {
+          "tier": 2,
+          "defName": "TC_Armor_Light_T2",
+          "label": "Лёгкий жилет Т2",
+          "sharp": 13,
+          "blunt": 24,
+          "heat": 0.18,
+          "mass": 5.2,
+          "bulk": 6.6,
+          "wornBulk": 1.7,
+          "move": 0.04,
+          "price": 600
+        },
+        {
+          "tier": 3,
+          "defName": "TC_Armor_Light_T3",
+          "label": "Лёгкий жилет Т3",
+          "sharp": 22,
+          "blunt": 38,
+          "heat": 0.29,
+          "mass": 4.3,
+          "bulk": 5.9,
+          "wornBulk": 1.1,
+          "move": 0.13,
+          "price": 1700
+        }
+      ]
+    },
+    {
+      "key": "Medium",
+      "label": "Штурмовой комплект",
+      "short": "ШТУРМ",
+      "coverage": [
+        "Torso",
+        "Arms",
+        "Legs",
+        "Hands",
+        "Feet",
+        "FullHead"
+      ],
+      "slots": [
+        {
+          "id": 0,
+          "label": "Защитный поддоспешник",
+          "region": "All",
+          "required": true,
+          "options": [
+            {
+              "id": "Medium_00_V0",
+              "name": "Серийный — защитный поддоспешник",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_00_V1",
+              "name": "Упрощённый — защитный поддоспешник",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_00_V2",
+              "name": "Упрочнённый — защитный поддоспешник",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_00_V3",
+              "name": "Композитный — защитный поддоспешник",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_00_V4",
+              "name": "Метаматериальный — защитный поддоспешник",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "label": "Нагрудная плита",
+          "region": "Torso",
+          "required": true,
+          "options": [
+            {
+              "id": "Medium_01_V0",
+              "name": "Серийный — нагрудная плита",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.78,
+                "blunt": 1.56,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_01_V1",
+              "name": "Упрощённый — нагрудная плита",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.065,
+                "blunt": 0.65,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_01_V2",
+              "name": "Упрочнённый — нагрудная плита",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.73,
+                "blunt": 5.46,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_01_V3",
+              "name": "Композитный — нагрудная плита",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.82,
+                "blunt": 3.64,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_01_V4",
+              "name": "Метаматериальный — нагрудная плита",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 4.55,
+                "blunt": 8.32,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Спинная плита",
+          "region": "Torso",
+          "required": true,
+          "options": [
+            {
+              "id": "Medium_02_V0",
+              "name": "Серийный — спинная плита",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.78,
+                "blunt": 1.56,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_02_V1",
+              "name": "Упрощённый — спинная плита",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.065,
+                "blunt": 0.65,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_02_V2",
+              "name": "Упрочнённый — спинная плита",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.73,
+                "blunt": 5.46,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_02_V3",
+              "name": "Композитный — спинная плита",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.82,
+                "blunt": 3.64,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_02_V4",
+              "name": "Метаматериальный — спинная плита",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 4.55,
+                "blunt": 8.32,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Плечевые панели",
+          "region": "Arm",
+          "required": true,
+          "options": [
+            {
+              "id": "Medium_03_V0",
+              "name": "Серийный — плечевые панели",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.78,
+                "blunt": 1.56,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Medium_03_V1",
+              "name": "Упрощённый — плечевые панели",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.065,
+                "blunt": 0.65,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Medium_03_V2",
+              "name": "Упрочнённый — плечевые панели",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.73,
+                "blunt": 5.46,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Medium_03_V3",
+              "name": "Композитный — плечевые панели",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.82,
+                "blunt": 3.64,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Medium_03_V4",
+              "name": "Метаматериальный — плечевые панели",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 4.55,
+                "blunt": 8.32,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Arm"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Брюшной пакет",
+          "region": "Torso",
+          "required": true,
+          "options": [
+            {
+              "id": "Medium_04_V0",
+              "name": "Серийный — брюшной пакет",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_04_V1",
+              "name": "Упрощённый — брюшной пакет",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_04_V2",
+              "name": "Упрочнённый — брюшной пакет",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_04_V3",
+              "name": "Композитный — брюшной пакет",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Medium_04_V4",
+              "name": "Метаматериальный — брюшной пакет",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "label": "Бедренные панели",
+          "region": "Leg",
+          "required": true,
+          "options": [
+            {
+              "id": "Medium_05_V0",
+              "name": "Серийный — бедренные панели",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.78,
+                "blunt": 1.56,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Medium_05_V1",
+              "name": "Упрощённый — бедренные панели",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.065,
+                "blunt": 0.65,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Medium_05_V2",
+              "name": "Упрочнённый — бедренные панели",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.73,
+                "blunt": 5.46,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Medium_05_V3",
+              "name": "Композитный — бедренные панели",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.82,
+                "blunt": 3.64,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Medium_05_V4",
+              "name": "Метаматериальный — бедренные панели",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 4.55,
+                "blunt": 8.32,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Leg"
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "label": "Несущая разгрузка",
+          "region": "All",
+          "required": true,
+          "options": [
+            {
+              "id": "Medium_06_V0",
+              "name": "Серийный — несущая разгрузка",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.02,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_06_V1",
+              "name": "Упрощённый — несущая разгрузка",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.02,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 6,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_06_V2",
+              "name": "Упрочнённый — несущая разгрузка",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.046,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 65,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_06_V3",
+              "name": "Композитный — несущая разгрузка",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.036,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 105,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_06_V4",
+              "name": "Метаматериальный — несущая разгрузка",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.053,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 360,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "label": "Наколенники",
+          "region": "Leg",
+          "required": false,
+          "options": [
+            {
+              "id": "Medium_07_V0",
+              "name": "Серийный — наколенники",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Medium_07_V1",
+              "name": "Упрощённый — наколенники",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Medium_07_V2",
+              "name": "Упрочнённый — наколенники",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Medium_07_V3",
+              "name": "Композитный — наколенники",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Medium_07_V4",
+              "name": "Метаматериальный — наколенники",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Leg"
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "label": "Налокотники",
+          "region": "Arm",
+          "required": false,
+          "options": [
+            {
+              "id": "Medium_08_V0",
+              "name": "Серийный — налокотники",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Medium_08_V1",
+              "name": "Упрощённый — налокотники",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Medium_08_V2",
+              "name": "Упрочнённый — налокотники",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Medium_08_V3",
+              "name": "Композитный — налокотники",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Medium_08_V4",
+              "name": "Метаматериальный — налокотники",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Arm"
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "label": "Перчатки",
+          "region": "Hand",
+          "required": false,
+          "options": [
+            {
+              "id": "Medium_09_V0",
+              "name": "Серийный — перчатки",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Hand"
+              }
+            },
+            {
+              "id": "Medium_09_V1",
+              "name": "Упрощённый — перчатки",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Hand"
+              }
+            },
+            {
+              "id": "Medium_09_V2",
+              "name": "Упрочнённый — перчатки",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Hand"
+              }
+            },
+            {
+              "id": "Medium_09_V3",
+              "name": "Композитный — перчатки",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Hand"
+              }
+            },
+            {
+              "id": "Medium_09_V4",
+              "name": "Метаматериальный — перчатки",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Hand"
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "label": "Ботинки",
+          "region": "Foot",
+          "required": false,
+          "options": [
+            {
+              "id": "Medium_10_V0",
+              "name": "Серийный — ботинки",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Foot"
+              }
+            },
+            {
+              "id": "Medium_10_V1",
+              "name": "Упрощённый — ботинки",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Foot"
+              }
+            },
+            {
+              "id": "Medium_10_V2",
+              "name": "Упрочнённый — ботинки",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Foot"
+              }
+            },
+            {
+              "id": "Medium_10_V3",
+              "name": "Композитный — ботинки",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Foot"
+              }
+            },
+            {
+              "id": "Medium_10_V4",
+              "name": "Метаматериальный — ботинки",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Foot"
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "label": "Система вентиляции",
+          "region": "All",
+          "required": false,
+          "options": [
+            {
+              "id": "Medium_11_V0",
+              "name": "Серийный — система вентиляции",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.02,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_11_V1",
+              "name": "Упрощённый — система вентиляции",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.02,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 6,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_11_V2",
+              "name": "Упрочнённый — система вентиляции",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.046,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 65,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_11_V3",
+              "name": "Композитный — система вентиляции",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.036,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 105,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Medium_11_V4",
+              "name": "Метаматериальный — система вентиляции",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.053,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 360,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "label": "Баллистический шлем",
+          "region": "Head",
+          "required": false,
+          "options": [
+            {
+              "id": "Medium_12_V0",
+              "name": "Серийный — баллистический шлем",
+              "minTier": 1,
+              "cost": {
+                "Steel": 8,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.405,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Head"
+              }
+            },
+            {
+              "id": "Medium_12_V1",
+              "name": "Упрощённый — баллистический шлем",
+              "minTier": 1,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.432,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 6,
+                "region": "Head"
+              }
+            },
+            {
+              "id": "Medium_12_V2",
+              "name": "Упрочнённый — баллистический шлем",
+              "minTier": 2,
+              "cost": {
+                "Steel": 14,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 1,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 1.282,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 65,
+                "region": "Head"
+              }
+            },
+            {
+              "id": "Medium_12_V3",
+              "name": "Композитный — баллистический шлем",
+              "minTier": 2,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.608,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 105,
+                "region": "Head"
+              }
+            },
+            {
+              "id": "Medium_12_V4",
+              "name": "Метаматериальный — баллистический шлем",
+              "minTier": 3,
+              "cost": {
+                "Steel": 4,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 5,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -1.013,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 360,
+                "region": "Head"
+              }
+            }
+          ]
+        }
+      ],
+      "chassis": [
+        {
+          "tier": 1,
+          "defName": "TC_Armor_Medium_T1",
+          "label": "Штурмовой комплект Т1",
+          "sharp": 10,
+          "blunt": 19,
+          "heat": 0.12,
+          "mass": 21,
+          "bulk": 25,
+          "wornBulk": 6,
+          "move": -0.47,
+          "price": 340
+        },
+        {
+          "tier": 2,
+          "defName": "TC_Armor_Medium_T2",
+          "label": "Штурмовой комплект Т2",
+          "sharp": 22,
+          "blunt": 39,
+          "heat": 0.26,
+          "mass": 18,
+          "bulk": 24,
+          "wornBulk": 5,
+          "move": -0.2,
+          "price": 1150
+        },
+        {
+          "tier": 3,
+          "defName": "TC_Armor_Medium_T3",
+          "label": "Штурмовой комплект Т3",
+          "sharp": 36,
+          "blunt": 60,
+          "heat": 0.4,
+          "mass": 15,
+          "bulk": 21,
+          "wornBulk": 3.5,
+          "move": 0.08,
+          "price": 2800
+        }
+      ]
+    },
+    {
+      "key": "Heavy",
+      "label": "Экзоскафандр",
+      "short": "ЭКЗОСКАФ",
+      "coverage": [
+        "Torso",
+        "Arms",
+        "Legs",
+        "Hands",
+        "Feet",
+        "FullHead",
+        "Neck"
+      ],
+      "slots": [
+        {
+          "id": 0,
+          "label": "Силовой каркас",
+          "region": "All",
+          "required": true,
+          "options": [
+            {
+              "id": "Heavy_00_V0",
+              "name": "Серийный — силовой каркас",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": 0.05,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 24,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_00_V1",
+              "name": "Упрощённый — силовой каркас",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.16,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_00_V2",
+              "name": "Упрочнённый — силовой каркас",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": 0.054,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 130,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_00_V3",
+              "name": "Композитный — силовой каркас",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.236,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 210,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_00_V4",
+              "name": "Метаматериальный — силовой каркас",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.373,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 720,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "label": "Энергоблок",
+          "region": "All",
+          "required": true,
+          "options": [
+            {
+              "id": "Heavy_01_V0",
+              "name": "Серийный — энергоблок",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": 0.05,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 24,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_01_V1",
+              "name": "Упрощённый — энергоблок",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.16,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_01_V2",
+              "name": "Упрочнённый — энергоблок",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": 0.054,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 130,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_01_V3",
+              "name": "Композитный — энергоблок",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.236,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 210,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_01_V4",
+              "name": "Метаматериальный — энергоблок",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.373,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 720,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Центральная бронекапсула",
+          "region": "Torso",
+          "required": true,
+          "options": [
+            {
+              "id": "Heavy_02_V0",
+              "name": "Серийный — центральная бронекапсула",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.78,
+                "blunt": 1.56,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 24,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_02_V1",
+              "name": "Упрощённый — центральная бронекапсула",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.065,
+                "blunt": 0.65,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_02_V2",
+              "name": "Упрочнённый — центральная бронекапсула",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.73,
+                "blunt": 5.46,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 130,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_02_V3",
+              "name": "Композитный — центральная бронекапсула",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.82,
+                "blunt": 3.64,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 210,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_02_V4",
+              "name": "Метаматериальный — центральная бронекапсула",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 4.55,
+                "blunt": 8.32,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 720,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Спинной бронеблок",
+          "region": "Torso",
+          "required": true,
+          "options": [
+            {
+              "id": "Heavy_03_V0",
+              "name": "Серийный — спинной бронеблок",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.78,
+                "blunt": 1.56,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 24,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_03_V1",
+              "name": "Упрощённый — спинной бронеблок",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.065,
+                "blunt": 0.65,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_03_V2",
+              "name": "Упрочнённый — спинной бронеблок",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.73,
+                "blunt": 5.46,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 130,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_03_V3",
+              "name": "Композитный — спинной бронеблок",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.82,
+                "blunt": 3.64,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 210,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_03_V4",
+              "name": "Метаматериальный — спинной бронеблок",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 4.55,
+                "blunt": 8.32,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 720,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Шлем и гермоконтур",
+          "region": "Head",
+          "required": true,
+          "options": [
+            {
+              "id": "Heavy_04_V0",
+              "name": "Серийный — шлем и гермоконтур",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 24,
+                "region": "Head"
+              }
+            },
+            {
+              "id": "Heavy_04_V1",
+              "name": "Упрощённый — шлем и гермоконтур",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Head"
+              }
+            },
+            {
+              "id": "Heavy_04_V2",
+              "name": "Упрочнённый — шлем и гермоконтур",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 130,
+                "region": "Head"
+              }
+            },
+            {
+              "id": "Heavy_04_V3",
+              "name": "Композитный — шлем и гермоконтур",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 210,
+                "region": "Head"
+              }
+            },
+            {
+              "id": "Heavy_04_V4",
+              "name": "Метаматериальный — шлем и гермоконтур",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 720,
+                "region": "Head"
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "label": "Приводы плеча",
+          "region": "Arm",
+          "required": true,
+          "options": [
+            {
+              "id": "Heavy_05_V0",
+              "name": "Серийный — приводы плеча",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.39,
+                "blunt": 0.78,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": 0.05,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 24,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Heavy_05_V1",
+              "name": "Упрощённый — приводы плеча",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.033,
+                "blunt": 0.325,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.16,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 12,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Heavy_05_V2",
+              "name": "Упрочнённый — приводы плеча",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.365,
+                "blunt": 2.73,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": 0.054,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 130,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Heavy_05_V3",
+              "name": "Композитный — приводы плеча",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.91,
+                "blunt": 1.82,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.236,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 210,
+                "region": "Arm"
+              }
+            },
+            {
+              "id": "Heavy_05_V4",
+              "name": "Метаматериальный — приводы плеча",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 2.275,
+                "blunt": 4.16,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.373,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 720,
+                "region": "Arm"
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "label": "Приводы ног",
+          "region": "Leg",
+          "required": true,
+          "options": [
+            {
+              "id": "Heavy_06_V0",
+              "name": "Серийный — приводы ног",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.39,
+                "blunt": 0.78,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": 0.05,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 24,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Heavy_06_V1",
+              "name": "Упрощённый — приводы ног",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.033,
+                "blunt": 0.325,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.16,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 12,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Heavy_06_V2",
+              "name": "Упрочнённый — приводы ног",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.365,
+                "blunt": 2.73,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": 0.054,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 130,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Heavy_06_V3",
+              "name": "Композитный — приводы ног",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.91,
+                "blunt": 1.82,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.236,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 210,
+                "region": "Leg"
+              }
+            },
+            {
+              "id": "Heavy_06_V4",
+              "name": "Метаматериальный — приводы ног",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 2.275,
+                "blunt": 4.16,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.373,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 720,
+                "region": "Leg"
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "label": "Кистевые кожухи",
+          "region": "Hand",
+          "required": true,
+          "options": [
+            {
+              "id": "Heavy_07_V0",
+              "name": "Серийный — кистевые кожухи",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.78,
+                "blunt": 1.56,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 24,
+                "region": "Hand"
+              }
+            },
+            {
+              "id": "Heavy_07_V1",
+              "name": "Упрощённый — кистевые кожухи",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.065,
+                "blunt": 0.65,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Hand"
+              }
+            },
+            {
+              "id": "Heavy_07_V2",
+              "name": "Упрочнённый — кистевые кожухи",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.73,
+                "blunt": 5.46,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 130,
+                "region": "Hand"
+              }
+            },
+            {
+              "id": "Heavy_07_V3",
+              "name": "Композитный — кистевые кожухи",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.82,
+                "blunt": 3.64,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 210,
+                "region": "Hand"
+              }
+            },
+            {
+              "id": "Heavy_07_V4",
+              "name": "Метаматериальный — кистевые кожухи",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 4.55,
+                "blunt": 8.32,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 720,
+                "region": "Hand"
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "label": "Защита стоп",
+          "region": "Foot",
+          "required": true,
+          "options": [
+            {
+              "id": "Heavy_08_V0",
+              "name": "Серийный — защита стоп",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.78,
+                "blunt": 1.56,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 24,
+                "region": "Foot"
+              }
+            },
+            {
+              "id": "Heavy_08_V1",
+              "name": "Упрощённый — защита стоп",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.065,
+                "blunt": 0.65,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Foot"
+              }
+            },
+            {
+              "id": "Heavy_08_V2",
+              "name": "Упрочнённый — защита стоп",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.73,
+                "blunt": 5.46,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 130,
+                "region": "Foot"
+              }
+            },
+            {
+              "id": "Heavy_08_V3",
+              "name": "Композитный — защита стоп",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.82,
+                "blunt": 3.64,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 210,
+                "region": "Foot"
+              }
+            },
+            {
+              "id": "Heavy_08_V4",
+              "name": "Метаматериальный — защита стоп",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 4.55,
+                "blunt": 8.32,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 720,
+                "region": "Foot"
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "label": "Накладные плиты корпуса",
+          "region": "Torso",
+          "required": false,
+          "options": [
+            {
+              "id": "Heavy_09_V0",
+              "name": "Серийный — накладные плиты корпуса",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.6,
+                "blunt": 1.2,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 24,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_09_V1",
+              "name": "Упрощённый — накладные плиты корпуса",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.05,
+                "blunt": 0.5,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_09_V2",
+              "name": "Упрочнённый — накладные плиты корпуса",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 2.1,
+                "blunt": 4.2,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 130,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_09_V3",
+              "name": "Композитный — накладные плиты корпуса",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 1.4,
+                "blunt": 2.8,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 210,
+                "region": "Torso"
+              }
+            },
+            {
+              "id": "Heavy_09_V4",
+              "name": "Метаматериальный — накладные плиты корпуса",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 3.5,
+                "blunt": 6.4,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 720,
+                "region": "Torso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "label": "Гаситель ударных импульсов",
+          "region": "All",
+          "required": false,
+          "options": [
+            {
+              "id": "Heavy_10_V0",
+              "name": "Серийный — гаситель ударных импульсов",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 24,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_10_V1",
+              "name": "Упрощённый — гаситель ударных импульсов",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_10_V2",
+              "name": "Упрочнённый — гаситель ударных импульсов",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 130,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_10_V3",
+              "name": "Композитный — гаситель ударных импульсов",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 210,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_10_V4",
+              "name": "Метаматериальный — гаситель ударных импульсов",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 720,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "label": "Дополнительные сервоприводы",
+          "region": "All",
+          "required": false,
+          "options": [
+            {
+              "id": "Heavy_11_V0",
+              "name": "Серийный — дополнительные сервоприводы",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": 0.05,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 24,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_11_V1",
+              "name": "Упрощённый — дополнительные сервоприводы",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.16,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_11_V2",
+              "name": "Упрочнённый — дополнительные сервоприводы",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": 0.054,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 130,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_11_V3",
+              "name": "Композитный — дополнительные сервоприводы",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.236,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 210,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_11_V4",
+              "name": "Метаматериальный — дополнительные сервоприводы",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.373,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 720,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "label": "Охлаждающий модуль",
+          "region": "All",
+          "required": false,
+          "options": [
+            {
+              "id": "Heavy_12_V0",
+              "name": "Серийный — охлаждающий модуль",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 1,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": -0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 24,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_12_V1",
+              "name": "Упрощённый — охлаждающий модуль",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.007,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_12_V2",
+              "name": "Упрочнённый — охлаждающий модуль",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": -0.015,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 130,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_12_V3",
+              "name": "Композитный — охлаждающий модуль",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.012,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 210,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_12_V4",
+              "name": "Метаматериальный — охлаждающий модуль",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 3,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.017,
+                "carry": 0,
+                "carryBulk": 0,
+                "value": 720,
+                "region": "All"
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "label": "Спинная грузовая рама",
+          "region": "All",
+          "required": false,
+          "options": [
+            {
+              "id": "Heavy_13_V0",
+              "name": "Серийный — спинная грузовая рама",
+              "minTier": 1,
+              "cost": {
+                "Steel": 12,
+                "ComponentIndustrial": 2,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.204,
+                "blunt": 0.408,
+                "heat": 0,
+                "mass": 0.54,
+                "bulk": 0.25,
+                "wornBulk": 0.05,
+                "move": 0.05,
+                "carry": 2,
+                "carryBulk": 0.3,
+                "value": 24,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_13_V1",
+              "name": "Упрощённый — спинная грузовая рама",
+              "minTier": 1,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 0,
+                "ComponentSpacer": 0,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.017,
+                "blunt": 0.17,
+                "heat": 0,
+                "mass": -0.576,
+                "bulk": -0.19,
+                "wornBulk": -0.12,
+                "move": 0.16,
+                "carry": 5,
+                "carryBulk": 0.5,
+                "value": 12,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_13_V2",
+              "name": "Упрочнённый — спинная грузовая рама",
+              "minTier": 2,
+              "cost": {
+                "Steel": 21,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 2,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.714,
+                "blunt": 1.428,
+                "heat": 0.01,
+                "mass": 1.71,
+                "bulk": 0.55,
+                "wornBulk": 0.25,
+                "move": 0.054,
+                "carry": 9,
+                "carryBulk": 1.3,
+                "value": 130,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_13_V3",
+              "name": "Композитный — спинная грузовая рама",
+              "minTier": 2,
+              "cost": {
+                "Steel": 9,
+                "ComponentIndustrial": 4,
+                "ComponentSpacer": 4,
+                "Gold": 0
+              },
+              "effects": {
+                "sharp": 0.476,
+                "blunt": 0.952,
+                "heat": 0.02,
+                "mass": -0.81,
+                "bulk": -0.22,
+                "wornBulk": -0.13,
+                "move": 0.236,
+                "carry": 8,
+                "carryBulk": 1.0,
+                "value": 210,
+                "region": "All"
+              }
+            },
+            {
+              "id": "Heavy_13_V4",
+              "name": "Метаматериальный — спинная грузовая рама",
+              "minTier": 3,
+              "cost": {
+                "Steel": 6,
+                "ComponentIndustrial": 6,
+                "ComponentSpacer": 10,
+                "Gold": 8
+              },
+              "effects": {
+                "sharp": 1.19,
+                "blunt": 2.176,
+                "heat": 0.04,
+                "mass": -1.35,
+                "bulk": -0.35,
+                "wornBulk": -0.17,
+                "move": 0.373,
+                "carry": 15,
+                "carryBulk": 2.8,
+                "value": 720,
+                "region": "All"
+              }
+            }
+          ]
+        }
+      ],
+      "chassis": [
+        {
+          "tier": 1,
+          "defName": "TC_Armor_Heavy_T1",
+          "label": "Экзоскафандр Т1",
+          "sharp": 15,
+          "blunt": 29,
+          "heat": 0.18,
+          "mass": 78,
+          "bulk": 95,
+          "wornBulk": 29,
+          "move": -1.32,
+          "price": 870
+        },
+        {
+          "tier": 2,
+          "defName": "TC_Armor_Heavy_T2",
+          "label": "Экзоскафандр Т2",
+          "sharp": 35,
+          "blunt": 64,
+          "heat": 0.38,
+          "mass": 54,
+          "bulk": 75,
+          "wornBulk": 17,
+          "move": -0.38,
+          "price": 3200
+        },
+        {
+          "tier": 3,
+          "defName": "TC_Armor_Heavy_T3",
+          "label": "Экзоскафандр Т3",
+          "sharp": 65,
+          "blunt": 110,
+          "heat": 0.56,
+          "mass": 42,
+          "bulk": 64,
+          "wornBulk": 11,
+          "move": 0.12,
+          "price": 8900
+        }
+      ]
+    }
+  ],
+  "specials": [
+    {
+      "id": "ArmorSpecial_00",
+      "name": "Реактивный усилитель сервоприводов",
+      "region": "All",
+      "minTier": 2,
+      "cost": {
+        "Steel": 3,
+        "ComponentIndustrial": 1,
+        "ComponentSpacer": 2,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": 0,
+        "blunt": 0,
+        "heat": 0,
+        "mass": 3.1,
+        "bulk": 0,
+        "wornBulk": 1.3,
+        "move": 0.42,
+        "carry": 8,
+        "carryBulk": 0,
+        "value": 40,
+        "region": "All"
+      }
+    },
+    {
+      "id": "ArmorSpecial_01",
+      "name": "Противотанковый пакет корпуса",
+      "region": "Torso",
+      "minTier": 2,
+      "cost": {
+        "Steel": 5,
+        "ComponentIndustrial": 2,
+        "ComponentSpacer": 2,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": 18,
+        "blunt": 32,
+        "heat": 0,
+        "mass": 12,
+        "bulk": 0,
+        "wornBulk": 7,
+        "move": -0.75,
+        "carry": 0,
+        "carryBulk": 0,
+        "value": 65,
+        "region": "Torso"
+      }
+    },
+    {
+      "id": "ArmorSpecial_02",
+      "name": "Гибкие амортизаторы суставов",
+      "region": "Arm",
+      "minTier": 1,
+      "cost": {
+        "Steel": 7,
+        "ComponentIndustrial": 3,
+        "ComponentSpacer": 0,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": 0,
+        "blunt": 5,
+        "heat": 0,
+        "mass": 0.8,
+        "bulk": 0,
+        "wornBulk": 0,
+        "move": 0.08,
+        "carry": 0,
+        "carryBulk": 0,
+        "value": 90,
+        "region": "Arm"
+      }
+    },
+    {
+      "id": "ArmorSpecial_03",
+      "name": "Баллистическая юбка",
+      "region": "Leg",
+      "minTier": 1,
+      "cost": {
+        "Steel": 9,
+        "ComponentIndustrial": 1,
+        "ComponentSpacer": 0,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": 4,
+        "blunt": 7,
+        "heat": 0,
+        "mass": 4,
+        "bulk": 0,
+        "wornBulk": 2,
+        "move": -0.11,
+        "carry": 0,
+        "carryBulk": 0,
+        "value": 115,
+        "region": "Leg"
+      }
+    },
+    {
+      "id": "ArmorSpecial_04",
+      "name": "Модуль защиты от ОМП",
+      "region": "All",
+      "minTier": 2,
+      "cost": {
+        "Steel": 11,
+        "ComponentIndustrial": 2,
+        "ComponentSpacer": 2,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": 0,
+        "blunt": 0,
+        "heat": 0.22,
+        "mass": 2,
+        "bulk": 0,
+        "wornBulk": 0,
+        "move": -0.08,
+        "carry": 0,
+        "carryBulk": 0,
+        "value": 140,
+        "region": "All"
+      }
+    },
+    {
+      "id": "ArmorSpecial_05",
+      "name": "Умная перераспределяемая плита",
+      "region": "Torso",
+      "minTier": 3,
+      "cost": {
+        "Steel": 4,
+        "ComponentIndustrial": 3,
+        "ComponentSpacer": 5,
+        "Gold": 14
+      },
+      "effects": {
+        "sharp": 13,
+        "blunt": 17,
+        "heat": 0,
+        "mass": 4,
+        "bulk": 0,
+        "wornBulk": 0,
+        "move": -0.09,
+        "carry": 0,
+        "carryBulk": 0,
+        "value": 165,
+        "region": "Torso"
+      }
+    },
+    {
+      "id": "ArmorSpecial_06",
+      "name": "Нейросервопривод передвижения",
+      "region": "All",
+      "minTier": 3,
+      "cost": {
+        "Steel": 4,
+        "ComponentIndustrial": 1,
+        "ComponentSpacer": 5,
+        "Gold": 15
+      },
+      "effects": {
+        "sharp": 0,
+        "blunt": 0,
+        "heat": 0,
+        "mass": 1.2,
+        "bulk": 0,
+        "wornBulk": 0,
+        "move": 0.75,
+        "carry": 12,
+        "carryBulk": 0,
+        "value": 190,
+        "region": "All"
+      }
+    },
+    {
+      "id": "ArmorSpecial_07",
+      "name": "Система разгрузки CE",
+      "region": "All",
+      "minTier": 2,
+      "cost": {
+        "Steel": 17,
+        "ComponentIndustrial": 2,
+        "ComponentSpacer": 2,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": 0,
+        "blunt": 0,
+        "heat": 0,
+        "mass": 2.5,
+        "bulk": 0,
+        "wornBulk": 1.5,
+        "move": 0,
+        "carry": 27,
+        "carryBulk": 8,
+        "value": 215,
+        "region": "All"
+      }
+    },
+    {
+      "id": "ArmorSpecial_08",
+      "name": "Керамотканевое демпфирование",
+      "region": "All",
+      "minTier": 1,
+      "cost": {
+        "Steel": 19,
+        "ComponentIndustrial": 3,
+        "ComponentSpacer": 0,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": 1.5,
+        "blunt": 3,
+        "heat": 0,
+        "mass": 1.4,
+        "bulk": 0,
+        "wornBulk": 0,
+        "move": 0,
+        "carry": 0,
+        "carryBulk": 0,
+        "value": 240,
+        "region": "All"
+      }
+    },
+    {
+      "id": "ArmorSpecial_09",
+      "name": "Контур термостабилизации",
+      "region": "All",
+      "minTier": 2,
+      "cost": {
+        "Steel": 21,
+        "ComponentIndustrial": 1,
+        "ComponentSpacer": 2,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": 0,
+        "blunt": 0,
+        "heat": 0.23,
+        "mass": 1.9,
+        "bulk": 0,
+        "wornBulk": 0,
+        "move": 0,
+        "carry": 0,
+        "carryBulk": 0,
+        "value": 265,
+        "region": "All"
+      }
+    },
+    {
+      "id": "ArmorSpecial_10",
+      "name": "Многослойные композитные пластины",
+      "region": "Torso",
+      "minTier": 1,
+      "cost": {
+        "Steel": 23,
+        "ComponentIndustrial": 2,
+        "ComponentSpacer": 0,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": 6,
+        "blunt": 8,
+        "heat": 0,
+        "mass": 7,
+        "bulk": 0,
+        "wornBulk": 3,
+        "move": -0.24,
+        "carry": 0,
+        "carryBulk": 0,
+        "value": 290,
+        "region": "Torso"
+      }
+    },
+    {
+      "id": "ArmorSpecial_11",
+      "name": "Автоподстройка креплений",
+      "region": "All",
+      "minTier": 3,
+      "cost": {
+        "Steel": 4,
+        "ComponentIndustrial": 3,
+        "ComponentSpacer": 5,
+        "Gold": 20
+      },
+      "effects": {
+        "sharp": 0,
+        "blunt": 0,
+        "heat": 0,
+        "mass": 0,
+        "bulk": 0,
+        "wornBulk": -1,
+        "move": 0.12,
+        "carry": 0,
+        "carryBulk": 3,
+        "value": 315,
+        "region": "All"
+      }
+    },
+    {
+      "id": "ArmorSpecial_12",
+      "name": "Локальная защита головы",
+      "region": "Head",
+      "minTier": 2,
+      "cost": {
+        "Steel": 27,
+        "ComponentIndustrial": 1,
+        "ComponentSpacer": 2,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": 11,
+        "blunt": 14,
+        "heat": 0,
+        "mass": 3.5,
+        "bulk": 0,
+        "wornBulk": 0,
+        "move": 0,
+        "carry": 0,
+        "carryBulk": 0,
+        "value": 340,
+        "region": "Head"
+      }
+    },
+    {
+      "id": "ArmorSpecial_13",
+      "name": "Поглощающий импульс подслой",
+      "region": "All",
+      "minTier": 3,
+      "cost": {
+        "Steel": 4,
+        "ComponentIndustrial": 2,
+        "ComponentSpacer": 5,
+        "Gold": 22
+      },
+      "effects": {
+        "sharp": 0,
+        "blunt": 12,
+        "heat": 0,
+        "mass": 5.4,
+        "bulk": 0,
+        "wornBulk": 3,
+        "move": -0.29,
+        "carry": 0,
+        "carryBulk": 0,
+        "value": 365,
+        "region": "All"
+      }
+    },
+    {
+      "id": "ArmorSpecial_14",
+      "name": "Транспортный походный контур",
+      "region": "All",
+      "minTier": 1,
+      "cost": {
+        "Steel": 31,
+        "ComponentIndustrial": 3,
+        "ComponentSpacer": 0,
+        "Gold": 0
+      },
+      "effects": {
+        "sharp": -1.4,
+        "blunt": 0,
+        "heat": 0,
+        "mass": 2.6,
+        "bulk": 0,
+        "wornBulk": 0,
+        "move": 0.23,
+        "carry": 13,
+        "carryBulk": 4,
+        "value": 390,
+        "region": "All"
+      }
+    }
+  ],
+  "notes": "Coverage is defined by the chassis and CE PartialStat. Optional regions without pads are suppressed by the per-hit CE hook."
+}

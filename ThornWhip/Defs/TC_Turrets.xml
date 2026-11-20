@@ -1,0 +1,1346 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Holder</defName>
+    <label>держатель вооружения</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Industrial</techLevel>
+    <tradeability>None</tradeability>
+    <designationCategory>Security</designationCategory>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Holder</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>310</MaxHitPoints>
+      <WorkToBuild>15000</WorkToBuild>
+      <Mass>80</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_HolderDummy</turretGunDef>
+      <turretTopDrawSize>1</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>35</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>90</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Gunsmithing</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Minigun</defName>
+    <label>роторная пулемётная турель</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <designationCategory>Security</designationCategory>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Minigun</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>195</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>35</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Minigun_56x4</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>410</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>HeavyTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Minigun_56x6</defName>
+    <label>роторная пулемётная турель — 5,56 / 6 стволов</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Minigun_56x6</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>195</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>35</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Minigun_56x6</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>410</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>HeavyTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Minigun_762x6</defName>
+    <label>роторная пулемётная турель — 7,62 / 6 стволов</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Minigun_762x6</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>195</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>35</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Minigun_762x6</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>410</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>HeavyTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Minigun_762x8</defName>
+    <label>роторная пулемётная турель — 7,62 / 8 стволов</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Minigun_762x8</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>195</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>35</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Minigun_762x8</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>410</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>HeavyTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Minigun_20x6</defName>
+    <label>роторная пулемётная турель — 20 мм / 6 стволов</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Minigun_20x6</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>195</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>35</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Minigun_20x6</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>410</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>HeavyTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Laser</defName>
+    <label>лазерная турель</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <designationCategory>Security</designationCategory>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Laser</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>175</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Plasteel>55</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Laser_Focus</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>650</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>ChargedShot</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Laser_Cooling</defName>
+    <label>лазерная турель — криоконтур</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Laser_Cooling</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>175</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Plasteel>55</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Laser_Cooling</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>650</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>ChargedShot</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Laser_Pulse</defName>
+    <label>лазерная турель — быстрый импульс</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Laser_Pulse</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>175</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Plasteel>55</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Laser_Pulse</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>650</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>ChargedShot</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Blaster</defName>
+    <label>бластерная турель</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <designationCategory>Security</designationCategory>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Blaster</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>520</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>210</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>65</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Blaster_Scatter</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>790</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>ChargedShot</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Blaster_Pierce</defName>
+    <label>бластерная турель — бронебойный пакет</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Blaster_Pierce</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>520</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>210</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>65</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Blaster_Pierce</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>790</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>ChargedShot</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Blaster_Fury</defName>
+    <label>бластерная турель — скоростной пакет</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Blaster_Fury</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>520</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>210</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>65</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Blaster_Fury</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>1.3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>790</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>ChargedShot</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Railgun</defName>
+    <label>рейлган</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Ultra</techLevel>
+    <tradeability>None</tradeability>
+    <designationCategory>Security</designationCategory>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Railgun</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>280</Steel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <Plasteel>95</Plasteel>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Railgun_Light</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1250</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Fabrication</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Railgun_Medium</defName>
+    <label>рейлган — средний</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Ultra</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(3,3)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Railgun_Medium</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <WorkToBuild>21000</WorkToBuild>
+      <Mass>240</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>280</Steel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <Plasteel>95</Plasteel>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Railgun_Medium</turretGunDef>
+      <turretTopDrawSize>3</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>165</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1730</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Fabrication</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_Railgun_Heavy</defName>
+    <label>рейлган — тяжёлый</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Ultra</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(4,4)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_Railgun_Heavy</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+      <WorkToBuild>24000</WorkToBuild>
+      <Mass>320</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>280</Steel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <Plasteel>95</Plasteel>
+      <ComponentSpacer>8</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_Railgun_Heavy</turretGunDef>
+      <turretTopDrawSize>4</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>195</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>2210</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Fabrication</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_ATGM</defName>
+    <label>автоматическая ПТУР</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <designationCategory>Security</designationCategory>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_ATGM</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>440</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>210</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>40</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_ATGM_HEAT</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>360</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>CE_Launchers</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_ATGM_Dual</defName>
+    <label>автоматическая ПТУР — двойная пусковая</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_ATGM_Dual</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>440</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>210</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>40</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_ATGM_Dual</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>360</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>CE_Launchers</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_ATGM_Guided</defName>
+    <label>автоматическая ПТУР — улучшенное сопровождение</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_ATGM_Guided</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>440</MaxHitPoints>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>160</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>210</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Plasteel>40</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_ATGM_Guided</turretGunDef>
+      <turretTopDrawSize>2</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>135</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>360</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>CE_Launchers</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_MLRS</defName>
+    <label>пакетная РСЗО</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <designationCategory>Security</designationCategory>
+    <size>(3,3)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_MLRS</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>700</MaxHitPoints>
+      <WorkToBuild>21000</WorkToBuild>
+      <Mass>240</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>335</Steel>
+      <ComponentIndustrial>13</ComponentIndustrial>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_MLRS_Light</turretGunDef>
+      <turretTopDrawSize>3</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>165</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>450</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>CE_Launchers</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_MLRS_Swarm</defName>
+    <label>пакетная РСЗО — залп 12 ракет</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(3,3)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_MLRS_Swarm</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>700</MaxHitPoints>
+      <WorkToBuild>21000</WorkToBuild>
+      <Mass>240</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>335</Steel>
+      <ComponentIndustrial>13</ComponentIndustrial>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_MLRS_Swarm</turretGunDef>
+      <turretTopDrawSize>3</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>165</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>450</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>CE_Launchers</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>TC_Turret_MLRS_Heavy</defName>
+    <label>пакетная РСЗО — утяжелённый блок</label>
+    <description>Тяжёлый промышленный оборонительный комплекс. Модификации требуют ресурсов, доставки материалов и строительных работ. CE-боеприпасы и баллистика.</description>
+    <category>Building</category>
+    <thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <tradeability>None</tradeability>
+    <menuHidden>true</menuHidden>
+    <size>(3,3)</size>
+    <rotatable>true</rotatable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.78</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <selectable>true</selectable>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Turret_MLRS_Heavy</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>700</MaxHitPoints>
+      <WorkToBuild>21000</WorkToBuild>
+      <Mass>240</Mass>
+      <Flammability>0.06</Flammability>
+      <ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+      <Beauty>-3</Beauty>
+    </statBases>
+    <costList>
+      <Steel>335</Steel>
+      <ComponentIndustrial>13</ComponentIndustrial>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <building>
+      <turretGunDef>TC_Gun_MLRS_Heavy</turretGunDef>
+      <turretTopDrawSize>3</turretTopDrawSize>
+      <turretBurstCooldownTime>3</turretBurstCooldownTime>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <combatPower>165</combatPower>
+    </building>
+    <comps>
+      <li Class="ThornWhip.CompProperties_ThornTurret" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>450</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowTurretRadius</li>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>CE_Launchers</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

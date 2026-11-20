@@ -1,0 +1,1032 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RecipeDef>
+    <defName>TT_DevelopDesign</defName>
+    <label>разработать чертёж оружия Терна</label>
+    <description>Исследовать оружие одного из четырёх семейств.</description>
+    <jobString>разрабатывает оружие Терна</jobString>
+    <workAmount>15000</workAmount>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <workSkillLearnFactor>1</workSkillLearnFactor>
+    <effectWorking>Research</effectWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B0_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B0_M0>1</TT_Rifle_R0_B0_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B0_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B0_M1>1</TT_Rifle_R0_B0_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B1_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B1_M0>1</TT_Rifle_R0_B1_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B1_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B1_M1>1</TT_Rifle_R0_B1_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B0_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B0_M0>1</TT_Rifle_R1_B0_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B0_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B0_M1>1</TT_Rifle_R1_B0_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B1_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B1_M0>1</TT_Rifle_R1_B1_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B1_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B1_M1>1</TT_Rifle_R1_B1_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B0_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B0_M0>1</TT_Auto_R0_B0_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B0_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B0_M1>1</TT_Auto_R0_B0_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B1_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B1_M0>1</TT_Auto_R0_B1_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B1_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B1_M1>1</TT_Auto_R0_B1_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B0_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B0_M0>1</TT_Auto_R1_B0_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B0_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B0_M1>1</TT_Auto_R1_B0_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B1_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B1_M0>1</TT_Auto_R1_B1_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B1_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B1_M1>1</TT_Auto_R1_B1_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R0_B0_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R0_B0_M0>1</TT_Pistol_R0_B0_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R0_B0_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R0_B0_M1>1</TT_Pistol_R0_B0_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R0_B1_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R0_B1_M0>1</TT_Pistol_R0_B1_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R0_B1_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R0_B1_M1>1</TT_Pistol_R0_B1_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R1_B0_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R1_B0_M0>1</TT_Pistol_R1_B0_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R1_B0_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R1_B0_M1>1</TT_Pistol_R1_B0_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R1_B1_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R1_B1_M0>1</TT_Pistol_R1_B1_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R1_B1_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R1_B1_M1>1</TT_Pistol_R1_B1_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Launcher_R0_B0_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>25500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Launcher_R0_B0_M0>1</TT_Launcher_R0_B0_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Launcher_R0_B0_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>25500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Launcher_R0_B0_M1>1</TT_Launcher_R0_B0_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Launcher_R0_B1_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>25500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Launcher_R0_B1_M0>1</TT_Launcher_R0_B1_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Launcher_R0_B1_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>25500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Launcher_R0_B1_M1>1</TT_Launcher_R0_B1_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Launcher_R1_B0_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>25500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Launcher_R1_B0_M0>1</TT_Launcher_R1_B0_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Launcher_R1_B0_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>25500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Launcher_R1_B0_M1>1</TT_Launcher_R1_B0_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Launcher_R1_B1_M0</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>25500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Launcher_R1_B1_M0>1</TT_Launcher_R1_B1_M0>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Launcher_R1_B1_M1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>25500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Launcher_R1_B1_M1>1</TT_Launcher_R1_B1_M1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B0_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B0_M0_C1>1</TT_Rifle_R0_B0_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B0_M0_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B0_M0_C2>1</TT_Rifle_R0_B0_M0_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B0_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B0_M1_C1>1</TT_Rifle_R0_B0_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B0_M1_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B0_M1_C2>1</TT_Rifle_R0_B0_M1_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B1_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B1_M0_C1>1</TT_Rifle_R0_B1_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B1_M0_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B1_M0_C2>1</TT_Rifle_R0_B1_M0_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B1_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B1_M1_C1>1</TT_Rifle_R0_B1_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R0_B1_M1_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R0_B1_M1_C2>1</TT_Rifle_R0_B1_M1_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B0_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B0_M0_C1>1</TT_Rifle_R1_B0_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B0_M0_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B0_M0_C2>1</TT_Rifle_R1_B0_M0_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B0_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B0_M1_C1>1</TT_Rifle_R1_B0_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B0_M1_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B0_M1_C2>1</TT_Rifle_R1_B0_M1_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B1_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B1_M0_C1>1</TT_Rifle_R1_B1_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B1_M0_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B1_M0_C2>1</TT_Rifle_R1_B1_M0_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B1_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B1_M1_C1>1</TT_Rifle_R1_B1_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_R1_B1_M1_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>16500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Rifle_R1_B1_M1_C2>1</TT_Rifle_R1_B1_M1_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B0_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B0_M0_C1>1</TT_Auto_R0_B0_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B0_M0_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B0_M0_C2>1</TT_Auto_R0_B0_M0_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B0_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B0_M1_C1>1</TT_Auto_R0_B0_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B0_M1_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B0_M1_C2>1</TT_Auto_R0_B0_M1_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B1_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B1_M0_C1>1</TT_Auto_R0_B1_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B1_M0_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B1_M0_C2>1</TT_Auto_R0_B1_M0_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B1_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B1_M1_C1>1</TT_Auto_R0_B1_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R0_B1_M1_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R0_B1_M1_C2>1</TT_Auto_R0_B1_M1_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B0_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B0_M0_C1>1</TT_Auto_R1_B0_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B0_M0_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B0_M0_C2>1</TT_Auto_R1_B0_M0_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B0_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B0_M1_C1>1</TT_Auto_R1_B0_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B0_M1_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B0_M1_C2>1</TT_Auto_R1_B0_M1_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B1_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B1_M0_C1>1</TT_Auto_R1_B1_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B1_M0_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B1_M0_C2>1</TT_Auto_R1_B1_M0_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B1_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B1_M1_C1>1</TT_Auto_R1_B1_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Auto_R1_B1_M1_C2</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>18200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Auto_R1_B1_M1_C2>1</TT_Auto_R1_B1_M1_C2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R0_B0_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R0_B0_M0_C1>1</TT_Pistol_R0_B0_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R0_B0_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R0_B0_M1_C1>1</TT_Pistol_R0_B0_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R0_B1_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R0_B1_M0_C1>1</TT_Pistol_R0_B1_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R0_B1_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R0_B1_M1_C1>1</TT_Pistol_R0_B1_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R1_B0_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R1_B0_M0_C1>1</TT_Pistol_R1_B0_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R1_B0_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R1_B0_M1_C1>1</TT_Pistol_R1_B0_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R1_B1_M0_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R1_B1_M0_C1>1</TT_Pistol_R1_B1_M0_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TT_Craft_Pistol_R1_B1_M1_C1</defName>
+    <label>собрать оружие Терна (чертёж)</label>
+    <description>Стоимость каждой детали внесена в заказ и резервируется при его создании.</description>
+    <jobString>собирает оружие Терна</jobString>
+    <workAmount>9900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TT_Pistol_R1_B1_M1_C1>1</TT_Pistol_R1_B1_M1_C1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+</Defs>

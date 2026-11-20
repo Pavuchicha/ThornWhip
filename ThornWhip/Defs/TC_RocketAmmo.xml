@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>TC_Category_ATGM</defName>
+    <label>ПТУР Терна</label>
+    <parent>AmmoMissiles</parent>
+  </ThingCategoryDef>
+  <CombatExtended.AmmoSetDef>
+    <defName>TC_AmmoSet_ATGM</defName>
+    <label>ПТУР Терна</label>
+    <ammoTypes>
+      <TC_Ammo_ATGM_HEAT>TC_Missile_HEAT</TC_Ammo_ATGM_HEAT>
+      <TC_Ammo_ATGM_HE>TC_Missile_HE</TC_Ammo_ATGM_HE>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="MediumAmmoBase">
+    <defName>TC_Ammo_ATGM_HEAT</defName>
+    <label>ПТУР Терна (HEAT)</label>
+    <description>Одноразовая управляемая ракета для оборонительных систем Корпуса Терна.</description>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Ammo_ATGM</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>3.4</Mass>
+      <Bulk>4.0</Bulk>
+      <MarketValue>23</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>TC_Category_ATGM</li>
+    </thingCategories>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+    </tradeTags>
+    <stackLimit>24</stackLimit>
+    <ammoClass>GrenadeHEAT</ammoClass>
+  </ThingDef>
+  <ThingDef ParentName="BaseExplosiveBullet">
+    <defName>TC_Missile_HEAT</defName>
+    <label>ПТУР Терна / HEAT</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Projectile_ATGM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>72</speed>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>175</damageAmountBase>
+      <explosionRadius>2.3</explosionRadius>
+      <armorPenetration>11</armorPenetration>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <defName>TC_MakeAmmo_ATGM_HEAT</defName>
+    <label>собрать ПТУР Терна (HEAT)</label>
+    <jobString>Изготовление ракет Терна...</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>14</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+        <li>Chemfuel</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TC_Ammo_ATGM_HEAT>4</TC_Ammo_ATGM_HEAT>
+    </products>
+    <workAmount>6500</workAmount>
+  </RecipeDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="MediumAmmoBase">
+    <defName>TC_Ammo_ATGM_HE</defName>
+    <label>ПТУР Терна (HE)</label>
+    <description>Одноразовая управляемая ракета для оборонительных систем Корпуса Терна.</description>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Ammo_ATGM</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>3.4</Mass>
+      <Bulk>4.0</Bulk>
+      <MarketValue>23</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>TC_Category_ATGM</li>
+    </thingCategories>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+    </tradeTags>
+    <stackLimit>24</stackLimit>
+    <ammoClass>GrenadeHE</ammoClass>
+  </ThingDef>
+  <ThingDef ParentName="BaseExplosiveBullet">
+    <defName>TC_Missile_HE</defName>
+    <label>ПТУР Терна / HE</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Projectile_ATGM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>72</speed>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>135</damageAmountBase>
+      <explosionRadius>4.3</explosionRadius>
+      <armorPenetration>4</armorPenetration>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <defName>TC_MakeAmmo_ATGM_HE</defName>
+    <label>собрать ПТУР Терна (HE)</label>
+    <jobString>Изготовление ракет Терна...</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>14</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+        <li>Chemfuel</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TC_Ammo_ATGM_HE>4</TC_Ammo_ATGM_HE>
+    </products>
+    <workAmount>6500</workAmount>
+  </RecipeDef>
+  <ThingCategoryDef>
+    <defName>TC_Category_MLRS</defName>
+    <label>Ракеты Терна</label>
+    <parent>AmmoRockets</parent>
+  </ThingCategoryDef>
+  <CombatExtended.AmmoSetDef>
+    <defName>TC_AmmoSet_MLRS</defName>
+    <label>Ракеты Терна</label>
+    <ammoTypes>
+      <TC_Ammo_MLRS_HE>TC_Rocket_HE</TC_Ammo_MLRS_HE>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="MediumAmmoBase">
+    <defName>TC_Ammo_MLRS_HE</defName>
+    <label>Ракеты Терна (HE)</label>
+    <description>Одноразовая управляемая ракета для оборонительных систем Корпуса Терна.</description>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Ammo_MLRS</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>2.1</Mass>
+      <Bulk>4.0</Bulk>
+      <MarketValue>23</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>TC_Category_MLRS</li>
+    </thingCategories>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+    </tradeTags>
+    <stackLimit>24</stackLimit>
+    <ammoClass>GrenadeHE</ammoClass>
+  </ThingDef>
+  <ThingDef ParentName="BaseExplosiveBullet">
+    <defName>TC_Rocket_HE</defName>
+    <label>Ракеты Терна / HE</label>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Projectile_MLRS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>42</speed>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>92</damageAmountBase>
+      <explosionRadius>3.7</explosionRadius>
+      <armorPenetration>3</armorPenetration>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <defName>TC_MakeAmmo_MLRS_HE</defName>
+    <label>собрать Ракеты Терна (HE)</label>
+    <jobString>Изготовление ракет Терна...</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>14</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TC_Ammo_MLRS_HE>4</TC_Ammo_MLRS_HE>
+    </products>
+    <workAmount>6500</workAmount>
+  </RecipeDef>
+</Defs>

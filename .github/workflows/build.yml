@@ -1,0 +1,45 @@
+name: Build Thorn Corps 0.10 for RimWorld 1.7
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'ThornWhip/**'
+      - 'tests_static_09.py'
+      - 'tests_visuals_10.py'
+      - '.github/workflows/build.yml'
+jobs:
+  compile-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install static-test dependency
+        run: python -m pip install 'Pillow>=10.0,<13'
+      # Source defs are checked in. Never run older generators in CI; they overwrite calibre/armor data.
+      # 0.10 defense defs can be regenerated locally with build_defense_09.py.
+      - name: Validate checked-in 0.10 definitions
+        run: python tests_static_09.py
+      - name: Verify actual in-game graphic refs and styles
+        run: python tests_visuals_10.py
+      - name: Resolve RimWorld 1.7 references
+        run: dotnet restore ThornWhip/Source/ThornWhip.csproj
+      - name: Build assembly
+        run: dotnet build ThornWhip/Source/ThornWhip.csproj -c Release --no-restore
+      - name: Verify game DLL
+        run: test -s ThornWhip/1.7/Assemblies/ThornWhip.dll
+      - name: Package a single installable mod directory
+        run: |
+          mkdir -p _release/ThornWhip
+          cp -a ThornWhip/About ThornWhip/Defs ThornWhip/Textures ThornWhip/1.7 ThornWhip/LoadFolders.xml _release/ThornWhip/
+          cd _release
+          zip -qr ../ThornCorps_CE_Constructor_0.10_INSTALL.zip ThornWhip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ThornCorps-CE-Constructor-0.10
+          path: ThornCorps_CE_Constructor_0.10_INSTALL.zip
+          if-no-files-found: error

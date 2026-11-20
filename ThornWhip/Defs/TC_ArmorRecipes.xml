@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RecipeDef>
+    <defName>TC_DevelopArmor</defName>
+    <label>разработать проект брони Корпуса Терна</label>
+    <jobString>разрабатывает бронесистему Терна</jobString>
+    <workAmount>20000</workAmount>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Research</effectWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TC_Craft_Armor_Light_T1</defName>
+    <label>собрать броню Терна по чертежу</label>
+    <description>Списание ресурсов по составу чертежа выполняется при создании заказа.</description>
+    <jobString>собирает броню Корпуса Терна</jobString>
+    <workAmount>20000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TC_Armor_Light_T1>1</TC_Armor_Light_T1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TC_Craft_Armor_Light_T2</defName>
+    <label>собрать броню Терна по чертежу</label>
+    <description>Списание ресурсов по составу чертежа выполняется при создании заказа.</description>
+    <jobString>собирает броню Корпуса Терна</jobString>
+    <workAmount>30000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TC_Armor_Light_T2>1</TC_Armor_Light_T2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TC_Craft_Armor_Light_T3</defName>
+    <label>собрать броню Терна по чертежу</label>
+    <description>Списание ресурсов по составу чертежа выполняется при создании заказа.</description>
+    <jobString>собирает броню Корпуса Терна</jobString>
+    <workAmount>40000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TC_Armor_Light_T3>1</TC_Armor_Light_T3>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TC_Craft_Armor_Medium_T1</defName>
+    <label>собрать броню Терна по чертежу</label>
+    <description>Списание ресурсов по составу чертежа выполняется при создании заказа.</description>
+    <jobString>собирает броню Корпуса Терна</jobString>
+    <workAmount>30000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TC_Armor_Medium_T1>1</TC_Armor_Medium_T1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TC_Craft_Armor_Medium_T2</defName>
+    <label>собрать броню Терна по чертежу</label>
+    <description>Списание ресурсов по составу чертежа выполняется при создании заказа.</description>
+    <jobString>собирает броню Корпуса Терна</jobString>
+    <workAmount>40000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TC_Armor_Medium_T2>1</TC_Armor_Medium_T2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TC_Craft_Armor_Medium_T3</defName>
+    <label>собрать броню Терна по чертежу</label>
+    <description>Списание ресурсов по составу чертежа выполняется при создании заказа.</description>
+    <jobString>собирает броню Корпуса Терна</jobString>
+    <workAmount>50000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TC_Armor_Medium_T3>1</TC_Armor_Medium_T3>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TC_Craft_Armor_Heavy_T1</defName>
+    <label>собрать броню Терна по чертежу</label>
+    <description>Списание ресурсов по составу чертежа выполняется при создании заказа.</description>
+    <jobString>собирает броню Корпуса Терна</jobString>
+    <workAmount>40000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TC_Armor_Heavy_T1>1</TC_Armor_Heavy_T1>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TC_Craft_Armor_Heavy_T2</defName>
+    <label>собрать броню Терна по чертежу</label>
+    <description>Списание ресурсов по составу чертежа выполняется при создании заказа.</description>
+    <jobString>собирает броню Корпуса Терна</jobString>
+    <workAmount>50000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TC_Armor_Heavy_T2>1</TC_Armor_Heavy_T2>
+    </products>
+    <ingredients />
+  </RecipeDef>
+  <RecipeDef>
+    <defName>TC_Craft_Armor_Heavy_T3</defName>
+    <label>собрать броню Терна по чертежу</label>
+    <description>Списание ресурсов по составу чертежа выполняется при создании заказа.</description>
+    <jobString>собирает броню Корпуса Терна</jobString>
+    <workAmount>60000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <products>
+      <TC_Armor_Heavy_T3>1</TC_Armor_Heavy_T3>
+    </products>
+    <ingredients />
+  </RecipeDef>
+</Defs>

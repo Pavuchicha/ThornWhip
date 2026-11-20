@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>TC_ArmorTech1</defName>
+    <label>Корпус Терна: защитные конструкции Т1</label>
+    <description>Проектирование бронежилетов, современной штурмовой защиты и механических экзоскафандров. Открывает бронепроекты первого технологического уровня.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites><li>Machining</li></prerequisites>
+    <researchViewX>11</researchViewX><researchViewY>9</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>TC_ArmorTech2</defName>
+    <label>Корпус Терна: силовые бронесистемы Т2</label>
+    <description>Силовые приводы, вакуумная изоляция и композитные защитные элементы космической эпохи. Открывает бронепроекты Т2.</description>
+    <baseCost>2600</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites><li>TC_ArmorTech1</li><li>Fabrication</li></prerequisites>
+    <researchViewX>12</researchViewX><researchViewY>9</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>TC_ArmorTech3</defName>
+    <label>Корпус Терна: ультратехнологические бронесистемы Т3</label>
+    <description>Метаматериальные элементы, адаптивная бронезащита и ультратехнологические силовые приводы. Открывает бронепроекты Т3.</description>
+    <baseCost>6500</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites><li>TC_ArmorTech2</li><li>AdvancedFabrication</li></prerequisites>
+    <researchViewX>13</researchViewX><researchViewY>9</researchViewY>
+  </ResearchProjectDef>
+</Defs>

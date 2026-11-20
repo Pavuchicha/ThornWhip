@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>TC_AmmoLaser</defName>
+    <label>лазерные конденсаторные кассеты</label>
+    <parent>AmmoAdvanced</parent>
+  </ThingCategoryDef>
+  <CombatExtended.AmmoSetDef>
+    <defName>TC_AmmoSet_Laser</defName>
+    <label>лазерные конденсаторные кассеты</label>
+    <ammoTypes>
+      <TC_Ammo_Laser_Standard>TC_Beam_Standard</TC_Ammo_Laser_Standard>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Name="TC_AmmoLaserBase" ParentName="SmallAmmoBase" Abstract="True">
+    <description>лазерные конденсаторные кассеты</description>
+    <statBases>
+      <Mass>.08</Mass>
+      <Bulk>.08</Bulk>
+      <MarketValue>4.2</MarketValue>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+    </tradeTags>
+    <thingCategories>
+      <li>TC_AmmoLaser</li>
+    </thingCategories>
+    <stackLimit>300</stackLimit>
+  </ThingDef>
+  <ThingDef ParentName="TC_AmmoLaserBase">
+    <defName>TC_Ammo_Laser_Standard</defName>
+    <label>лазерные конденсаторные кассеты standard</label>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Ammo_Laser</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>TC_Beam_Standard</cookOffProjectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>TC_Beam_Standard</defName>
+    <label>Laser Standard</label>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Projectile_Laser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Burn</damageDef>
+      <speed>300</speed>
+      <damageAmountBase>14</damageAmountBase>
+      <armorPenetration>0.2</armorPenetration>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <defName>TC_MakeAmmo_Laser_Standard</defName>
+    <label>производить лазерные конденсаторные кассеты (Standard)</label>
+    <jobString>Сборка энергокассет...</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TC_Ammo_Laser_Standard>50</TC_Ammo_Laser_Standard>
+    </products>
+    <workAmount>4000</workAmount>
+  </RecipeDef>
+  <ThingCategoryDef>
+    <defName>TC_AmmoBlaster</defName>
+    <label>бластерные плазмокассеты</label>
+    <parent>AmmoAdvanced</parent>
+  </ThingCategoryDef>
+  <CombatExtended.AmmoSetDef>
+    <defName>TC_AmmoSet_Blaster</defName>
+    <label>бластерные плазмокассеты</label>
+    <ammoTypes>
+      <TC_Ammo_Blaster_Standard>TC_Bolt_Standard</TC_Ammo_Blaster_Standard>
+      <TC_Ammo_Blaster_Piercing>TC_Bolt_Piercing</TC_Ammo_Blaster_Piercing>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Name="TC_AmmoBlasterBase" ParentName="SmallAmmoBase" Abstract="True">
+    <description>бластерные плазмокассеты</description>
+    <statBases>
+      <Mass>.08</Mass>
+      <Bulk>.08</Bulk>
+      <MarketValue>4.2</MarketValue>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+    </tradeTags>
+    <thingCategories>
+      <li>TC_AmmoBlaster</li>
+    </thingCategories>
+    <stackLimit>300</stackLimit>
+  </ThingDef>
+  <ThingDef ParentName="TC_AmmoBlasterBase">
+    <defName>TC_Ammo_Blaster_Standard</defName>
+    <label>бластерные плазмокассеты standard</label>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Ammo_Blaster</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>TC_Bolt_Standard</cookOffProjectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>TC_Bolt_Standard</defName>
+    <label>Blaster Standard</label>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Projectile_Blaster</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>180</speed>
+      <damageAmountBase>18</damageAmountBase>
+      <armorPenetration>1.8</armorPenetration>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <defName>TC_MakeAmmo_Blaster_Standard</defName>
+    <label>производить бластерные плазмокассеты (Standard)</label>
+    <jobString>Сборка энергокассет...</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TC_Ammo_Blaster_Standard>50</TC_Ammo_Blaster_Standard>
+    </products>
+    <workAmount>4000</workAmount>
+  </RecipeDef>
+  <ThingDef ParentName="TC_AmmoBlasterBase">
+    <defName>TC_Ammo_Blaster_Piercing</defName>
+    <label>бластерные плазмокассеты piercing</label>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Ammo_Blaster</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>TC_Bolt_Piercing</cookOffProjectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>TC_Bolt_Piercing</defName>
+    <label>Blaster Piercing</label>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Projectile_Blaster</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>180</speed>
+      <damageAmountBase>14</damageAmountBase>
+      <armorPenetration>8.0</armorPenetration>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <defName>TC_MakeAmmo_Blaster_Piercing</defName>
+    <label>производить бластерные плазмокассеты (Piercing)</label>
+    <jobString>Сборка энергокассет...</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TC_Ammo_Blaster_Piercing>50</TC_Ammo_Blaster_Piercing>
+    </products>
+    <workAmount>4000</workAmount>
+  </RecipeDef>
+</Defs>

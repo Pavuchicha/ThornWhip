@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BenchBase">
+    <defName>TT_DesignTable</defName>
+    <label>стол разработки вооружения</label>
+    <description>Проектирование и исследование модульного оружия.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <designationCategory>Production</designationCategory>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <size>(2,1)</size>
+    <graphicData>
+      <texPath>Things/Buildings/TW_DesignTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>95</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>Gunsmithing</li>
+    </researchPrerequisites>
+    <statBases>
+      <WorkToBuild>9000</WorkToBuild>
+      <MaxHitPoints>190</MaxHitPoints>
+      <Flammability>0.4</Flammability>
+    </statBases>
+    <recipes>
+      <li>TT_DevelopDesign</li>
+      <li>TC_DevelopArmor</li>
+    </recipes>
+    <inspectorTabs Inherit="False" />
+    <comps>
+      <li Class="ThornWhip.CompProperties_DesignTable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <rotatable>true</rotatable>
+  </ThingDef>
+  <ThingDef ParentName="BenchBase">
+    <defName>TT_FactoryTable</defName>
+    <label>сборочный верстак Терна</label>
+    <description>Изготовление по персональным чертежам; ресурсы резервируются при постановке заказа.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <designationCategory>Production</designationCategory>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <size>(2,1)</size>
+    <graphicData>
+      <texPath>Things/Buildings/TW_FactoryTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>Gunsmithing</li>
+    </researchPrerequisites>
+    <statBases>
+      <WorkToBuild>11000</WorkToBuild>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Flammability>0.4</Flammability>
+    </statBases>
+    <recipes>
+      <li>TT_Craft_R0_B0_M0</li>
+      <li>TT_Craft_R0_B0_M1</li>
+      <li>TT_Craft_R0_B1_M0</li>
+      <li>TT_Craft_R0_B1_M1</li>
+      <li>TT_Craft_R1_B0_M0</li>
+      <li>TT_Craft_R1_B0_M1</li>
+      <li>TT_Craft_R1_B1_M0</li>
+      <li>TT_Craft_R1_B1_M1</li>
+      <li>TT_Craft_Auto_R0_B0_M0</li>
+      <li>TT_Craft_Auto_R0_B0_M1</li>
+      <li>TT_Craft_Auto_R0_B1_M0</li>
+      <li>TT_Craft_Auto_R0_B1_M1</li>
+      <li>TT_Craft_Auto_R1_B0_M0</li>
+      <li>TT_Craft_Auto_R1_B0_M1</li>
+      <li>TT_Craft_Auto_R1_B1_M0</li>
+      <li>TT_Craft_Auto_R1_B1_M1</li>
+      <li>TT_Craft_Pistol_R0_B0_M0</li>
+      <li>TT_Craft_Pistol_R0_B0_M1</li>
+      <li>TT_Craft_Pistol_R0_B1_M0</li>
+      <li>TT_Craft_Pistol_R0_B1_M1</li>
+      <li>TT_Craft_Pistol_R1_B0_M0</li>
+      <li>TT_Craft_Pistol_R1_B0_M1</li>
+      <li>TT_Craft_Pistol_R1_B1_M0</li>
+      <li>TT_Craft_Pistol_R1_B1_M1</li>
+      <li>TT_Craft_Launcher_R0_B0_M0</li>
+      <li>TT_Craft_Launcher_R0_B0_M1</li>
+      <li>TT_Craft_Launcher_R0_B1_M0</li>
+      <li>TT_Craft_Launcher_R0_B1_M1</li>
+      <li>TT_Craft_Launcher_R1_B0_M0</li>
+      <li>TT_Craft_Launcher_R1_B0_M1</li>
+      <li>TT_Craft_Launcher_R1_B1_M0</li>
+      <li>TT_Craft_Launcher_R1_B1_M1</li>
+      <li>TT_Craft_R0_B0_M0_C1</li>
+      <li>TT_Craft_R0_B0_M0_C2</li>
+      <li>TT_Craft_R0_B0_M1_C1</li>
+      <li>TT_Craft_R0_B0_M1_C2</li>
+      <li>TT_Craft_R0_B1_M0_C1</li>
+      <li>TT_Craft_R0_B1_M0_C2</li>
+      <li>TT_Craft_R0_B1_M1_C1</li>
+      <li>TT_Craft_R0_B1_M1_C2</li>
+      <li>TT_Craft_R1_B0_M0_C1</li>
+      <li>TT_Craft_R1_B0_M0_C2</li>
+      <li>TT_Craft_R1_B0_M1_C1</li>
+      <li>TT_Craft_R1_B0_M1_C2</li>
+      <li>TT_Craft_R1_B1_M0_C1</li>
+      <li>TT_Craft_R1_B1_M0_C2</li>
+      <li>TT_Craft_R1_B1_M1_C1</li>
+      <li>TT_Craft_R1_B1_M1_C2</li>
+      <li>TT_Craft_Auto_R0_B0_M0_C1</li>
+      <li>TT_Craft_Auto_R0_B0_M0_C2</li>
+      <li>TT_Craft_Auto_R0_B0_M1_C1</li>
+      <li>TT_Craft_Auto_R0_B0_M1_C2</li>
+      <li>TT_Craft_Auto_R0_B1_M0_C1</li>
+      <li>TT_Craft_Auto_R0_B1_M0_C2</li>
+      <li>TT_Craft_Auto_R0_B1_M1_C1</li>
+      <li>TT_Craft_Auto_R0_B1_M1_C2</li>
+      <li>TT_Craft_Auto_R1_B0_M0_C1</li>
+      <li>TT_Craft_Auto_R1_B0_M0_C2</li>
+      <li>TT_Craft_Auto_R1_B0_M1_C1</li>
+      <li>TT_Craft_Auto_R1_B0_M1_C2</li>
+      <li>TT_Craft_Auto_R1_B1_M0_C1</li>
+      <li>TT_Craft_Auto_R1_B1_M0_C2</li>
+      <li>TT_Craft_Auto_R1_B1_M1_C1</li>
+      <li>TT_Craft_Auto_R1_B1_M1_C2</li>
+      <li>TT_Craft_Pistol_R0_B0_M0_C1</li>
+      <li>TT_Craft_Pistol_R0_B0_M1_C1</li>
+      <li>TT_Craft_Pistol_R0_B1_M0_C1</li>
+      <li>TT_Craft_Pistol_R0_B1_M1_C1</li>
+      <li>TT_Craft_Pistol_R1_B0_M0_C1</li>
+      <li>TT_Craft_Pistol_R1_B0_M1_C1</li>
+      <li>TT_Craft_Pistol_R1_B1_M0_C1</li>
+      <li>TT_Craft_Pistol_R1_B1_M1_C1</li>
+      <li>TC_Craft_Armor_Light_T1</li>
+      <li>TC_Craft_Armor_Light_T2</li>
+      <li>TC_Craft_Armor_Light_T3</li>
+      <li>TC_Craft_Armor_Medium_T1</li>
+      <li>TC_Craft_Armor_Medium_T2</li>
+      <li>TC_Craft_Armor_Medium_T3</li>
+      <li>TC_Craft_Armor_Heavy_T1</li>
+      <li>TC_Craft_Armor_Heavy_T2</li>
+      <li>TC_Craft_Armor_Heavy_T3</li>
+    </recipes>
+    <inspectorTabs Inherit="False" />
+    <comps>
+      <li Class="ThornWhip.CompProperties_FactoryTable" />
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <rotatable>true</rotatable>
+  </ThingDef>
+</Defs>

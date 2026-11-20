@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <FactionDef ParentName="OutlanderFactionBase">
+    <defName>TC_ThornCorps</defName>
+    <label>Корпус Терна</label>
+    <description>Военно-промышленный корпус, контролирующий укреплённые производственные поселения на поверхности и орбитальные заводы. Выпускает модульное оружие и броню собственного стандарта.</description>
+    <pawnSingular>служащий Корпуса Терна</pawnSingular>
+    <pawnsPlural>служащие Корпуса Терна</pawnsPlural>
+    <leaderTitle>командор производственных крепостей</leaderTitle>
+    <techLevel>Spacer</techLevel>
+    <canMakeRandomly>true</canMakeRandomly>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <settlementGenerationWeight>1.1</settlementGenerationWeight>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <factionIconPath>ThornCorps/Faction/Insignia</factionIconPath>
+    <settlementTexturePath>ThornCorps/Faction/FactoryFort</settlementTexturePath>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <basicMemberKind>TC_Operator</basicMemberKind>
+    <layerWhitelist>
+      <li>Surface</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">Orbit</li>
+    </layerWhitelist>
+    <colorSpectrum>
+      <li>(0.18, 0.28, 0.31)</li>
+      <li>(0.38, 0.46, 0.47)</li>
+      <li>(0.12, 0.19, 0.22)</li>
+    </colorSpectrum>
+    <pawnGroupMakers Inherit="False">
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <TC_Operator>9</TC_Operator>
+          <TC_Engineer>3</TC_Engineer>
+          <TC_Bulwark>2</TC_Bulwark>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <TC_Engineer>8</TC_Engineer>
+          <TC_Operator>2</TC_Operator>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <TC_Operator>7</TC_Operator>
+          <TC_Engineer>5</TC_Engineer>
+          <TC_Bulwark>3</TC_Bulwark>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+  </FactionDef>
+</Defs>

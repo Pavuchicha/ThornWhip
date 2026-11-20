@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>TC_AmmoRail30</defName>
+    <label>электромагнитные сердечники 30 мм</label>
+    <parent>AmmoHighCaliber</parent>
+  </ThingCategoryDef>
+  <CombatExtended.AmmoSetDef>
+    <defName>TC_AmmoSet_RailHeavy</defName>
+    <label>30 мм электромагнитный сердечник</label>
+    <ammoTypes>
+      <TC_Ammo_Rail30>TC_Slug_Rail30</TC_Ammo_Rail30>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="MediumAmmoBase">
+    <defName>TC_Ammo_Rail30</defName>
+    <label>электромагнитный сердечник 30 мм</label>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Ammo_Railgun</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>.58</Mass>
+      <Bulk>.75</Bulk>
+      <MarketValue>16</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>TC_AmmoRail30</li>
+    </thingCategories>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+    </tradeTags>
+    <stackLimit>100</stackLimit>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>TC_Slug_Rail30</cookOffProjectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>TC_Slug_Rail30</defName>
+    <label>магнитный сердечник 30 мм</label>
+    <graphicData>
+      <texPath>ThornCorps/Defense/Projectile_Railgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>320</speed>
+      <damageAmountBase>52</damageAmountBase>
+      <armorPenetration>38</armorPenetration>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <defName>TC_MakeAmmo_Rail30</defName>
+    <label>изготовить 30-мм сердечники</label>
+    <jobString>Точение сердечников...</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Uranium</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TC_Ammo_Rail30>25</TC_Ammo_Rail30>
+    </products>
+    <workAmount>7200</workAmount>
+  </RecipeDef>
+</Defs>

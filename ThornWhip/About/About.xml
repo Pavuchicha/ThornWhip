@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Корпус Терна — модульный арсенал и фортификации [0.10 VISUAL SOURCE]</name>
+  <author>Thorn Corps Project</author>
+  <packageId>thornwhip.marksman.rifles</packageId>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Исходная сборка «Корпус Терна» с новыми игровыми текстурами в двух цветовых стилях: «Корпус Терна» (чёрно-красный), «Орден Терна» (бело-красный); встроенные определения стилей Ideology, четыре стороны графики турелей, верстаков и укреплений, 4 семейства модульного оружия, 9 броневых шасси, семь типов турелей, рвы и промышленная фракция. Combat Extended обязателен. ВАЖНО: C# DLL пока не скомпилирована и мод не проверен в RimWorld 1.7; это исходный проект, не установочный релиз.</description>
+  <modDependencies>
+    <li>
+      <packageId>CETeam.CombatExtended</packageId>
+      <displayName>Combat Extended</displayName>
+    </li>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
+</ModMetaData>

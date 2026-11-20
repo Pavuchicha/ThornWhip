@@ -1,0 +1,266 @@
+[
+  {
+    "target": "Прицел",
+    "name": "Лазерный целеуказатель",
+    "description": "Дешёвая помощь при наведении",
+    "effects": {
+      "sights": 0.13,
+      "sway": -0.035,
+      "mass": 0.12,
+      "warmup": -0.075
+    },
+    "cost": {
+      "steel": 3,
+      "industrial": 1,
+      "advanced": 0,
+      "gold": 0,
+      "value": 45
+    }
+  },
+  {
+    "target": "Прицел",
+    "name": "Спектральный усилитель",
+    "description": "Оптический усилитель в условиях недостаточного света",
+    "effects": {
+      "sights": 0.09,
+      "mass": 0.19,
+      "nightVision": 0.24
+    },
+    "cost": {
+      "steel": 2,
+      "industrial": 1,
+      "advanced": 1,
+      "gold": 0,
+      "value": 105
+    }
+  },
+  {
+    "target": "Прицел",
+    "name": "Нейро-связь оптики",
+    "description": "Быстрый прицельный цикл, дорогой в ремонте",
+    "effects": {
+      "sights": 0.19,
+      "sway": -0.035,
+      "mass": 0.25,
+      "warmup": -0.13
+    },
+    "cost": {
+      "steel": 2,
+      "industrial": 1,
+      "advanced": 2,
+      "gold": 5,
+      "value": 170
+    }
+  },
+  {
+    "target": "Коробка",
+    "name": "Электронный спуск",
+    "description": "Малая задержка между сериями, уязвим к сбоям",
+    "effects": {
+      "cooldown": -0.085,
+      "mass": 0.1,
+      "warmup": -0.015
+    },
+    "cost": {
+      "steel": 1,
+      "industrial": 2,
+      "advanced": 0,
+      "gold": 0,
+      "value": 105
+    }
+  },
+  {
+    "target": "Коробка",
+    "name": "Затворный стабилизатор",
+    "description": "Снижение отдачи ценой веса",
+    "effects": {
+      "sway": -0.035,
+      "mass": 0.18,
+      "recoil": -0.15
+    },
+    "cost": {
+      "steel": 8,
+      "industrial": 1,
+      "advanced": 0,
+      "gold": 0,
+      "value": 125
+    }
+  },
+  {
+    "target": "Коробка",
+    "name": "Система быстрого досылания",
+    "description": "Ускорение подготовки патронов",
+    "effects": {
+      "mass": 0.18,
+      "reload": -0.16
+    },
+    "cost": {
+      "steel": 5,
+      "industrial": 2,
+      "advanced": 0,
+      "gold": 0,
+      "value": 95
+    }
+  },
+  {
+    "target": "Цевьё",
+    "name": "Сервостабилизатор",
+    "description": "Снижение раскачивания в позиции",
+    "effects": {
+      "sway": -0.17,
+      "mass": 0.3,
+      "bulk": 0.12,
+      "recoil": -0.06
+    },
+    "cost": {
+      "steel": 6,
+      "industrial": 1,
+      "advanced": 1,
+      "gold": 0,
+      "value": 135
+    }
+  },
+  {
+    "target": "Ствол",
+    "name": "Термокомпенсатор",
+    "description": "Компенсирует деформацию нагретого ствола",
+    "effects": {
+      "spread": -0.014,
+      "mass": 0.28
+    },
+    "cost": {
+      "steel": 7,
+      "industrial": 2,
+      "advanced": 0,
+      "gold": 0,
+      "value": 125
+    }
+  },
+  {
+    "target": "Магазин",
+    "name": "Интеллектуальная подача",
+    "description": "Ускоряет работу магазина, не меняя баллистику",
+    "effects": {
+      "mass": 0.12,
+      "reload": -0.13,
+      "cooldown": -0.025
+    },
+    "cost": {
+      "steel": 2,
+      "industrial": 2,
+      "advanced": 1,
+      "gold": 0,
+      "value": 110
+    }
+  },
+  {
+    "target": "Прицел",
+    "name": "Призменный дальномер",
+    "description": "Уверенное считывание дальности на дистанции",
+    "effects": {
+      "sights": 0.16,
+      "range": 0.05,
+      "mass": 0.24,
+      "warmup": 0.04
+    },
+    "cost": {
+      "steel": 4,
+      "industrial": 2,
+      "advanced": 1,
+      "gold": 0,
+      "value": 126
+    }
+  },
+  {
+    "target": "Прицел",
+    "name": "Контурная голограмма",
+    "description": "Быстрое ближнее наведение с недостатками вдали",
+    "effects": {
+      "sights": 0.075,
+      "sway": -0.1,
+      "warmup": -0.07,
+      "spread": 0.004,
+      "mass": 0.19
+    },
+    "cost": {
+      "steel": 2,
+      "industrial": 2,
+      "advanced": 0,
+      "gold": 0,
+      "value": 59
+    }
+  },
+  {
+    "target": "Коробка",
+    "name": "Система гашения импульса",
+    "description": "Мощный тяжелый демпфер для устойчивых серий",
+    "effects": {
+      "recoil": -0.25,
+      "cooldown": 0.055,
+      "mass": 0.42,
+      "bulk": 0.18
+    },
+    "cost": {
+      "steel": 11,
+      "industrial": 1,
+      "advanced": 0,
+      "gold": 0,
+      "value": 105
+    }
+  },
+  {
+    "target": "Ствол",
+    "name": "Криоканальный охладитель",
+    "description": "Прогнозируемое смещение точек попаданий при долгом огне",
+    "effects": {
+      "spread": -0.017,
+      "sway": -0.035,
+      "mass": 0.27,
+      "bulk": 0.14
+    },
+    "cost": {
+      "steel": 4,
+      "industrial": 1,
+      "advanced": 2,
+      "gold": 0,
+      "value": 178
+    }
+  },
+  {
+    "target": "Коробка",
+    "name": "Электромагнитный затвор",
+    "description": "Стабильное досылание, дорогое энергоснабжение",
+    "effects": {
+      "cooldown": -0.09,
+      "reload": -0.06,
+      "recoil": -0.045,
+      "mass": 0.22
+    },
+    "cost": {
+      "steel": 5,
+      "industrial": 1,
+      "advanced": 3,
+      "gold": 2,
+      "value": 224
+    }
+  },
+  {
+    "target": "Прицел",
+    "name": "Псионический вычислитель",
+    "description": "Экспериментальный оптический синхронизатор; не меняет пули CE",
+    "effects": {
+      "sights": 0.24,
+      "sway": -0.085,
+      "warmup": -0.115,
+      "mass": 0.3,
+      "nightVision": 0.22
+    },
+    "cost": {
+      "steel": 3,
+      "industrial": 2,
+      "advanced": 3,
+      "gold": 12,
+      "value": 405
+    }
+  }
+]
