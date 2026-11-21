@@ -48,10 +48,10 @@ namespace ThornWhip
     public static class WeaponCatalog
     {
         public static readonly WeaponFamily[] Families = {
-            new WeaponFamily("Rifle", "Марксанская винтовка «Плеть Терна»", "5,56×45 NATO", 0.85f, 0.09f, 1.45f, 0.88f, 3.7f, 4.8f, 420f, 20, 30, 2, 1, 55, 70),
-            new WeaponFamily("Auto", "Автомат «Гнев Терна»", "5,56×45 NATO", 0.92f, 0.135f, 1.21f, 0.4f, 3.25f, 4.3f, 455f, 25, 40, 5, 3, 40, 51),
-            new WeaponFamily("Pistol", "Пистолет «Клык Терна»", "9×19 Parabellum", 0.7f, 0.18f, 0.87f, 0.39f, 1.15f, 1.9f, 260f, 12, 20, 1, 3, 17, 23),
-            new WeaponFamily("Launcher", "Гранатомёт «Гром Терна»", "40×46 mm LV", 1.1f, 0.18f, 1.31f, 0.62f, 5.3f, 5.65f, 850f, 3, 6, 1, 2, 34, 40),
+            new WeaponFamily("Rifle", "Марксанская винтовка «Плеть Терна»", "5,56×45 NATO", 1.18f, 0.055f, 1.32f, 0.95f, 4.3f, 10.5f, 780f, 20, 30, 2, 1, 65, 76),
+            new WeaponFamily("Auto", "Автомат «Гнев Терна»", "5,56×45 NATO", 1.15f, 0.063f, 1.18f, 0.39f, 3.65f, 9.7f, 660f, 25, 40, 5, 3, 57, 65),
+            new WeaponFamily("Pistol", "Пистолет «Клык Терна»", "9×19 Parabellum", 0.78f, 0.145f, 1.02f, 0.4f, 1.42f, 2.55f, 350f, 12, 20, 1, 3, 13, 16),
+            new WeaponFamily("Launcher", "Гранатомёт «Гром Терна»", "40×46 mm LV", 1.08f, 0.15f, 1.35f, 0.75f, 6.2f, 13.5f, 1450f, 3, 6, 1, 2, 38, 44),
         };
         private static readonly ModuleSlot[][] Slots = {
             new ModuleSlot[] {

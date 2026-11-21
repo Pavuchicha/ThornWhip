@@ -91,8 +91,8 @@ namespace ThornWhip
             DesignerUI.Txt(new Rect(0,0,info.width-22,32),"ПАСПОРТ CE  /  "+b.Chassis.Label,DesignerUI.Accent,GameFont.Medium);
             ArmorTuning t=ArmorTuning.Evaluate(b);float q=Quality[previewQuality];
             var c=b.Chassis;
-            float sharp=Math.Max(0,c.Sharp+t.Adjust(t.Sharp,q,true));
-            float blunt=Math.Max(0,c.Blunt+t.Adjust(t.Blunt,q,true));
+            float sharp=Math.Max(0,Math.Min(c.Sharp*1.18f,c.Sharp+t.Adjust(t.Sharp,q,true)));
+            float blunt=Math.Max(0,Math.Min(c.Blunt*1.18f,c.Blunt+t.Adjust(t.Blunt,q,true)));
             float heat=Math.Max(0,Math.Min(1,c.Heat+t.Adjust(t.Heat,q,true)));
             string lines=$"БАЗОВАЯ ЗАЩИТА (до региональных пластин)\n\n"+
                 $"CE Sharp: {sharp:F1} мм RHA\nCE Blunt: {blunt:F1} МПа\nCE Heat: {heat:F2}\n"+
@@ -185,7 +185,7 @@ namespace ThornWhip
             DesignerUI.Txt(new Rect(x+15,69,w-28,31),b.Title,DesignerUI.Accent,GameFont.Medium);
             ArmorVisuals.DrawPreview(new Rect(x+11,108,w-22,256),b);
             var c=b.Chassis;var t=ArmorTuning.Evaluate(b);
-            string stats=$"CE Sharp: {c.Sharp+t.Sharp:F1} / CE Blunt: {c.Blunt+t.Blunt:F1}\n"+
+            string stats=$"CE Sharp: {Math.Min(c.Sharp*1.18f,c.Sharp+t.Sharp):F1} / CE Blunt: {Math.Min(c.Blunt*1.18f,c.Blunt+t.Blunt):F1}\n"+
                 $"Масса: {c.Mass+t.Mass:F1} кг / WornBulk: {c.WornBulk+t.WornBulk:F1}\n"+
                 "Набор: "+ArmorCosts.Display(b);
             DesignerUI.Txt(new Rect(x+19,380,w-42,150),stats,DesignerUI.White);
@@ -217,7 +217,7 @@ namespace ThornWhip
             var c=b.Chassis;var t=ArmorTuning.Evaluate(b);float q=WeaponTuning.QualityFactor(item);
             DesignerUI.Txt(new Rect(25,385,r.width-48,170),
                 $"База: {c.Label} / качество: ×{q:F2}\n"+
-                $"CE Sharp {c.Sharp+t.Adjust(t.Sharp,q,true):F1}, Blunt {c.Blunt+t.Adjust(t.Blunt,q,true):F1}, Heat {c.Heat+t.Heat:F2}\n"+
+                $"CE Sharp {Math.Min(c.Sharp*1.18f,c.Sharp+t.Adjust(t.Sharp,q,true)):F1}, Blunt {Math.Min(c.Blunt*1.18f,c.Blunt+t.Adjust(t.Blunt,q,true)):F1}, Heat {c.Heat+t.Heat:F2}\n"+
                 $"Масса {c.Mass+t.Mass:F1} кг, WornBulk {c.WornBulk+t.WornBulk:F1}, движение {c.Move+t.Move:+0.00;-0.00}\n"+
                 "Материалы: "+ArmorCosts.Display(b),DesignerUI.White);
         }

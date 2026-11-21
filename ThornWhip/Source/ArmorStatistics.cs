@@ -15,13 +15,13 @@ namespace ThornWhip
             var t=comp.Tuning;float q=WeaponTuning.QualityFactor(req.Thing);
             switch(parentStat.defName)
             {
-                case "ArmorRating_Sharp":value=Math.Max(0f,value+t.Adjust(t.Sharp,q,true));break;
-                case "ArmorRating_Blunt":value=Math.Max(0f,value+t.Adjust(t.Blunt,q,true));break;
+                case "ArmorRating_Sharp":value=Math.Max(0f,Math.Min(value*1.18f,value+t.Adjust(t.Sharp,q,true)));break;
+                case "ArmorRating_Blunt":value=Math.Max(0f,Math.Min(value*1.18f,value+t.Adjust(t.Blunt,q,true)));break;
                 case "ArmorRating_Heat":value=Math.Max(0f,Math.Min(1f,value+t.Adjust(t.Heat,q,true)));break;
                 case "Mass":value=Math.Max(.1f,value+t.Mass);break;
                 case "Bulk":value=Math.Max(0f,value+t.Bulk);break;
                 case "WornBulk":value=Math.Max(0f,value+t.WornBulk);break;
-                case "MarketValue":value=Math.Max(1f,value+t.Value*q);break;
+                case "MarketValue":value=Math.Max(Math.Max(1f,value+t.Value*q),EconomyBalance.MinimumFinishedValue(ArmorCosts.For(comp.Blueprint ?? ArmorBlueprint.BasicFor(req.Thing.def))));break;
             }
         }
         public override string ExplanationPart(StatRequest req)
@@ -99,7 +99,12 @@ namespace ThornWhip
             if(ArmorTuning.OptionalAreaAbsent(b,area)){__result=0;return;}
             float q=WeaponTuning.QualityFactor(apparel);
             float bonus=comp.Tuning.ExtraForRegion(area,stat==StatDefOf.ArmorRating_Sharp);
-            __result=Math.Max(0f,__result+comp.Tuning.Adjust(bonus,q,true));
+            // CE's own armor-layer / body-part loop remains the authority.
+            // Per-region modules add no more than 16% of the base chassis rating,
+            // even when all optional plates and premium material choices are stacked.
+            float baseline = stat==StatDefOf.ArmorRating_Sharp ? b.Chassis.Sharp : b.Chassis.Blunt;
+            float allowed = Math.Max(0f,baseline*.16f);
+            __result=Math.Max(0f,__result+Math.Min(allowed,comp.Tuning.Adjust(bonus,q,true)));
         }
     }
 }

@@ -36,17 +36,18 @@ namespace ThornWhip
         {
             WeaponTuning t = WeaponTuning.Evaluate(b);
             var family = WeaponCatalog.Family(b.FamilyId);
-            float sights = Math.Max(.1f, family.Sights + WeaponTuning.Adjust(t.Sights, quality, false));
-            float spread = Math.Max(.005f, family.Spread + WeaponTuning.Adjust(t.Spread, quality, true));
-            float sway = Math.Max(.25f, family.Sway + WeaponTuning.Adjust(t.Sway, quality, true));
-            float recoil = Math.Max(.35f, WeaponCalibers.For(b).RecoilFactor * (1f + WeaponTuning.Adjust(t.Recoil, quality, true)));
-            float reload = Math.Max(.55f, 1f + WeaponTuning.Adjust(t.Reload, quality, true));
-            float warmup = Math.Max(.55f, 1f + WeaponTuning.Adjust(t.Warmup, quality, true));
-            float cooldown = Math.Max(.22f, family.Cooldown * (1f + WeaponTuning.Adjust(t.Cooldown, quality, true)));
+            float sights = Math.Max(.1f, Math.Min(family.Sights * 1.25f, family.Sights + WeaponTuning.Adjust(t.Sights, quality, false)));
+            float spread = Math.Max(family.Spread * .78f, family.Spread + WeaponTuning.Adjust(t.Spread, quality, true));
+            float sway = Math.Max(family.Sway * .80f, family.Sway + WeaponTuning.Adjust(t.Sway, quality, true));
+            float recoil = WeaponCalibers.For(b).RecoilFactor * Math.Max(.78f, 1f + WeaponTuning.Adjust(t.Recoil, quality, true));
+            float reload = Math.Max(.82f, 1f + WeaponTuning.Adjust(t.Reload, quality, true));
+            float warmup = Math.Max(.82f, 1f + WeaponTuning.Adjust(t.Warmup, quality, true));
+            float cooldown = Math.Max(family.Cooldown * .82f, family.Cooldown * (1f + WeaponTuning.Adjust(t.Cooldown, quality, true)));
             float effectiveRange = Math.Max(1f, family.Ranges[b.CoreIndex(2)] *
-                Math.Max(.75f, 1f + WeaponTuning.Adjust(t.Range, quality, false)));
-            float mass = Math.Max(.50f, family.Mass + t.Mass);
-            float bulk = Math.Max(.60f, family.Bulk + t.Bulk);
+                Math.Min(1.16f, Math.Max(.80f, 1f + WeaponTuning.Adjust(t.Range, quality, false))));
+            float massBase = family.Mass + WeaponCalibers.For(b).MassOffset;
+            float mass = Math.Max(massBase * .75f, massBase + t.Mass);
+            float bulk = Math.Max(family.Bulk * .75f, family.Bulk + t.Bulk);
             return $"CE ПРИЦЕЛ: {sights:F2}  |  УГЛОВОЙ РАЗБРОС: {spread:F3}\n" +
                 $"КОЛЕБАНИЕ: {sway:F2}  |  ОТДАЧА: ×{recoil:F2}\n" +
                 $"ПЕРЕЗАРЯДКА: ×{reload:F2}  |  ПРИЦЕЛИВАНИЕ: ×{warmup:F2}\n" +

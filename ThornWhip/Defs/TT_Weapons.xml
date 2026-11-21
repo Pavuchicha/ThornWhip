@@ -25,14 +25,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.7</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.3</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -44,11 +44,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>0.76</recoilAmount>
+        <recoilAmount>1.12</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -60,7 +60,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -71,7 +71,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B0_M1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -97,14 +97,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.7</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.3</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -116,11 +116,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>0.76</recoilAmount>
+        <recoilAmount>1.12</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -132,7 +132,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -143,7 +143,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B1_M0_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -169,14 +169,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.7</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.3</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -188,11 +188,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>0.76</recoilAmount>
+        <recoilAmount>1.12</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -204,7 +204,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -215,7 +215,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B1_M1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -241,14 +241,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.7</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.3</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -260,11 +260,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>0.76</recoilAmount>
+        <recoilAmount>1.12</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -276,7 +276,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -287,7 +287,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B0_M0_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -313,14 +313,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.7</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.3</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -332,11 +332,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>0.76</recoilAmount>
+        <recoilAmount>1.12</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -348,7 +348,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -359,7 +359,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B0_M1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -385,14 +385,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.7</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.3</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -404,11 +404,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>0.76</recoilAmount>
+        <recoilAmount>1.12</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -420,7 +420,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -431,7 +431,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B1_M0_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -457,14 +457,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.7</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.3</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -476,11 +476,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>0.76</recoilAmount>
+        <recoilAmount>1.12</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -492,7 +492,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -503,7 +503,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B1_M1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -529,14 +529,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.7</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.3</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -548,11 +548,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>0.76</recoilAmount>
+        <recoilAmount>1.12</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -564,7 +564,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>30</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -575,7 +575,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B0_M0_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -601,14 +601,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.25</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.65</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -620,11 +620,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.28</recoilAmount>
+        <recoilAmount>1.35</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -636,7 +636,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -647,7 +647,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B0_M1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -673,14 +673,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.25</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.65</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -692,11 +692,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.28</recoilAmount>
+        <recoilAmount>1.35</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -708,7 +708,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -719,7 +719,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B1_M0_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -745,14 +745,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.25</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.65</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -764,11 +764,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.28</recoilAmount>
+        <recoilAmount>1.35</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -780,7 +780,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -791,7 +791,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B1_M1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -817,14 +817,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.25</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.65</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -836,11 +836,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.28</recoilAmount>
+        <recoilAmount>1.35</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -852,7 +852,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -863,7 +863,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B0_M0_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -889,14 +889,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.25</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.65</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -908,11 +908,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.28</recoilAmount>
+        <recoilAmount>1.35</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -924,7 +924,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -935,7 +935,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B0_M1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -961,14 +961,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.25</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.65</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -980,11 +980,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.28</recoilAmount>
+        <recoilAmount>1.35</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -996,7 +996,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1007,7 +1007,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B1_M0_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -1033,14 +1033,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.25</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.65</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1052,11 +1052,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.28</recoilAmount>
+        <recoilAmount>1.35</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -1068,7 +1068,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1079,7 +1079,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B1_M1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -1105,14 +1105,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.25</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.65</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1124,11 +1124,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.28</recoilAmount>
+        <recoilAmount>1.35</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -1140,7 +1140,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1151,7 +1151,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R0_B0_M0_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -1179,14 +1179,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.15</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.42</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1198,11 +1198,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>17</range>
+        <warmupTime>0.58</warmupTime>
+        <range>13</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.5</recoilAmount>
+        <recoilAmount>2.2</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -1214,7 +1214,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>12</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1225,7 +1225,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R0_B0_M1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -1253,14 +1253,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.15</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.42</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1272,11 +1272,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>17</range>
+        <warmupTime>0.58</warmupTime>
+        <range>13</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.5</recoilAmount>
+        <recoilAmount>2.2</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -1288,7 +1288,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1299,7 +1299,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R0_B1_M0_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -1327,14 +1327,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.15</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.42</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1346,11 +1346,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>23</range>
+        <warmupTime>0.58</warmupTime>
+        <range>16</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.5</recoilAmount>
+        <recoilAmount>2.2</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -1362,7 +1362,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>12</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1373,7 +1373,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R0_B1_M1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -1401,14 +1401,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.15</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.42</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1420,11 +1420,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>23</range>
+        <warmupTime>0.58</warmupTime>
+        <range>16</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.5</recoilAmount>
+        <recoilAmount>2.2</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -1436,7 +1436,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1447,7 +1447,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R1_B0_M0_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -1475,14 +1475,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.15</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.42</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1494,11 +1494,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>17</range>
+        <warmupTime>0.58</warmupTime>
+        <range>13</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.5</recoilAmount>
+        <recoilAmount>2.2</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -1510,7 +1510,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>12</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1521,7 +1521,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R1_B0_M1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -1549,14 +1549,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.15</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.42</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1568,11 +1568,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>17</range>
+        <warmupTime>0.58</warmupTime>
+        <range>13</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.5</recoilAmount>
+        <recoilAmount>2.2</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -1584,7 +1584,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1595,7 +1595,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R1_B1_M0_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -1623,14 +1623,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.15</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.42</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1642,11 +1642,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>23</range>
+        <warmupTime>0.58</warmupTime>
+        <range>16</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.5</recoilAmount>
+        <recoilAmount>2.2</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -1658,7 +1658,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>12</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1669,7 +1669,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R1_B1_M1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -1697,14 +1697,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.15</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.42</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1716,11 +1716,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>23</range>
+        <warmupTime>0.58</warmupTime>
+        <range>16</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.5</recoilAmount>
+        <recoilAmount>2.2</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -1732,7 +1732,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_9x19mmPara</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -1743,7 +1743,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Launcher_R0_B0_M0_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
@@ -1770,14 +1770,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>25500</WorkToMake>
-      <MarketValue>850</MarketValue>
-      <Mass>5.3</Mass>
-      <Bulk>5.65</Bulk>
-      <SightsEfficiency>1.1</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.31</SwayFactor>
-      <RangedWeapon_Cooldown>0.62</RangedWeapon_Cooldown>
+      <WorkToMake>39000</WorkToMake>
+      <MarketValue>1450</MarketValue>
+      <Mass>6.2</Mass>
+      <Bulk>13.5</Bulk>
+      <SightsEfficiency>1.08</SightsEfficiency>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>1.35</SwayFactor>
+      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1789,11 +1789,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
-        <warmupTime>1.05</warmupTime>
-        <range>34</range>
+        <warmupTime>1.5</warmupTime>
+        <range>38</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>23</ticksBetweenBurstShots>
-        <recoilAmount>2.93</recoilAmount>
+        <recoilAmount>2.9</recoilAmount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <muzzleFlashScale>14</muzzleFlashScale>
         <minRange>5</minRange>
@@ -1818,7 +1818,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>97</Steel><ComponentIndustrial>8</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Launcher_R0_B0_M1_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
@@ -1845,14 +1845,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>25500</WorkToMake>
-      <MarketValue>850</MarketValue>
-      <Mass>5.3</Mass>
-      <Bulk>5.65</Bulk>
-      <SightsEfficiency>1.1</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.31</SwayFactor>
-      <RangedWeapon_Cooldown>0.62</RangedWeapon_Cooldown>
+      <WorkToMake>39000</WorkToMake>
+      <MarketValue>1450</MarketValue>
+      <Mass>6.2</Mass>
+      <Bulk>13.5</Bulk>
+      <SightsEfficiency>1.08</SightsEfficiency>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>1.35</SwayFactor>
+      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1864,11 +1864,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
-        <warmupTime>1.05</warmupTime>
-        <range>34</range>
+        <warmupTime>1.5</warmupTime>
+        <range>38</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>23</ticksBetweenBurstShots>
-        <recoilAmount>2.93</recoilAmount>
+        <recoilAmount>2.9</recoilAmount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <muzzleFlashScale>14</muzzleFlashScale>
         <minRange>5</minRange>
@@ -1893,7 +1893,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>97</Steel><ComponentIndustrial>8</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Launcher_R0_B1_M0_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
@@ -1920,14 +1920,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>25500</WorkToMake>
-      <MarketValue>850</MarketValue>
-      <Mass>5.3</Mass>
-      <Bulk>5.65</Bulk>
-      <SightsEfficiency>1.1</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.31</SwayFactor>
-      <RangedWeapon_Cooldown>0.62</RangedWeapon_Cooldown>
+      <WorkToMake>39000</WorkToMake>
+      <MarketValue>1450</MarketValue>
+      <Mass>6.2</Mass>
+      <Bulk>13.5</Bulk>
+      <SightsEfficiency>1.08</SightsEfficiency>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>1.35</SwayFactor>
+      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -1939,11 +1939,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
-        <warmupTime>1.05</warmupTime>
-        <range>40</range>
+        <warmupTime>1.5</warmupTime>
+        <range>44</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>23</ticksBetweenBurstShots>
-        <recoilAmount>2.93</recoilAmount>
+        <recoilAmount>2.9</recoilAmount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <muzzleFlashScale>14</muzzleFlashScale>
         <minRange>5</minRange>
@@ -1968,7 +1968,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>97</Steel><ComponentIndustrial>8</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Launcher_R0_B1_M1_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
@@ -1995,14 +1995,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>25500</WorkToMake>
-      <MarketValue>850</MarketValue>
-      <Mass>5.3</Mass>
-      <Bulk>5.65</Bulk>
-      <SightsEfficiency>1.1</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.31</SwayFactor>
-      <RangedWeapon_Cooldown>0.62</RangedWeapon_Cooldown>
+      <WorkToMake>39000</WorkToMake>
+      <MarketValue>1450</MarketValue>
+      <Mass>6.2</Mass>
+      <Bulk>13.5</Bulk>
+      <SightsEfficiency>1.08</SightsEfficiency>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>1.35</SwayFactor>
+      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2014,11 +2014,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
-        <warmupTime>1.05</warmupTime>
-        <range>40</range>
+        <warmupTime>1.5</warmupTime>
+        <range>44</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>23</ticksBetweenBurstShots>
-        <recoilAmount>2.93</recoilAmount>
+        <recoilAmount>2.9</recoilAmount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <muzzleFlashScale>14</muzzleFlashScale>
         <minRange>5</minRange>
@@ -2043,7 +2043,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>97</Steel><ComponentIndustrial>8</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Launcher_R1_B0_M0_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
@@ -2070,14 +2070,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>25500</WorkToMake>
-      <MarketValue>850</MarketValue>
-      <Mass>5.3</Mass>
-      <Bulk>5.65</Bulk>
-      <SightsEfficiency>1.1</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.31</SwayFactor>
-      <RangedWeapon_Cooldown>0.62</RangedWeapon_Cooldown>
+      <WorkToMake>39000</WorkToMake>
+      <MarketValue>1450</MarketValue>
+      <Mass>6.2</Mass>
+      <Bulk>13.5</Bulk>
+      <SightsEfficiency>1.08</SightsEfficiency>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>1.35</SwayFactor>
+      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2089,11 +2089,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
-        <warmupTime>1.05</warmupTime>
-        <range>34</range>
+        <warmupTime>1.5</warmupTime>
+        <range>38</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>23</ticksBetweenBurstShots>
-        <recoilAmount>2.93</recoilAmount>
+        <recoilAmount>2.9</recoilAmount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <muzzleFlashScale>14</muzzleFlashScale>
         <minRange>5</minRange>
@@ -2118,7 +2118,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>97</Steel><ComponentIndustrial>8</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Launcher_R1_B0_M1_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
@@ -2145,14 +2145,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>25500</WorkToMake>
-      <MarketValue>850</MarketValue>
-      <Mass>5.3</Mass>
-      <Bulk>5.65</Bulk>
-      <SightsEfficiency>1.1</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.31</SwayFactor>
-      <RangedWeapon_Cooldown>0.62</RangedWeapon_Cooldown>
+      <WorkToMake>39000</WorkToMake>
+      <MarketValue>1450</MarketValue>
+      <Mass>6.2</Mass>
+      <Bulk>13.5</Bulk>
+      <SightsEfficiency>1.08</SightsEfficiency>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>1.35</SwayFactor>
+      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2164,11 +2164,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
-        <warmupTime>1.05</warmupTime>
-        <range>34</range>
+        <warmupTime>1.5</warmupTime>
+        <range>38</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>23</ticksBetweenBurstShots>
-        <recoilAmount>2.93</recoilAmount>
+        <recoilAmount>2.9</recoilAmount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <muzzleFlashScale>14</muzzleFlashScale>
         <minRange>5</minRange>
@@ -2193,7 +2193,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>97</Steel><ComponentIndustrial>8</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Launcher_R1_B1_M0_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
@@ -2220,14 +2220,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>25500</WorkToMake>
-      <MarketValue>850</MarketValue>
-      <Mass>5.3</Mass>
-      <Bulk>5.65</Bulk>
-      <SightsEfficiency>1.1</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.31</SwayFactor>
-      <RangedWeapon_Cooldown>0.62</RangedWeapon_Cooldown>
+      <WorkToMake>39000</WorkToMake>
+      <MarketValue>1450</MarketValue>
+      <Mass>6.2</Mass>
+      <Bulk>13.5</Bulk>
+      <SightsEfficiency>1.08</SightsEfficiency>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>1.35</SwayFactor>
+      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2239,11 +2239,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
-        <warmupTime>1.05</warmupTime>
-        <range>40</range>
+        <warmupTime>1.5</warmupTime>
+        <range>44</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>23</ticksBetweenBurstShots>
-        <recoilAmount>2.93</recoilAmount>
+        <recoilAmount>2.9</recoilAmount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <muzzleFlashScale>14</muzzleFlashScale>
         <minRange>5</minRange>
@@ -2268,7 +2268,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>97</Steel><ComponentIndustrial>8</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Launcher_R1_B1_M1_Core</defName>
     <label>Гранатомёт «Гром Терна»</label>
@@ -2295,14 +2295,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>25500</WorkToMake>
-      <MarketValue>850</MarketValue>
-      <Mass>5.3</Mass>
-      <Bulk>5.65</Bulk>
-      <SightsEfficiency>1.1</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.31</SwayFactor>
-      <RangedWeapon_Cooldown>0.62</RangedWeapon_Cooldown>
+      <WorkToMake>39000</WorkToMake>
+      <MarketValue>1450</MarketValue>
+      <Mass>6.2</Mass>
+      <Bulk>13.5</Bulk>
+      <SightsEfficiency>1.08</SightsEfficiency>
+      <ShotSpread>0.15</ShotSpread>
+      <SwayFactor>1.35</SwayFactor>
+      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2314,11 +2314,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
-        <warmupTime>1.05</warmupTime>
-        <range>40</range>
+        <warmupTime>1.5</warmupTime>
+        <range>44</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>23</ticksBetweenBurstShots>
-        <recoilAmount>2.93</recoilAmount>
+        <recoilAmount>2.9</recoilAmount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <muzzleFlashScale>14</muzzleFlashScale>
         <minRange>5</minRange>
@@ -2343,7 +2343,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>97</Steel><ComponentIndustrial>8</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B0_M0_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -2369,14 +2369,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.86</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.46</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2388,11 +2388,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.064</recoilAmount>
+        <recoilAmount>1.568</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -2404,7 +2404,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>18</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -2415,7 +2415,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B0_M0_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -2441,14 +2441,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>4.18</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.78</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2460,11 +2460,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.292</recoilAmount>
+        <recoilAmount>1.904</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -2476,7 +2476,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -2487,7 +2487,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B0_M1_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -2513,14 +2513,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.86</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.46</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2532,11 +2532,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.064</recoilAmount>
+        <recoilAmount>1.568</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -2548,7 +2548,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>27</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -2559,7 +2559,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B0_M1_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -2585,14 +2585,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>4.18</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.78</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2604,11 +2604,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.292</recoilAmount>
+        <recoilAmount>1.904</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -2620,7 +2620,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>22</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -2631,7 +2631,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B1_M0_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -2657,14 +2657,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.86</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.46</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2676,11 +2676,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.064</recoilAmount>
+        <recoilAmount>1.568</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -2692,7 +2692,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>18</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -2703,7 +2703,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B1_M0_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -2729,14 +2729,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>4.18</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.78</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2748,11 +2748,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.292</recoilAmount>
+        <recoilAmount>1.904</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -2764,7 +2764,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -2775,7 +2775,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B1_M1_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -2801,14 +2801,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.86</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.46</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2820,11 +2820,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.064</recoilAmount>
+        <recoilAmount>1.568</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -2836,7 +2836,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>27</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -2847,7 +2847,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R0_B1_M1_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -2873,14 +2873,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>4.18</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.78</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2892,11 +2892,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.292</recoilAmount>
+        <recoilAmount>1.904</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -2908,7 +2908,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>22</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -2919,7 +2919,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B0_M0_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -2945,14 +2945,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.86</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.46</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -2964,11 +2964,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.064</recoilAmount>
+        <recoilAmount>1.568</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -2980,7 +2980,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>18</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -2991,7 +2991,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B0_M0_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -3017,14 +3017,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>4.18</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.78</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3036,11 +3036,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.292</recoilAmount>
+        <recoilAmount>1.904</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3052,7 +3052,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3063,7 +3063,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B0_M1_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -3089,14 +3089,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.86</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.46</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3108,11 +3108,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.064</recoilAmount>
+        <recoilAmount>1.568</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3124,7 +3124,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>27</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3135,7 +3135,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B0_M1_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -3161,14 +3161,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>4.18</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.78</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3180,11 +3180,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>55</range>
+        <warmupTime>1.35</warmupTime>
+        <range>65</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.292</recoilAmount>
+        <recoilAmount>1.904</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3196,7 +3196,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>22</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3207,7 +3207,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B1_M0_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -3233,14 +3233,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.86</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.46</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3252,11 +3252,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.064</recoilAmount>
+        <recoilAmount>1.568</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3268,7 +3268,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>18</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3279,7 +3279,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B1_M0_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -3305,14 +3305,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>4.18</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.78</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3324,11 +3324,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.292</recoilAmount>
+        <recoilAmount>1.904</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3340,7 +3340,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3351,7 +3351,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B1_M1_C1_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -3377,14 +3377,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>3.86</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.46</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3396,11 +3396,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.064</recoilAmount>
+        <recoilAmount>1.568</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3412,7 +3412,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>27</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3423,7 +3423,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Rifle_R1_B1_M1_C2_Core</defName>
     <label>Марксанская винтовка «Плеть Терна»</label>
@@ -3449,14 +3449,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
-      <MarketValue>420</MarketValue>
-      <Mass>4.18</Mass>
-      <Bulk>4.8</Bulk>
-      <SightsEfficiency>0.85</SightsEfficiency>
-      <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.45</SwayFactor>
-      <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+      <WorkToMake>33000</WorkToMake>
+      <MarketValue>780</MarketValue>
+      <Mass>4.78</Mass>
+      <Bulk>10.5</Bulk>
+      <SightsEfficiency>1.18</SightsEfficiency>
+      <ShotSpread>0.055</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3468,11 +3468,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>70</range>
+        <warmupTime>1.35</warmupTime>
+        <range>76</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <recoilAmount>1.292</recoilAmount>
+        <recoilAmount>1.904</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3484,7 +3484,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>22</magazineSize>
-        <reloadTime>3.8</reloadTime>
+        <reloadTime>4.2</reloadTime>
         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3495,7 +3495,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>72</Steel><ComponentIndustrial>4</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B0_M0_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -3521,14 +3521,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.13</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.53</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3540,11 +3540,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.152</recoilAmount>
+        <recoilAmount>1.215</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3556,7 +3556,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3567,7 +3567,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B0_M0_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -3593,14 +3593,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.56</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.96</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3612,11 +3612,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.856</recoilAmount>
+        <recoilAmount>1.9575</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3628,7 +3628,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3639,7 +3639,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B0_M1_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -3665,14 +3665,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.13</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.53</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3684,11 +3684,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.152</recoilAmount>
+        <recoilAmount>1.215</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3700,7 +3700,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3711,7 +3711,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B0_M1_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -3737,14 +3737,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.56</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.96</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3756,11 +3756,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.856</recoilAmount>
+        <recoilAmount>1.9575</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3772,7 +3772,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>33</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3783,7 +3783,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B1_M0_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -3809,14 +3809,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.13</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.53</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3828,11 +3828,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.152</recoilAmount>
+        <recoilAmount>1.215</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3844,7 +3844,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3855,7 +3855,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B1_M0_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -3881,14 +3881,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.56</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.96</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3900,11 +3900,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.856</recoilAmount>
+        <recoilAmount>1.9575</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3916,7 +3916,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3927,7 +3927,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B1_M1_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -3953,14 +3953,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.13</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.53</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -3972,11 +3972,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.152</recoilAmount>
+        <recoilAmount>1.215</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -3988,7 +3988,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -3999,7 +3999,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R0_B1_M1_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -4025,14 +4025,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.56</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.96</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4044,11 +4044,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.856</recoilAmount>
+        <recoilAmount>1.9575</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -4060,7 +4060,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>33</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4071,7 +4071,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B0_M0_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -4097,14 +4097,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.13</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.53</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4116,11 +4116,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.152</recoilAmount>
+        <recoilAmount>1.215</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -4132,7 +4132,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4143,7 +4143,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B0_M0_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -4169,14 +4169,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.56</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.96</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4188,11 +4188,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.856</recoilAmount>
+        <recoilAmount>1.9575</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -4204,7 +4204,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4215,7 +4215,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B0_M1_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -4241,14 +4241,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.13</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.53</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4260,11 +4260,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.152</recoilAmount>
+        <recoilAmount>1.215</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -4276,7 +4276,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4287,7 +4287,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B0_M1_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -4313,14 +4313,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.56</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.96</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4332,11 +4332,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>40</range>
+        <warmupTime>1.1</warmupTime>
+        <range>57</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.856</recoilAmount>
+        <recoilAmount>1.9575</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -4348,7 +4348,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>33</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4359,7 +4359,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B1_M0_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -4385,14 +4385,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.13</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.53</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4404,11 +4404,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.152</recoilAmount>
+        <recoilAmount>1.215</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -4420,7 +4420,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>25</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4431,7 +4431,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B1_M0_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -4457,14 +4457,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.56</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.96</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4476,11 +4476,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.856</recoilAmount>
+        <recoilAmount>1.9575</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -4492,7 +4492,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>20</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4503,7 +4503,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B1_M1_C1_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -4529,14 +4529,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.13</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.53</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4548,11 +4548,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.152</recoilAmount>
+        <recoilAmount>1.215</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -4564,7 +4564,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>40</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4575,7 +4575,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Auto_R1_B1_M1_C2_Core</defName>
     <label>Автомат «Гнев Терна»</label>
@@ -4601,14 +4601,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18200</WorkToMake>
-      <MarketValue>455</MarketValue>
-      <Mass>3.56</Mass>
-      <Bulk>4.3</Bulk>
-      <SightsEfficiency>0.92</SightsEfficiency>
-      <ShotSpread>0.135</ShotSpread>
-      <SwayFactor>1.21</SwayFactor>
-      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+      <WorkToMake>34500</WorkToMake>
+      <MarketValue>660</MarketValue>
+      <Mass>3.96</Mass>
+      <Bulk>9.7</Bulk>
+      <SightsEfficiency>1.15</SightsEfficiency>
+      <ShotSpread>0.063</ShotSpread>
+      <SwayFactor>1.18</SwayFactor>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4620,11 +4620,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-        <warmupTime>0.65</warmupTime>
-        <range>51</range>
+        <warmupTime>1.1</warmupTime>
+        <range>65</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <recoilAmount>1.856</recoilAmount>
+        <recoilAmount>1.9575</recoilAmount>
         <soundCast>Shot_AssaultRifle</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -4636,7 +4636,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>33</magazineSize>
-        <reloadTime>3.3</reloadTime>
+        <reloadTime>4.0</reloadTime>
         <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4647,7 +4647,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>63</Steel><ComponentIndustrial>5</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R0_B0_M0_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -4675,14 +4675,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.3</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.57</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4694,11 +4694,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>17</range>
+        <warmupTime>0.58</warmupTime>
+        <range>13</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.875</recoilAmount>
+        <recoilAmount>2.75</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -4710,7 +4710,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>9</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4721,7 +4721,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R0_B0_M1_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -4749,14 +4749,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.3</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.57</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4768,11 +4768,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>17</range>
+        <warmupTime>0.58</warmupTime>
+        <range>13</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.875</recoilAmount>
+        <recoilAmount>2.75</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -4784,7 +4784,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4795,7 +4795,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R0_B1_M0_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -4823,14 +4823,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.3</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.57</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4842,11 +4842,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>23</range>
+        <warmupTime>0.58</warmupTime>
+        <range>16</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.875</recoilAmount>
+        <recoilAmount>2.75</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -4858,7 +4858,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>9</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4869,7 +4869,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R0_B1_M1_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -4897,14 +4897,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.3</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.57</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4916,11 +4916,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>23</range>
+        <warmupTime>0.58</warmupTime>
+        <range>16</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.875</recoilAmount>
+        <recoilAmount>2.75</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -4932,7 +4932,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -4943,7 +4943,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R1_B0_M0_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -4971,14 +4971,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.3</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.57</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -4990,11 +4990,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>17</range>
+        <warmupTime>0.58</warmupTime>
+        <range>13</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.875</recoilAmount>
+        <recoilAmount>2.75</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -5006,7 +5006,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>9</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -5017,7 +5017,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R1_B0_M1_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -5045,14 +5045,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.3</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.57</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -5064,11 +5064,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>17</range>
+        <warmupTime>0.58</warmupTime>
+        <range>13</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.875</recoilAmount>
+        <recoilAmount>2.75</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -5080,7 +5080,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -5091,7 +5091,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R1_B1_M0_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -5119,14 +5119,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.3</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.57</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -5138,11 +5138,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>23</range>
+        <warmupTime>0.58</warmupTime>
+        <range>16</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.875</recoilAmount>
+        <recoilAmount>2.75</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -5154,7 +5154,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>9</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -5165,7 +5165,7 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
   <ThingDef ParentName="BaseGun">
     <defName>TT_Pistol_R1_B1_M1_C1_Core</defName>
     <label>Пистолет «Клык Терна»</label>
@@ -5193,14 +5193,14 @@
       <li>TC_Weapon</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>9900</WorkToMake>
-      <MarketValue>260</MarketValue>
-      <Mass>1.3</Mass>
-      <Bulk>1.9</Bulk>
-      <SightsEfficiency>0.7</SightsEfficiency>
-      <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
-      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+      <WorkToMake>10500</WorkToMake>
+      <MarketValue>350</MarketValue>
+      <Mass>1.57</Mass>
+      <Bulk>2.55</Bulk>
+      <SightsEfficiency>0.78</SightsEfficiency>
+      <ShotSpread>0.145</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
       <CE_RangedWeapon_RecoilMultiplier>1</CE_RangedWeapon_RecoilMultiplier>
       <CE_RangedWeapon_ReloadFactor>1</CE_RangedWeapon_ReloadFactor>
       <RangedWeapon_WarmupMultiplier>1</RangedWeapon_WarmupMultiplier>
@@ -5212,11 +5212,11 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
-        <warmupTime>0.43</warmupTime>
-        <range>23</range>
+        <warmupTime>0.58</warmupTime>
+        <range>16</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <recoilAmount>1.875</recoilAmount>
+        <recoilAmount>2.75</recoilAmount>
         <soundCast>Shot_Autopistol</soundCast>
         <muzzleFlashScale>9</muzzleFlashScale>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -5228,7 +5228,7 @@
     <comps>
       <li Class="Verse.CompProperties"><compClass>RimWorld.CompQuality</compClass></li><li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>15</magazineSize>
-        <reloadTime>2.5</reloadTime>
+        <reloadTime>4.1</reloadTime>
         <ammoSet>AmmoSet_45ACP</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -5239,5 +5239,5 @@
       <li Class="ThornWhip.CompProperties_WeaponDesign"/>
       <li Class="CompProperties_Styleable"/>
     </comps>
-  <smeltable>false</smeltable></ThingDef>
+  <smeltable>true</smeltable><costList><Steel>34</Steel><ComponentIndustrial>3</ComponentIndustrial></costList></ThingDef>
 </Defs>

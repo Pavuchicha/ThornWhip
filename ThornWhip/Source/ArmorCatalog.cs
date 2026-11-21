@@ -24,15 +24,15 @@ namespace ThornWhip
     public static class ArmorCatalog
     {
         public static readonly ArmorChassis[] Chassis={
-            new ArmorChassis("Light","Лёгкий жилет Т1","TC_Armor_Light_T1_Core",1,0,7.0f,12.0f,0.09f,6.0f,7.0f,2.0f,-0.08f,170.0f),
-            new ArmorChassis("Light","Лёгкий жилет Т2","TC_Armor_Light_T2_Core",2,0,13.0f,24.0f,0.18f,5.2f,6.6f,1.7f,0.04f,600.0f),
-            new ArmorChassis("Light","Лёгкий жилет Т3","TC_Armor_Light_T3_Core",3,0,22.0f,38.0f,0.29f,4.3f,5.9f,1.1f,0.13f,1700.0f),
-            new ArmorChassis("Medium","Штурмовой комплект Т1","TC_Armor_Medium_T1_Core",1,1,10.0f,19.0f,0.12f,21.0f,25.0f,6.0f,-0.47f,340.0f),
-            new ArmorChassis("Medium","Штурмовой комплект Т2","TC_Armor_Medium_T2_Core",2,1,22.0f,39.0f,0.26f,18.0f,24.0f,5.0f,-0.2f,1150.0f),
-            new ArmorChassis("Medium","Штурмовой комплект Т3","TC_Armor_Medium_T3_Core",3,1,36.0f,60.0f,0.4f,15.0f,21.0f,3.5f,0.08f,2800.0f),
-            new ArmorChassis("Heavy","Экзоскафандр Т1","TC_Armor_Heavy_T1_Core",1,2,15.0f,29.0f,0.18f,78.0f,95.0f,29.0f,-1.32f,870.0f),
-            new ArmorChassis("Heavy","Экзоскафандр Т2","TC_Armor_Heavy_T2_Core",2,2,35.0f,64.0f,0.38f,54.0f,75.0f,17.0f,-0.38f,3200.0f),
-            new ArmorChassis("Heavy","Экзоскафандр Т3","TC_Armor_Heavy_T3_Core",3,2,65.0f,110.0f,0.56f,42.0f,64.0f,11.0f,0.12f,8900.0f),
+            new ArmorChassis("Light","Лёгкий жилет Т1","TC_Armor_Light_T1_Core",1,0,15.0f,24.0f,0.09f,6.0f,7.0f,2.0f,-0.08f,170.0f),
+            new ArmorChassis("Light","Лёгкий жилет Т2","TC_Armor_Light_T2_Core",2,0,20.0f,32.0f,0.18f,5.2f,6.6f,1.7f,0.04f,600.0f),
+            new ArmorChassis("Light","Лёгкий жилет Т3","TC_Armor_Light_T3_Core",3,0,27.0f,43.0f,0.29f,4.3f,5.9f,1.1f,0.13f,1700.0f),
+            new ArmorChassis("Medium","Штурмовой комплект Т1","TC_Armor_Medium_T1_Core",1,1,19.0f,31.0f,0.12f,21.0f,25.0f,6.0f,-0.47f,340.0f),
+            new ArmorChassis("Medium","Штурмовой комплект Т2","TC_Armor_Medium_T2_Core",2,1,28.0f,48.0f,0.26f,18.0f,24.0f,5.0f,-0.2f,1150.0f),
+            new ArmorChassis("Medium","Штурмовой комплект Т3","TC_Armor_Medium_T3_Core",3,1,40.0f,67.0f,0.4f,15.0f,21.0f,3.5f,0.08f,2800.0f),
+            new ArmorChassis("Heavy","Экзоскафандр Т1","TC_Armor_Heavy_T1_Core",1,2,24.0f,41.0f,0.18f,78.0f,95.0f,29.0f,-1.32f,870.0f),
+            new ArmorChassis("Heavy","Экзоскафандр Т2","TC_Armor_Heavy_T2_Core",2,2,40.0f,70.0f,0.38f,54.0f,75.0f,17.0f,-0.38f,3200.0f),
+            new ArmorChassis("Heavy","Экзоскафандр Т3","TC_Armor_Heavy_T3_Core",3,2,57.0f,99.0f,0.56f,42.0f,64.0f,11.0f,0.12f,8900.0f),
         };
         public static readonly ArmorSlot[][] Slots = {
             new ArmorSlot[] {

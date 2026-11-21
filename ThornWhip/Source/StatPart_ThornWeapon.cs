@@ -16,20 +16,26 @@ namespace ThornWhip
             if (comp == null) return;
             WeaponTuning t = comp.Tuning;
             float q = WeaponTuning.QualityFactor(req.Thing);
+            float initial = val;
             switch (parentStat.defName)
             {
-                case "SightsEfficiency": val = Math.Max(.1f, val + WeaponTuning.Adjust(t.Sights, q, false)); break;
-                case "ShotSpread": val = Math.Max(.005f, val + WeaponTuning.Adjust(t.Spread, q, true)); break;
-                case "SwayFactor": val = Math.Max(.25f, val + WeaponTuning.Adjust(t.Sway, q, true)); break;
-                case "CE_RangedWeapon_RecoilMultiplier": val = Math.Max(.35f, val * (1f + WeaponTuning.Adjust(t.Recoil, q, true))); break;
-                case "CE_RangedWeapon_ReloadFactor": val = Math.Max(.55f, val * (1f + WeaponTuning.Adjust(t.Reload, q, true))); break;
-                case "RangedWeapon_WarmupMultiplier": val = Math.Max(.55f, val * (1f + WeaponTuning.Adjust(t.Warmup, q, true))); break;
-                case "RangedWeapon_RangeMultiplier": val = Math.Max(.75f, val * (1f + WeaponTuning.Adjust(t.Range, q, false))); break;
-                case "RangedWeapon_Cooldown": val = Math.Max(.22f, val * (1f + WeaponTuning.Adjust(t.Cooldown, q, true))); break;
-                case "NightVisionEfficiency_Weapon": val = Math.Max(0f, val + WeaponTuning.Adjust(t.NightVision, q, false)); break;
-                case "Mass": val = Math.Max(.50f, val + t.Mass); break;
-                case "Bulk": val = Math.Max(.60f, val + t.Bulk); break;
-                case "MarketValue": val = Math.Max(65f, val + t.Value * q); break;
+                // Quality and modules remain relevant, but stacking all 18 upgrades can no
+                // longer double weapon accuracy or halve reload and fire cycle time.
+                case "SightsEfficiency": val = Math.Max(.1f, Math.Min(initial * 1.25f, initial + WeaponTuning.Adjust(t.Sights, q, false))); break;
+                case "ShotSpread": val = Math.Max(initial * .78f, initial + WeaponTuning.Adjust(t.Spread, q, true)); break;
+                case "SwayFactor": val = Math.Max(initial * .80f, initial + WeaponTuning.Adjust(t.Sway, q, true)); break;
+                case "CE_RangedWeapon_RecoilMultiplier": val = Math.Max(initial * .78f, initial * (1f + WeaponTuning.Adjust(t.Recoil, q, true))); break;
+                case "CE_RangedWeapon_ReloadFactor": val = Math.Max(initial * .82f, initial * (1f + WeaponTuning.Adjust(t.Reload, q, true))); break;
+                case "RangedWeapon_WarmupMultiplier": val = Math.Max(initial * .82f, initial * (1f + WeaponTuning.Adjust(t.Warmup, q, true))); break;
+                case "RangedWeapon_RangeMultiplier": val = Math.Min(initial * 1.16f, Math.Max(initial * .8f, initial * (1f + WeaponTuning.Adjust(t.Range, q, false)))); break;
+                case "RangedWeapon_Cooldown": val = Math.Max(initial * .82f, initial * (1f + WeaponTuning.Adjust(t.Cooldown, q, true))); break;
+                case "NightVisionEfficiency_Weapon": val = Math.Min(.65f, Math.Max(0f, initial + WeaponTuning.Adjust(t.NightVision, q, false))); break;
+                case "Mass": val = Math.Max(initial * .75f, initial + t.Mass); break;
+                case "Bulk": val = Math.Max(initial * .75f, initial + t.Bulk); break;
+                case "MarketValue":
+                    val = Math.Max(Math.Max(65f, initial + t.Value * q),
+                        EconomyBalance.MinimumFinishedValue(WeaponCosts.ForBlueprint(comp.Blueprint ?? WeaponBlueprint.BasicFor(req.Thing.def))));
+                    break;
             }
         }
         public override string ExplanationPart(StatRequest req)

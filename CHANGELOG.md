@@ -33,3 +33,10 @@
 - TPS, карта крепости, глубина затопления, CE-LoS и все C# API пока требуют реального теста.
 
 См. `ThornWhip/Documentation/DEFENSE_SYSTEM_RU.md`.
+
+## R0.11.2 — CE balance and real runtime fixes (21.11.2026)
+- Restored defined salvage/smelting for 72 guns and 9 armor bases rather than suppressing it.
+- Retuned stats and production work for all 4 weapon families, 3×3 armor tiers; synchronized catalogs, recipes, CE UI.
+- Clamped stacked bonuses in real stat parts (weapon and armor), with economy-based market-value floor.
+- Reworked missile HEAT to CE BulletCE + ExplosiveCE splash, reduced HE/MLRS blast extremes, increased real ammo crafting cost.
+- Added tests_ce_balance_0112.py and CI failure gate; compile + actual game validation still pending.
